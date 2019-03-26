@@ -1,0 +1,29 @@
+sonneiko
+
+	<-sc_node_not_relation;
+
+	=> nrel_main_idtf:
+		[Akbar "SoNNeikO" Butaev](* <-lang_en;; *);
+		[Акбар "SoNNeikO" Бутаев](* <-lang_ru;; *);
+	=> nrel_idtf:
+		[SoNNeikO](* <-lang_en; lang_ru;; *);
+
+	<-player;
+
+	=>nrel_surname: Butaev;
+	=>nrel_first_name: Akbar;
+	=>nrel_nickname: SoNNeikO;
+	=>nrel_birthday: [16.05.1997];
+	=>nrel_gamerole: support;
+
+	<= nrel_subdividing: ...
+     (*
+        <- explanation;;
+        => nrel_main_idtf:
+            [History](*<-lang_ru;; *);
+            [History](*<-lang_en;; *);;
+		    ->power_rangers;
+			 	double_dimension;
+			 	vega_squadron;
+			 	natus_vinsere_dota;;
+		*);;

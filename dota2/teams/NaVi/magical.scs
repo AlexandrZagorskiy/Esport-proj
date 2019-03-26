@@ -1,0 +1,29 @@
+magical
+
+	<-sc_node_not_relation;
+
+	=> nrel_main_idtf:
+		[Idan "MagicaL" Vardanian](* <-lang_en;; *);
+		[Идан "MagicaL" Варданян](* <-lang_ru;; *);
+	=> nrel_idtf:
+		[MagicaL](* <-lang_en; lang_ru;; *);
+
+	<-player;
+
+	=>nrel_surname: Vardanian;
+	=>nrel_first_name: Idan;
+	=>nrel_nickname: MagicaL;
+	=>nrel_birthday: [25.10.1998];
+	=>nrel_gamerole: solo_middle;
+
+	<= nrel_subdividing: ...
+     (*
+        <- explanation;;
+        => nrel_main_idtf:
+            [History](*<-lang_ru;; *);
+            [History](*<-lang_en;; *);;
+		    ->yellow_submarine;
+			 	effect;
+			 	twenty_min_afk_les;
+			 	natus_vinsere_dota;;
+		*);;

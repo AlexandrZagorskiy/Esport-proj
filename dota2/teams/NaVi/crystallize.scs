@@ -1,0 +1,28 @@
+crystallize
+
+	<-sc_node_not_relation;
+
+	=> nrel_main_idtf:
+		[Vladislav "Crystallize" Krystanek](* <-lang_en;; *);
+		[Владислав "Crystallize" Кристанек](* <-lang_ru;; *);
+	=> nrel_idtf:
+		[Crystallize](* <-lang_en; lang_ru;; *);
+
+	<-player;
+
+	=>nrel_surname: Krystanek;
+	=>nrel_first_name: Vladislav;
+	=>nrel_nickname: Crystallize;
+	=>nrel_birthday: [08.08.1999];
+	=>nrel_gamerole: carry;	
+
+	<= nrel_subdividing: ...
+     (*
+        <- explanation;;
+        => nrel_main_idtf:
+            [History](*<-lang_ru;; *);
+            [History](*<-lang_en;; *);;
+		    ->chew_toy;
+			 	double_dimension;
+			 	natus_vinsere_dota;;
+		*);;

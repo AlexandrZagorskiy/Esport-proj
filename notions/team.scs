@@ -1,0 +1,20 @@
+team
+
+ <-sc_node_not_relation;
+
+ => nrel_main_idtf:
+		[команда](* <-lang_ru;; *);
+		[team](* <-lang_en;; *);
+
+	<-rrel_sc_key_element: definition_amnesia
+	(*
+		<-definition;;
+		=> nrel_main_idtf:
+			[Опр.(команда)](* <-lang_ru;; *);
+			[def.(team)](* <-lang_en;; *);;
+
+		<=nrel_sc_text_translation: ...
+		(*
+			->rrel_example:	[Team is a group of players forming one side in a competitive game or sport.]  (* <-lang_en;; *);;
+		*);;
+	*);;

@@ -1,0 +1,73 @@
+natus_vinsere_dota
+
+	<-sc_node_not_relation;
+	
+	=> nrel_main_idtf:
+		[NaVi | Dota2](* <-lang_en; lang_ru;; *);		
+	=> nrel_idtf:
+		[Natus Vincere | Dota2](* <-lang_en; lang_ru;; *);
+		
+	<-team;
+	
+	<-rrel_sc_key_element: definition_natus_vinsere
+	(*
+		<- definition;;
+		=> nrel_main_idtf:
+			[def.(Natus Vincere)](* <-lang_en;; *);
+			[опр.(Natus Vincere)](* <-lang_ru;; *);;
+			
+		<=nrel_sc_text_translation: ...
+		(*			
+			->rrel_example:
+				[Natus Vincere, often abbreviated as Na`Vi, is a Ukranian multigaming organization.]  (* <-lang_en;; *);;
+		*);;
+	*);
+	
+	=> nrel_total_earning: [$4,085,042];
+
+	<= nrel_subdividing: ...
+     (*
+        <- explanation;;
+        => nrel_main_idtf:
+            [Состав](*<-lang_ru;; *);
+            [Roster](*<-lang_en;; *);;
+		    ->crystallize;
+			 	magical;
+			 	blizzy;
+			 	chuvash;
+			 	sonneiko;
+			 	mag;;
+		*);
+	
+	<= nrel_subdividing: ...
+     (*
+        <- explanation;;
+        => nrel_main_idtf:
+            [Достижениt](*<-lang_ru;; *);
+            [Achievement](*<-lang_en;; *);;
+		->the_international_2011;
+		the_international_2012;
+		the_international_2013;
+		the_international_2014;
+		adrenaline_cyber_league;
+		starladder_ileague_starseries_season_2;;	
+		*);
+
+	<= nrel_subdividing: ...
+     (*
+        <- explanation;;
+        => nrel_main_idtf:
+            [Спонсоры](*<-lang_ru;; *);
+            [Sponsor](*<-lang_en;; *);;
+		-> gg_bet;
+			 hyperx;
+			 monster_energy;
+			 omen_by_hp;
+			 dx_racer;
+			 twitch;
+			 fragstore;
+			 zona_51;
+			 newzoo;
+			 nvidia;
+			 blinkfire_analytics;;
+		*);;

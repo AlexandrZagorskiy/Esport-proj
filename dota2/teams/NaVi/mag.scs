@@ -1,0 +1,43 @@
+mag
+
+	<-sc_node_not_relation;
+
+	=> nrel_main_idtf:
+		[Andrey "Mag" Chipenko](* <-lang_en;; *);
+		[Андрей "Mag" Чипенко](* <-lang_ru;; *);
+	=> nrel_idtf:
+		[Mag](* <-lang_en; lang_ru;; *);
+
+	<-player;
+
+	=>nrel_surname: Chipenko;
+	=>nrel_first_name: Andrey;
+	=>nrel_nickname: Mag;
+	=>nrel_birthday: [10.05.1990];
+	=>nrel_gamerole: coach;
+	=>nrel_gamerole: offlaner;
+
+	<= nrel_subdividing: ...
+     (*
+        <- explanation;;
+        => nrel_main_idtf:
+            [History](*<-lang_ru;; *);
+            [History](*<-lang_en;; *);;
+		    ->dts_gaming;
+			 	darer;
+			 	team_kharkiv;
+			 	eclypsia;
+			 	iluminate;
+			 	iccup;
+			 	terrible_terrible_damage;
+			 	team_empire;
+			 	virtus_pro_polar;
+			 	asus_polar;
+			 	vega_squadron;
+			 	mineski;
+			 	effect;
+			 	planet_dog;
+			 	double_dimension;
+			 	mega_lada_esports;
+			 	natus_vinsere_dota;;
+		*);;
