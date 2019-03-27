@@ -1,0 +1,11 @@
+nrel_end_date
+
+	<-sc_node_norole_relation;
+	<-oriented_relation;
+	<-binary_relation;
+	<-antisymmetric_relation;
+	<-antireflexive_relation;
+
+	=> nrel_main_idtf:
+		[дата конца турнира*](* <-lang_ru;; *);
+		[end date*](* <-lang_en;; *);;

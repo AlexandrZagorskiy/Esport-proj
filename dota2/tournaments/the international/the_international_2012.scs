@@ -1,0 +1,56 @@
+the_international_2012
+
+	<-sc_node_not_relation;
+
+	=> nrel_main_idtf:
+		[The International 2012](* <-lang_en; lang_ru;; *);
+	=> nrel_idtf:
+		[TI2](* <-lang_en; lang_ru;; *);
+
+	<-tournament;
+
+	<-rrel_sc_key_element: definition_the_international_2012
+	(*
+		<- definition;;
+		=> nrel_main_idtf:
+			[def.(The International 2012)](* <-lang_en;; *);
+			[опр.(The International 2012)](* <-lang_ru;; *);;
+
+		<=nrel_sc_text_translation: ...
+		(*			
+			->rrel_example:
+				[The International Dota 2 Championships was a double-elimination offline tournament organized by Valve.]  (* <-lang_en;; *);;
+		*);;
+	*);
+
+	=> nrel_organizer: valve;
+	=> nrel_sponsor: valve;
+	=> nrel_type: offline;
+	=> nrel_location: seattle;
+	=>nrel_prize_pool: [$1,600,000];
+	=>nrel_start_date: [26.08.2012];
+	=>nrel_end_date: [02.09.2012];
+	<= nrel_subdividing: ...
+    (*
+      <- explanation;;
+      => nrel_main_idtf:
+        [Участник](*<-lang_ru;; *);
+        [Participating team](*<-lang_en;; *);;
+			->lgd_gaming;
+			ehome;
+			invictus_gaming;
+			team_dk;
+			evil_geniuses;
+			team_zenith;
+			counter_logic_gaming;
+			absolute_legends;
+			mousesports;
+			complexity_gaming;
+			moskow_five;
+			orange_esports;
+			tongfu;
+			natus_vinsere_dota;
+			darer;
+			mortal_teamwork;;
+		*);;
+

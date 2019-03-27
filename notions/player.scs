@@ -1,0 +1,20 @@
+player
+
+<-sc_node_not_relation;
+
+ => nrel_main_idtf:
+		[Игрок](* <-lang_ru;; *);
+		[Player](* <-lang_en;; *);
+
+	<-rrel_sc_key_element: definition_player
+	(*
+		<-definition;;
+		=> nrel_main_idtf:
+			[Опр.(Игрок)](* <-lang_ru;; *);
+			[def.(Player)](* <-lang_en;; *);;
+
+		<=nrel_sc_text_translation: ...
+		(*
+			->rrel_example:	[Player is a person taking part in game.]  (* <-lang_en;; *);;
+		*);;
+	*);;

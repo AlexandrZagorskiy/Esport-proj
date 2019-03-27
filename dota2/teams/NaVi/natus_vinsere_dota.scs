@@ -43,7 +43,7 @@ natus_vinsere_dota
      (*
         <- explanation;;
         => nrel_main_idtf:
-            [Достижениt](*<-lang_ru;; *);
+            [Достижение](*<-lang_ru;; *);
             [Achievement](*<-lang_en;; *);;
 		->the_international_2011;
 		the_international_2012;
@@ -57,7 +57,7 @@ natus_vinsere_dota
      (*
         <- explanation;;
         => nrel_main_idtf:
-            [Спонсоры](*<-lang_ru;; *);
+            [Спонсор](*<-lang_ru;; *);
             [Sponsor](*<-lang_en;; *);;
 		-> gg_bet;
 			 hyperx;

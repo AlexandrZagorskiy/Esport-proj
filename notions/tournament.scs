@@ -1,0 +1,20 @@
+tournament
+
+ <-sc_node_not_relation;
+
+ => nrel_main_idtf:
+		[турнир](* <-lang_ru;; *);
+		[tournament](* <-lang_en;; *);
+
+	<-rrel_sc_key_element: definition_tournament
+	(*
+		<-definition;;
+		=> nrel_main_idtf:
+			[Опр.(турнир)](* <-lang_ru;; *);
+			[def.(tournament)](* <-lang_en;; *);;
+
+		<=nrel_sc_text_translation: ...
+		(*
+			->rrel_example:	[Tournament is a series of contests between teams, competing for an overall prize.]  (* <-lang_en;; *);;
+		*);;
+	*);;
