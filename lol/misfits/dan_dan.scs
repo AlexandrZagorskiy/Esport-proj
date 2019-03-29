@@ -1,0 +1,18 @@
+dan_dan
+
+	<-sc_node_not_relation;
+
+	=> nrel_main_idtf:
+		[Danny "Dan Dan" Le Comte](* <-lang_en;; *);
+		[Дэнни "Dan Dan" Ле Комте](* <-lang_ru;; *);
+	=> nrel_idtf:
+		[Dan Dan](* <-lang_en; lang_ru;; *);
+
+	<-player;
+
+
+	=>nrel_citizen_of: Netherlands;
+	=>nrel_surname: Le_Comte;
+	=>nrel_first_name: Danny;
+	=>nrel_nickname: Dan_Dan;
+	=>nrel_gamerole: top_laner;;

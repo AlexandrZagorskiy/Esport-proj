@@ -1,0 +1,4 @@
+nrel_academy
+	=> nrel_main_idtf:
+		[Академия*](* <-lang_ru;; *);
+		[Academy*](* <-lang_en;; *);;

@@ -1,0 +1,20 @@
+trainer
+
+ <-sc_node_not_relation;
+
+ => nrel_main_idtf:
+		[тренер](* <-lang_ru;; *);
+		[trainer](* <-lang_en;; *);
+
+	<-rrel_sc_key_element: definition_team
+	(*
+		<-definition;;
+		=> nrel_main_idtf:
+			[Опр.(тренер)](* <-lang_ru;; *);
+			[def.(trainer)](* <-lang_en;; *);;
+
+		<=nrel_sc_text_translation: ...
+		(*
+			->rrel_example:	[Trainer a person who trains people.]  (* <-lang_en;; *);;
+		*);;
+	*);;

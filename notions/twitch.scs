@@ -1,0 +1,18 @@
+twitch
+
+ <-sc_node_not_relation;
+
+ => nrel_main_idtf:
+		[Twitch](* <-lang_en;; *);
+
+	<-rrel_sc_key_element: definition_team
+	(*
+		<-definition;;
+		=> nrel_main_idtf:
+			[def.(Twitch)](* <-lang_en;; *);;
+
+		<=nrel_sc_text_translation: ...
+		(*
+			->rrel_example:	[video streaming service, specializing in the subject of computer games, including gameplay and cybersport tournaments.]  (* <-lang_en;; *);;
+		*);;
+	*);;

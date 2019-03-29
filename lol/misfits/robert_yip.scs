@@ -1,0 +1,12 @@
+robert_yip
+
+	<-sc_node_not_relation;
+
+	=> nrel_main_idtf:
+		[Robert Yip](* <-lang_en;; *);
+		[Роберт Юип](* <-lang_ru;; *);
+
+	=>nrel_citizen_of: Italy;
+	=>nrel_surname: Yip;
+	=>nrel_first_name: Robert;
+	=>nrel_gamerole: coach;;

@@ -1,0 +1,7 @@
+date
+
+<-sc_node_not_relation;
+
+ => nrel_main_idtf:
+		[Дата](* <-lang_ru;; *);
+		[Date](* <-lang_en;; *);;

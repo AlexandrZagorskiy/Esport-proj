@@ -1,0 +1,20 @@
+sponsor
+
+ <-sc_node_not_relation;
+
+ => nrel_main_idtf:
+		[Спонсор](* <-lang_ru;; *);
+		[sponsor](* <-lang_en;; *);
+
+	<-rrel_sc_key_element: definition_team
+	(*
+		<-definition;;
+		=> nrel_main_idtf:
+			[Опр.(Спонсор)](* <-lang_ru;; *);
+			[def.(sponsor)](* <-lang_en;; *);;
+
+		<=nrel_sc_text_translation: ...
+		(*
+			->rrel_example:	[A person or organization that pays for or contributes to the costs involved in staging a sporting or artistic event in return for advertising.]  (* <-lang_en;; *);;
+		*);;
+	*);;
