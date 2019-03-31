@@ -1,0 +1,29 @@
+tierwulf
+
+	<-sc_node_not_relation;
+
+	=> nrel_main_idtf:
+		[Sebastian "Tierwulf" Andres](* <-lang_en;; *);
+		[Себастьян "Tierwulf" Андрес](* <-lang_ru;; *);
+	=> nrel_idtf:
+		[Tierwulf](* <-lang_en;; *);
+
+	<-player;
+
+	<=nrel_with_whom: contract_tierwulf_and_splyce
+	(*
+		<-contract;;
+		=>nrel_with_what: splyce_lol;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 06_12_2018;;
+		*);;
+	*);
+
+	=>nrel_citizen_of: Chile;
+	=>nrel_surname: Andres;
+	=>nrel_first_name: Sebastian;
+	=>nrel_nickname: Tierwulf;
+	=>nrel_birthday: [05.11.1996];
+	=>nrel_gamerole: jungle;;
