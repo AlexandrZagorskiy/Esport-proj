@@ -10,12 +10,17 @@ hans_sama
 
 	<-player;
 
-	->contract_hans_sama_and_misfits_gaming
+	<=nrel_with_whom: contract_hans_sama_and_misfits_gaming
 	(*
 		<-contract;;
-		<-misfits_gaming_lol;;
-		=>nrel_date_start_contract: 02_06_2016;;
+		=>nrel_with_what: misfits_gaming_lol;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 02_06_2016;;
+		*);;
 	*);
+	
 	=>nrel_citizen_of: France;
 	=>nrel_surname: Liv;
 	=>nrel_first_name: Steven;

@@ -5,8 +5,20 @@ robert_yip
 	=> nrel_main_idtf:
 		[Robert Yip](* <-lang_en;; *);
 		[Роберт Юип](* <-lang_ru;; *);
+	<-trainer;
+	
+	<=nrel_with_whom: contract_robert_yip_and_misfits_gaming
+	(*
+		<-contract;;
+		=>nrel_with_what: misfits_gaming_lol;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 05_12_2018;;
+		*);;
+	*);
 
-	=>nrel_citizen_of: Italy;
+	=>nrel_citizen_of: Ireland;
 	=>nrel_surname: Yip;
 	=>nrel_first_name: Robert;
 	=>nrel_gamerole: coach;;

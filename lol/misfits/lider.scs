@@ -10,6 +10,17 @@ lider
 
 	<-player;
 
+	<=nrel_with_whom: contract_lider_and_misfits_gaming
+	(*
+		<-contract;;
+		=>nrel_with_what: misfits_gaming_lol;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 10_12_2018;;
+		*);;
+	*);
+
 	=>nrel_citizen_of: Norway;
 	=>nrel_surname: Ilyasov;
 	=>nrel_first_name: Adam;

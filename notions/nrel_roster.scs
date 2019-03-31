@@ -7,5 +7,5 @@ nrel_roster
 	<-antireflexive_relation;
 
 	=> nrel_main_idtf:
-		[Состав*](* <-lang_ru;; *);
-		[Roster*](* <-lang_en;; *);;
+		[основной cостав*](* <-lang_ru;; *);
+		[main roster*](* <-lang_en;; *);;

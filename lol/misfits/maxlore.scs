@@ -10,12 +10,17 @@ maxlore
 
 	<-player;
 
-	->contract_maxlore_and_misfits_gaming
+	<=nrel_with_whom: contract_maxlore_and_misfits_gaming
 	(*
 		<-contract;;
-		<-misfits_gaming_lol;;
-		=>nrel_date_start_contract: 09_05_2017;;
+		=>nrel_with_what: misfits_gaming_lol;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 09_05_2017;;
+		*);;
 	*);
+
 	=>nrel_citizen_of: England;
 	=>nrel_surname: Sarafian;
 	=>nrel_first_name: Nubar;

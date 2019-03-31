@@ -7,5 +7,5 @@ nrel_organization
 	<-antireflexive_relation;
 
 	=> nrel_main_idtf:
-		[Организация*](* <-lang_ru;; *);
-		[Organization*](* <-lang_en;; *);;
+		[организация*](* <-lang_ru;; *);
+		[organization*](* <-lang_en;; *);;

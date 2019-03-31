@@ -10,12 +10,17 @@ febiven
 
 	<-player;
 
-	->contract_febiven_and_misfits_gaming
+	<=nrel_with_whom: contract_febiven_and_misfits_gaming
 	(*
 		<-contract;;
-		<-misfits_gaming_lol;;
-		=>nrel_date_start_contract: 20_11_2018;;
+		=>nrel_with_what: misfits_gaming_lol;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 20_11_2018;;
+		*);;
 	*);
+	
 	=>nrel_citizen_of: Netherlands;
 	=>nrel_surname: Diepstraten;
 	=>nrel_first_name: Fabian;

@@ -10,6 +10,17 @@ obsess
 
 	<-player;
 
+	<=nrel_with_whom: contract_obsess_and_misfits_gaming
+	(*
+		<-contract;;
+		=>nrel_with_what: misfits_gaming_lol;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 28_05_2018;;
+		*);;
+	*);
+
 	=>nrel_citizen_of: Germany;
 	=>nrel_surname: Engelmann;
 	=>nrel_first_name: Patrick;

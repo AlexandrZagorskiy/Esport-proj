@@ -10,12 +10,17 @@ gorilla
 
 	<-player;
 
-	->contract_gorilla_and_misfits_gaming
+	<=nrel_with_whom: contract_gorilla_and_misfits_gaming
 	(*
 		<-contract;;
-		<-misfits_gaming_lol;;
-		=>nrel_date_start_contract: 23_11_2018;;
+		=>nrel_with_what: misfits_gaming_lol;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 23_11_2018;;
+		*);;
 	*);
+	
 	=>nrel_citizen_of: South_Korea;
 	=>nrel_surname: Beom_hyun;
 	=>nrel_first_name: Kang;
