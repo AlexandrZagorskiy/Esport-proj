@@ -22,7 +22,7 @@ mowgli
 	*);
 
 	=>nrel_citizen_of: South_Korea;
-	=>nrel_surname: Jae-ha;
+	=>nrel_surname: Jae_ha;
 	=>nrel_first_name: Lee;
 	=>nrel_nickname: Mowgli;
 	=>nrel_birthday: [14.04.1998];
