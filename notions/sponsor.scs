@@ -10,7 +10,7 @@ sponsor
 	(*
 		<-definition;;
 		=> nrel_main_idtf:
-			[Опр.(Спонсор)](* <-lang_ru;; *);
+			[Опр.(спонсор)](* <-lang_ru;; *);
 			[def.(sponsor)](* <-lang_en;; *);;
 
 		<=nrel_sc_text_translation: ...
