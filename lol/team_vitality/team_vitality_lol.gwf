@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="windows-1251"?>
 <GWF version="2.0">
     <staticSector>
-        <node type="node/const/general_node" idtf="steel_series" shapeColor="193" id="79508936" parent="0" left="0" top="0" right="105" bottom="32" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="679" y="227" haveBus="false">
+        <node type="node/const/general_node" idtf="team_vitality_lol" shapeColor="0" id="79506344" parent="0" left="0" top="0" right="149" bottom="32" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="379.506" y="278.5" haveBus="false">
+            <content type="0" mime_type="" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="steel_series" shapeColor="0" id="79508936" parent="0" left="0" top="0" right="105" bottom="32" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="679" y="227" haveBus="false">
             <content type="0" mime_type="" file_name=""/>
         </node>
         <node type="node/const/general_node" idtf="razer" shapeColor="0" id="79507496" parent="0" left="0" top="0" right="52" bottom="32" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="603" y="237" haveBus="false">
@@ -83,9 +86,6 @@
             <content type="0" mime_type="" file_name=""/>
         </node>
         <node type="node/const/group" idtf="sponsor" shapeColor="0" id="79502168" parent="0" left="0" top="0" right="74" bottom="32" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="409.506" y="50.5" haveBus="false">
-            <content type="0" mime_type="" file_name=""/>
-        </node>
-        <node type="node/const/general_node" idtf="splyce_lol" shapeColor="0" id="79506344" parent="0" left="0" top="0" right="92" bottom="32" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="379.506" y="278.5" haveBus="false">
             <content type="0" mime_type="" file_name=""/>
         </node>
         <node type="node/const/general_node" idtf="twitch" shapeColor="0" id="79503464" parent="0" left="0" top="0" right="60" bottom="32" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="239.506" y="172.5" haveBus="false">
