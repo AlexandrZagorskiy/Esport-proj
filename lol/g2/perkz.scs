@@ -10,6 +10,17 @@ perkz
 
 	<-player;
 
+	<=nrel_with_whom: contract_perkz_and_g2_esports
+	(*
+		<-contract;;
+		=>nrel_with_what: g2_esports_lol;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 02_06_2015;;
+		*);;
+	*);
+
 	=>nrel_citizen_of: Croatia;
 	=>nrel_surname: Perkovic;
 	=>nrel_first_name: Luka;

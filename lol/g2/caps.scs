@@ -10,6 +10,17 @@ caps
 
 	<-player;
 
+	<=nrel_with_whom: contract_caps_and_g2_esports
+	(*
+		<-contract;;
+		=>nrel_with_what: g2_esports_lol;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 29_11_2018;;
+		*);;
+	*);
+
 	=>nrel_citizen_of: Denmark;
 	=>nrel_surname: Winther;
 	=>nrel_first_name: Rasmus;

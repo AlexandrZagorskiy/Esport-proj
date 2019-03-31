@@ -10,6 +10,17 @@ promisq
 
 	<-player;
 
+	<=nrel_with_whom: contract_promisq_and_g2_esports
+	(*
+		<-contract;;
+		=>nrel_with_what: g2_esports_lol;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 11_03_2019;;
+		*);;
+	*);
+
 	=>nrel_citizen_of: Sweden;
 	=>nrel_surname: Abrahamsson;
 	=>nrel_first_name: Hampus_Mikael;
