@@ -3,5 +3,5 @@ contract
 <-sc_node_not_relation;
 
  => nrel_main_idtf:
-		[Контракт](* <-lang_ru;; *);
-		[Contract](* <-lang_en;; *);;
+		[контракт](* <-lang_ru;; *);
+		[contract](* <-lang_en;; *);;

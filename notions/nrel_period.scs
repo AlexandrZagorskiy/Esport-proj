@@ -7,5 +7,5 @@ nrel_period
 	<-antireflexive_relation;
 
 	=> nrel_main_idtf:
-		[Период*](* <-lang_ru;; *);
-		[Period*](* <-lang_en;; *);;
+		[период*](* <-lang_ru;; *);
+		[period*](* <-lang_en;; *);;
