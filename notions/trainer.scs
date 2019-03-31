@@ -6,7 +6,7 @@ trainer
 		[тренер](* <-lang_ru;; *);
 		[trainer](* <-lang_en;; *);
 
-	<-rrel_sc_key_element: definition_team
+	<-rrel_sc_key_element: definition_trainer
 	(*
 		<-definition;;
 		=> nrel_main_idtf:

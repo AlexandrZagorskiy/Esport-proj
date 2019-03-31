@@ -5,7 +5,7 @@ omen_by_hp
  => nrel_main_idtf:
 		[Audi](* <-lang_en;; *);
 
-	<-rrel_sc_key_element: definition_needforseet
+	<-rrel_sc_key_element: definition_omen_by_hp
 	(*
 		<-definition;;
 		=> nrel_main_idtf:

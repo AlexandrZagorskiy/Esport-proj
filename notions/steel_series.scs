@@ -5,7 +5,7 @@ steel_series
  => nrel_main_idtf:
 		[SteelSeries](* <-lang_en;; *);
 
-	<-rrel_sc_key_element: definition_renault
+	<-rrel_sc_key_element: definition_steel_series
 	(*
 		<-definition;;
 		=> nrel_main_idtf:

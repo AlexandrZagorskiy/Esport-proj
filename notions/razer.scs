@@ -5,7 +5,7 @@ razer
  => nrel_main_idtf:
 		[Razer Inc.](* <-lang_en;; *);
 
-	<-rrel_sc_key_element: definition_renault
+	<-rrel_sc_key_element: definition_razer
 	(*
 		<-definition;;
 		=> nrel_main_idtf:

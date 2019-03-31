@@ -5,7 +5,7 @@ audi
  => nrel_main_idtf:
 		[Audi](* <-lang_en;; *);
 
-	<-rrel_sc_key_element: definition_needforseet
+	<-rrel_sc_key_element: definition_audi
 	(*
 		<-definition;;
 		=> nrel_main_idtf:

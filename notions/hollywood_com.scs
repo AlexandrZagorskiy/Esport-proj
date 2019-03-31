@@ -4,7 +4,7 @@ hollywood_com
  => nrel_main_idtf:
 		[Hollywood.com](* <-lang_en;; *);
 
-	<-rrel_sc_key_element: definition_team
+	<-rrel_sc_key_element: definition_hollywood_com
 	(*
 		<-definition;;
 		=> nrel_main_idtf:

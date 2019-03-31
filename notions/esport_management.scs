@@ -5,7 +5,7 @@ esport_management
  => nrel_main_idtf:
 		[Esport-Management](* <-lang_en;; *);
 
-	<-rrel_sc_key_element: definition_paysafecard
+	<-rrel_sc_key_element: definition_esport_management
 	(*
 		<-definition;;
 		=> nrel_main_idtf:

@@ -4,7 +4,7 @@ vertagear
  => nrel_main_idtf:
 		[Vertagear](* <-lang_en;; *);
 
-	<-rrel_sc_key_element: definition_team
+	<-rrel_sc_key_element: definition_vertagear
 	(*
 		<-definition;;
 		=> nrel_main_idtf:

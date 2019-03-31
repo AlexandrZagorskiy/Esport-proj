@@ -4,7 +4,7 @@ alienware
  => nrel_main_idtf:
 		[Alienware](* <-lang_en;; *);
 
-	<-rrel_sc_key_element: definition_team
+	<-rrel_sc_key_element: definition_alienware
 	(*
 		<-definition;;
 		=> nrel_main_idtf:

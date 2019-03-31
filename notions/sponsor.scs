@@ -6,7 +6,7 @@ sponsor
 		[Спонсор](* <-lang_ru;; *);
 		[sponsor](* <-lang_en;; *);
 
-	<-rrel_sc_key_element: definition_team
+	<-rrel_sc_key_element: definition_sponsor
 	(*
 		<-definition;;
 		=> nrel_main_idtf:

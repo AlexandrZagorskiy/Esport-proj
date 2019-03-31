@@ -5,7 +5,7 @@ xbox_one
  => nrel_main_idtf:
 		[Xbox One](* <-lang_en;; *);
 
-	<-rrel_sc_key_element: definition_renault
+	<-rrel_sc_key_element: definition_xbox_one
 	(*
 		<-definition;;
 		=> nrel_main_idtf:
