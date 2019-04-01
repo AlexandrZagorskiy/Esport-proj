@@ -1,0 +1,29 @@
+magifelix
+
+	<-sc_node_not_relation;
+
+	=> nrel_main_idtf:
+		[Felix "Magifelix" Bostrom](* <-lang_en;; *);
+		[Феликс "Magifelix" Бостром](* <-lang_ru;; *);
+	=> nrel_idtf:
+		[Magifelix](* <-lang_en;; *);
+
+	<-player;
+
+	<=nrel_with_whom: contract_Magifelix_and_fnatic
+	(*
+		<-contract;;
+		=>nrel_with_what: fnatic_lol;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 07_01_2019;;
+		*);;
+	*);
+
+	=>nrel_citizen_of: Sweden;
+	=>nrel_surname: Bostrom;
+	=>nrel_first_name: Felix;
+	=>nrel_nickname: Magifelix;
+	=>nrel_birthday: [27.02.2000];
+	=>nrel_gamerole: mid_laner;;

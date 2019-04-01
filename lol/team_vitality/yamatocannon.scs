@@ -5,6 +5,9 @@ yamatocannon
 	=> nrel_main_idtf:
 		[Jakob Mebdi](* <-lang_en;; *);
 		[Якоб Мебди](* <-lang_ru;; *);
+	=> nrel_idtf:
+		[Yamato Cannon](* <-lang_en;; *);	
+	
 	<-trainer;
 	
 	<=nrel_with_whom: contract_yamatocannon_and_team_vitality
