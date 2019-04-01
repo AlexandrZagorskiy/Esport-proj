@@ -3,15 +3,29 @@ player
 <-sc_node_not_relation;
 
  => nrel_main_idtf:
-		[Игрок](* <-lang_ru;; *);
-		[Player](* <-lang_en;; *);
+		[игрок](* <-lang_ru;; *);
+		[player](* <-lang_en;; *);
+
+	->player_dota
+	(*
+		=> nrel_main_idtf:
+			[игрок | Dota 2](* <-lang_ru;; *);
+			[player | Dota 2](* <-lang_en;; *);;
+	*);
+
+	->player_lol
+	(*
+		=> nrel_main_idtf:
+			[игрок | LoL](* <-lang_ru;; *);
+			[player | LoL](* <-lang_en;; *);;
+	*);
 
 	<-rrel_sc_key_element: definition_player
 	(*
 		<-definition;;
 		=> nrel_main_idtf:
-			[Опр.(Игрок)](* <-lang_ru;; *);
-			[def.(Player)](* <-lang_en;; *);;
+			[Опр.(игрок)](* <-lang_ru;; *);
+			[def.(player)](* <-lang_en;; *);;
 
 		<=nrel_sc_text_translation: ...
 		(*

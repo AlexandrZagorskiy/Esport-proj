@@ -7,8 +7,8 @@ nrel_nickname
 	<-antireflexive_relation;
 
 	=> nrel_main_idtf:
-		[Никнейм*](* <-lang_ru;; *);
-		[Nickname*](* <-lang_en;; *);
+		[никнейм*](* <-lang_ru;; *);
+		[nickname*](* <-lang_en;; *);
 
 	=> nrel_idtf:
-		[Ник*](* <-lang_ru;; *);;
+		[ник*](* <-lang_ru;; *);;

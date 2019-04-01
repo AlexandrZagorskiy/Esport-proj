@@ -9,20 +9,6 @@ the_international_2011
 
 	<-tournament;
 
-	<-rrel_sc_key_element: definition_the_international_2011
-	(*
-		<- definition;;
-		=> nrel_main_idtf:
-			[def.(The International 2011)](* <-lang_en;; *);
-			[опр.(The International 2011)](* <-lang_ru;; *);;
-
-		<=nrel_sc_text_translation: ...
-		(*			
-			->rrel_example:
-				[The International Dota 2 Championships was a double-elimination offline tournament organized by Valve.]  (* <-lang_en;; *);;
-		*);;
-	*);
-
 	=> nrel_organizer: valve;
 	=> nrel_sponsor: valve;
 	=> nrel_type: offline;
@@ -48,7 +34,7 @@ the_international_2011
 			moskow_five;
 			mith_trust;
 			mufc;
-			natus_vinsere_dota;
+			natus_vincere_dota;
 			scythe_gaming;
 			next_evolution;
 			gosu_gamers;;

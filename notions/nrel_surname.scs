@@ -7,5 +7,5 @@ nrel_surname
 	<-antireflexive_relation;
 
 	=> nrel_main_idtf:
-		[Фамилия*](* <-lang_ru;; *);
-		[Surname*](* <-lang_en;; *);;
+		[фамилия*](* <-lang_ru;; *);
+		[surname*](* <-lang_en;; *);;
