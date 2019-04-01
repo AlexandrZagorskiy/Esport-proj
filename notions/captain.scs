@@ -1,0 +1,21 @@
+captain
+
+	<-sc_node_not_relation;
+
+	=> nrel_main_idtf:
+		[captain](* <-lang_en;; *);
+		[капитан](* <-lang_ru;; *);
+
+<-rrel_sc_key_element: definition_captain
+	(*
+		<- definition;;
+		=> nrel_main_idtf:
+			[def.(captain)](* <-lang_en;; *);
+			[опр.(капитан)](* <-lang_ru;; *);;
+
+		<=nrel_sc_text_translation: ...
+		(*			
+			->rrel_example:
+				[captain is one of gameroles in games.]  (* <-lang_en;; *);;
+		*);;
+	*);;

@@ -1,0 +1,24 @@
+carry
+
+	<-sc_node_not_relation;
+
+	=> nrel_main_idtf:
+		[carry](* <-lang_en;; *);
+		[керри](* <-lang_ru;; *);
+	=> nrel_idtf:
+		[кор](* <-lang_ru;; *);
+		[первая позиция](* <-lang_ru;; *);
+
+<-rrel_sc_key_element: definition_carry
+	(*
+		<- definition;;
+		=> nrel_main_idtf:
+			[def.(carry)](* <-lang_en;; *);
+			[опр.(керри)](* <-lang_ru;; *);;
+
+		<=nrel_sc_text_translation: ...
+		(*			
+			->rrel_example:
+				[Carry is one of gameroles in games.]  (* <-lang_en;; *);;
+		*);;
+	*);;

@@ -1,4 +1,4 @@
-nrel_first_name
+nrel_tier
 
 	<-sc_node_norole_relation;
 	<-oriented_relation;
@@ -7,5 +7,5 @@ nrel_first_name
 	<-antireflexive_relation;
 
 	=> nrel_main_idtf:
-		[имя*](* <-lang_ru;; *);
-		[first name*](* <-lang_en;; *);;
+		[Уровень*](* <-lang_ru;; *);
+		[tier*](* <-lang_en;; *);;

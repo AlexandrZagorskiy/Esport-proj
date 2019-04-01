@@ -7,5 +7,5 @@ nrel_gamerole
 	<-antireflexive_relation;
 
 	=> nrel_main_idtf:
-		[Роль*](* <-lang_ru;; *);
-		[Gamerole*](* <-lang_en;; *);;
+		[роль*](* <-lang_ru;; *);
+		[gamerole*](* <-lang_en;; *);;
