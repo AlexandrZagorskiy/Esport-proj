@@ -1,0 +1,30 @@
+norskeren
+
+	<-sc_node_not_relation;
+
+	=> nrel_main_idtf:
+		[Tore Hoel "Norskeren" Eilertsen](* <-lang_en;; *);
+		[Торе Хоел "Norskeren" Эйлертсен](* <-lang_ru;; *);
+	=> nrel_idtf:
+		[Norskeren](* <-lang_en;; *);
+
+	<-player;
+
+	<=nrel_with_whom: contract_norskeren_and_splyce
+	(*
+		<-contract;;
+		=>nrel_with_what: splyce_lol;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 04_12_2018;;
+			->rrel_end: 16_11_2020;;
+		*);;
+	*);
+
+	=>nrel_citizen_of: Norway;
+	=>nrel_surname: Eilertsen;
+	=>nrel_first_name: Tore_Hoel;
+	=>nrel_nickname: Norskeren;
+	=>nrel_birthday: [27.12.1999];
+	=>nrel_gamerole: support;;

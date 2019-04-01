@@ -1,0 +1,29 @@
+skeanz
+
+	<-sc_node_not_relation;
+
+	=> nrel_main_idtf:
+		[Duncan "Skeanz" Marquet](* <-lang_en;; *);
+		[Дункан "Skeanz" Маркюит](* <-lang_ru;; *);
+	=> nrel_idtf:
+		[Skeanz](* <-lang_en;; *);
+
+	<-player;
+
+	<=nrel_with_whom: contract_skeanz_and_team_vitality
+	(*
+		<-contract;;
+		=>nrel_with_what: team_vitality_lol;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 08_01_2019;;
+		*);;
+	*);
+
+	=>nrel_citizen_of: France;
+	=>nrel_surname: Marquet;
+	=>nrel_first_name: Duncan;
+	=>nrel_nickname: Skeanz;
+	=>nrel_birthday: [25.09.2000];
+	=>nrel_gamerole: jungler;;

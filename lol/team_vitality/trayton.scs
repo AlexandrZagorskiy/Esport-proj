@@ -1,0 +1,29 @@
+trayton
+
+	<-sc_node_not_relation;
+
+	=> nrel_main_idtf:
+		[Jean "TraYtoN" Medzadourian](* <-lang_en;; *);
+		[Джин "TraYtoN" Меджадоуриан](* <-lang_ru;; *);
+	=> nrel_idtf:
+		[TraYtoN](* <-lang_en;; *);
+
+	<-player;
+
+	<=nrel_with_whom: contract_trayton_and_team_vitality
+	(*
+		<-contract;;
+		=>nrel_with_what: team_vitality_lol;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 08_01_2019;;
+		*);;
+	*);
+
+	=>nrel_citizen_of: France;
+	=>nrel_surname: Medzadourian;
+	=>nrel_first_name: Jean;
+	=>nrel_nickname: TraYtoN;
+	=>nrel_birthday: [26.09.1998];
+	=>nrel_gamerole: support;;

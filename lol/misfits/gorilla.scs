@@ -1,0 +1,29 @@
+gorilla
+
+	<-sc_node_not_relation;
+
+	=> nrel_main_idtf:
+		[Kang "GorillA" Beom-hyun](* <-lang_en;; *);
+		[Кэнг "GorillA" Бим-хюн](* <-lang_ru;; *);
+	=> nrel_idtf:
+		[GorillA](* <-lang_en; lang_ru;; *);
+
+	<-player;
+
+	<=nrel_with_whom: contract_gorilla_and_misfits_gaming
+	(*
+		<-contract;;
+		=>nrel_with_what: misfits_gaming_lol;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 23_11_2018;;
+		*);;
+	*);
+	
+	=>nrel_citizen_of: South_Korea;
+	=>nrel_surname: Beom_hyun;
+	=>nrel_first_name: Kang;
+	=>nrel_nickname: GorillA;
+	=>nrel_birthday: [18.11.1994];
+	=>nrel_gamerole: support;;
