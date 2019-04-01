@@ -1,0 +1,29 @@
+xmatty
+
+	<-sc_node_not_relation;
+
+	=> nrel_main_idtf:
+		[Matthew "xMatty" Coombs](* <-lang_en;; *);
+		[Мэтью "xMatty" Кумбс](* <-lang_ru;; *);
+	=> nrel_idtf:
+		[xMatty](* <-lang_en;; *);
+
+	<-player;
+
+	<=nrel_with_whom: contract_xmatty_and_fnatic
+	(*
+		<-contract;;
+		=>nrel_with_what: fnatic_lol;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 07_01_2019;;
+		*);;
+	*);
+
+	=>nrel_citizen_of: United_Kingdom;
+	=>nrel_surname: Coombs;
+	=>nrel_first_name: Matthew;
+	=>nrel_nickname: xMatty;
+	=>nrel_birthday: [16.07.1999];
+	=>nrel_gamerole: bot_laner;;

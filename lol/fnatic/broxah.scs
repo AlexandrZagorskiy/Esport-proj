@@ -1,0 +1,29 @@
+broxah
+
+	<-sc_node_not_relation;
+
+	=> nrel_main_idtf:
+		[Mads "Broxah" Brock-Pedersen](* <-lang_en;; *);
+		[Мэдс "Broxah" Брук-Педерсен](* <-lang_ru;; *);
+	=> nrel_idtf:
+		[Broxah](* <-lang_en;; *);
+
+	<-player;
+
+	<=nrel_with_whom: contract_broxah_and_fnatic
+	(*
+		<-contract;;
+		=>nrel_with_what: fnatic_lol;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 06_02_2017;;
+		*);;
+	*);
+
+	=>nrel_citizen_of: Denmark;
+	=>nrel_surname: Brock_Pedersen;
+	=>nrel_first_name: Mads;
+	=>nrel_nickname: Broxah;
+	=>nrel_birthday: [12.08.1997];
+	=>nrel_gamerole: junger;;

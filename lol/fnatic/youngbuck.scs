@@ -1,0 +1,28 @@
+youngbuck
+
+	<-sc_node_not_relation;
+
+	=> nrel_main_idtf:
+		[Joey Steltenpool](* <-lang_en;; *);
+		[Джой Стелтенпул](* <-lang_ru;; *);
+	=> nrel_idtf:
+		[YoungBuck](* <-lang_en;; *);	
+	
+	<-trainer;
+	
+	<=nrel_with_whom: contract_youngbuck_and_fnatic
+	(*
+		<-contract;;
+		=>nrel_with_what: fnatic_lol;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 04_01_2018;;
+		*);;
+	*);
+
+	=>nrel_citizen_of: Netherlands;
+	=>nrel_surname: Steltenpool;
+	=>nrel_first_name: Joey;
+	=>nrel_birthday: [27.07.1991];
+	=>nrel_gamerole: trainer;;

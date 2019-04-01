@@ -1,0 +1,29 @@
+hyllisang
+
+	<-sc_node_not_relation;
+
+	=> nrel_main_idtf:
+		[Zdravets "Hylissang" Galabov](* <-lang_en;; *);
+		[Здраветс "Hylissang" Галабов](* <-lang_ru;; *);
+	=> nrel_idtf:
+		[Hylissang](* <-lang_en;; *);
+
+	<-player;
+
+	<=nrel_with_whom: contract_hylissang_and_fnatic
+	(*
+		<-contract;;
+		=>nrel_with_what: fnatic_lol;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 14_12_2017;;
+		*);;
+	*);
+
+	=>nrel_citizen_of: Bulgaria;
+	=>nrel_surname: Galabov;
+	=>nrel_first_name: Zdravets;
+	=>nrel_nickname: Hylissang;
+	=>nrel_birthday: [30.04.1995];
+	=>nrel_gamerole: support;;

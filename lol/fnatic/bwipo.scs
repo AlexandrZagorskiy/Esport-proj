@@ -1,0 +1,29 @@
+bwipo
+
+	<-sc_node_not_relation;
+
+	=> nrel_main_idtf:
+		[Gabriel "Bwipo" Rau](* <-lang_en;; *);
+		[Габриэль "Bwipo" Рау](* <-lang_ru;; *);
+	=> nrel_idtf:
+		[Bwipo](* <-lang_en;; *);
+
+	<-player;
+
+	<=nrel_with_whom: contract_bwipo_and_fnatic
+	(*
+		<-contract;;
+		=>nrel_with_what: fnatic_lol;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 08_01_2018;;
+		*);;
+	*);
+
+	=>nrel_citizen_of: Belgium;
+	=>nrel_surname: Rau;
+	=>nrel_first_name: Gabriel;
+	=>nrel_nickname: Bwipo;
+	=>nrel_birthday: [24.12.1998];
+	=>nrel_gamerole: top_laner;;
