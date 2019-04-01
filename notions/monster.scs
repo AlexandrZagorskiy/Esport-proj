@@ -5,7 +5,7 @@ monster
  => nrel_main_idtf:
 		[Monster](* <-lang_en;; *);
 
-	<-rrel_sc_key_element: definition_amd
+	<-rrel_sc_key_element: definition_monster
 	(*
 		<-definition;;
 		=> nrel_main_idtf:

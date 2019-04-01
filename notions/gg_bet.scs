@@ -5,7 +5,7 @@ gg_bet
  => nrel_main_idtf:
 		[GG.BET](* <-lang_en;; *);
 
-	<-rrel_sc_key_element: definition_amd
+	<-rrel_sc_key_element: definition_gg_bet
 	(*
 		<-definition;;
 		=> nrel_main_idtf:

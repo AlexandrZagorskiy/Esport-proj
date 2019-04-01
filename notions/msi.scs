@@ -5,7 +5,7 @@ msi
  => nrel_main_idtf:
 		[MSI](* <-lang_en;; *);
 
-	<-rrel_sc_key_element: definition_amd
+	<-rrel_sc_key_element: definition_msi
 	(*
 		<-definition;;
 		=> nrel_main_idtf:
