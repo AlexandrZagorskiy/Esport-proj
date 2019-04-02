@@ -1,0 +1,30 @@
+nukeduck
+
+	<-sc_node_not_relation;
+
+	=> nrel_main_idtf:
+		[Erlend "Nukeduck" Vatevik Holm](* <-lang_en;; *);
+		[Ирленд "Nukeduck" Ватевик Хольм](* <-lang_ru;; *);
+	=> nrel_idtf:
+		[Nukeduck](* <-lang_en;; *);
+
+	<-player_lol;
+
+	<=nrel_with_whom: contract_nukeduck_and_origen
+	(*
+		<-contract;;
+		=>nrel_with_what: origen_lol;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 20_11_2018;;
+			->rrel_end: 15_11_2021;;
+		*);;
+	*);
+
+	=>nrel_citizen_of: Norway;
+	=>nrel_surname: Vatevik_Holm;
+	=>nrel_first_name: Erlend;
+	=>nrel_nickname: Nukeduck;
+	=>nrel_birthday: [21.05.1996];
+	=>nrel_gamerole: mid_laner_lol;;

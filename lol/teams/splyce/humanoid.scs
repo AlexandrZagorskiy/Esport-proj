@@ -1,0 +1,30 @@
+humanoid
+
+	<-sc_node_not_relation;
+
+	=> nrel_main_idtf:
+		[Marek "Humanoid" Brazda](* <-lang_en;; *);
+		[Марек "Humanoid" Бразда](* <-lang_ru;; *);
+	=> nrel_idtf:
+		[Humanoid](* <-lang_en;; *);
+
+	<-player_lol;
+
+	<=nrel_with_whom: contract_humanoid_and_splyce
+	(*
+		<-contract;;
+		=>nrel_with_what: splyce_lol;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 30_11_2018;;
+			->rrel_end: 16_11_2020;;
+		*);;
+	*);
+
+	=>nrel_citizen_of: Czech_Republic;
+	=>nrel_surname: Brazda;
+	=>nrel_first_name: Marek;
+	=>nrel_nickname: Humanoid;
+	=>nrel_birthday: [14.03.2000];
+	=>nrel_gamerole: mid_laner_lol;;

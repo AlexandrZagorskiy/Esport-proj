@@ -1,0 +1,30 @@
+mithy
+
+	<-sc_node_not_relation;
+
+	=> nrel_main_idtf:
+		[Alfonso "Mithy" Aguirre Rodriguez](* <-lang_en;; *);
+		[Альфонсо "Mithy" Агуирре Родригез](* <-lang_ru;; *);
+	=> nrel_idtf:
+		[Mithy](* <-lang_en;; *);
+
+	<-player_lol;
+
+	<=nrel_with_whom: contract_mithy_and_origen
+	(*
+		<-contract;;
+		=>nrel_with_what: origen_lol;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 03_12_2018;;
+			->rrel_end: 18_11_2019;;
+		*);;
+	*);
+
+	=>nrel_citizen_of: Spain;
+	=>nrel_surname: Aguirre_Rodriguez;
+	=>nrel_first_name: Alfonso;
+	=>nrel_nickname: Mithy;
+	=>nrel_birthday: [05.10.1994];
+	=>nrel_gamerole: support_lol;;
