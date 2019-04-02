@@ -1,0 +1,21 @@
+mid_laner_lol
+
+	<-sc_node_not_relation;
+
+	=> nrel_main_idtf:
+		[mid laner](* <-lang_en;; *);
+		[мид лэйнер](* <-lang_ru;; *);
+
+<-rrel_sc_key_element: definition_mid_laner_lol
+	(*
+		<- definition;;
+		=> nrel_main_idtf:
+			[def.(mid laner)](* <-lang_en;; *);
+			[опр.(мид лэйнер)](* <-lang_ru;; *);;
+
+		<=nrel_sc_text_translation: ...
+		(*			
+			->rrel_example:
+				[Mid laner is one of gameroles in games.]  (* <-lang_en;; *);;
+		*);;
+	*);;

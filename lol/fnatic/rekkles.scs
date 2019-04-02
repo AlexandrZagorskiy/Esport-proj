@@ -8,7 +8,7 @@ rekkles
 	=> nrel_idtf:
 		[Rekkles](* <-lang_en;; *);
 
-	<-player;
+	<-player_lol;
 
 	<=nrel_with_whom: contract_rekkles_and_fnatic
 	(*
@@ -26,4 +26,4 @@ rekkles
 	=>nrel_first_name: Martin;
 	=>nrel_nickname: Rekkles;
 	=>nrel_birthday: [20.09.1996];
-	=>nrel_gamerole: bot_laner;;
+	=>nrel_gamerole: bot_laner_lol;;

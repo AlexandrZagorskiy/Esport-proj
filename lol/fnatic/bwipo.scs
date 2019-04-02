@@ -8,7 +8,7 @@ bwipo
 	=> nrel_idtf:
 		[Bwipo](* <-lang_en;; *);
 
-	<-player;
+	<-player_lol;
 
 	<=nrel_with_whom: contract_bwipo_and_fnatic
 	(*
@@ -26,4 +26,4 @@ bwipo
 	=>nrel_first_name: Gabriel;
 	=>nrel_nickname: Bwipo;
 	=>nrel_birthday: [24.12.1998];
-	=>nrel_gamerole: top_laner;;
+	=>nrel_gamerole: top_laner_lol;;

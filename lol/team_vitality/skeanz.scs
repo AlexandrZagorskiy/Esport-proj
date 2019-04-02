@@ -8,7 +8,7 @@ skeanz
 	=> nrel_idtf:
 		[Skeanz](* <-lang_en;; *);
 
-	<-player;
+	<-player_lol;
 
 	<=nrel_with_whom: contract_skeanz_and_team_vitality
 	(*
@@ -26,4 +26,4 @@ skeanz
 	=>nrel_first_name: Duncan;
 	=>nrel_nickname: Skeanz;
 	=>nrel_birthday: [25.09.2000];
-	=>nrel_gamerole: jungler;;
+	=>nrel_gamerole: jungler_lol;;

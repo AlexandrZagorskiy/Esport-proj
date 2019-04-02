@@ -8,7 +8,7 @@ trayton
 	=> nrel_idtf:
 		[TraYtoN](* <-lang_en;; *);
 
-	<-player;
+	<-player_lol;
 
 	<=nrel_with_whom: contract_trayton_and_team_vitality
 	(*
@@ -26,4 +26,4 @@ trayton
 	=>nrel_first_name: Jean;
 	=>nrel_nickname: TraYtoN;
 	=>nrel_birthday: [26.09.1998];
-	=>nrel_gamerole: support;;
+	=>nrel_gamerole: support_lol;;

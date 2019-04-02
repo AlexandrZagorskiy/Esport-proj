@@ -1,8 +1,18 @@
-rrel_ad_carry
+bot_laner_lol
 
-	<-sc_node_role_relation;
-	<-oriented_relation;
-	
+	<-sc_node_not_relation;
+
 	=> nrel_main_idtf:
-		[АД-керри*](* <-lang_ru;; *);
-		[Ad-carry*](* <-lang_en;; *);;
+		[bot laner](* <-lang_en;; *);
+
+	<-rrel_sc_key_element: definition_support
+	(*
+		<- definition;;
+		=> nrel_main_idtf:
+			[def.(bot laner)](* <-lang_en;; *);
+			<=nrel_sc_text_translation: ...
+		(*			
+			->rrel_example:
+				[Bot laner is one of gameroles in games.]  (* <-lang_en;; *);;
+		*);;
+	*);;

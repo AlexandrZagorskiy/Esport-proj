@@ -8,7 +8,7 @@ tierwulf
 	=> nrel_idtf:
 		[Tierwulf](* <-lang_en;; *);
 
-	<-player;
+	<-player_lol;
 
 	<=nrel_with_whom: contract_tierwulf_and_splyce
 	(*
@@ -26,4 +26,4 @@ tierwulf
 	=>nrel_first_name: Sebastian;
 	=>nrel_nickname: Tierwulf;
 	=>nrel_birthday: [05.11.1996];
-	=>nrel_gamerole: jungle;;
+	=>nrel_gamerole: jungler_lol;;

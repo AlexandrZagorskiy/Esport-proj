@@ -1,0 +1,21 @@
+top_laner_lol
+
+	<-sc_node_not_relation;
+
+	=> nrel_main_idtf:
+		[top laner](* <-lang_en;; *);
+		[топ лэйнер](* <-lang_ru;; *);
+
+<-rrel_sc_key_element: definition_top_laner_lol
+	(*
+		<- definition;;
+		=> nrel_main_idtf:
+			[def.(top laner)](* <-lang_en;; *);
+			[опр.(топ лэйнер)](* <-lang_ru;; *);;
+
+		<=nrel_sc_text_translation: ...
+		(*			
+			->rrel_example:
+				[Top laner is one of gameroles in games.]  (* <-lang_en;; *);;
+		*);;
+	*);;
