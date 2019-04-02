@@ -1,0 +1,29 @@
+nemesis
+
+	<-sc_node_not_relation;
+
+	=> nrel_main_idtf:
+		[Tim "Nemesis" Lipovsek](* <-lang_en;; *);
+		[Тим "Nemesis" Липовсек](* <-lang_ru;; *);
+	=> nrel_idtf:
+		[Nemesis](* <-lang_en;; *);
+
+	<-player_lol;
+
+	<=nrel_with_whom: contract_nemesis_and_fnatic
+	(*
+		<-contract;;
+		=>nrel_with_what: fnatic_lol;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 29_11_2018;;
+		*);;
+	*);
+
+	=>nrel_citizen_of: Slovenia;
+	=>nrel_surname: Lipovsek;
+	=>nrel_first_name: Tim;
+	=>nrel_nickname: Nemesis;
+	=>nrel_birthday: [26.07.1999];
+	=>nrel_gamerole: mid_laner_lol;;

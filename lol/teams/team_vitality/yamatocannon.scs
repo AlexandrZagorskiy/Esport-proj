@@ -1,0 +1,27 @@
+yamatocannon
+
+	<-sc_node_not_relation;
+
+	=> nrel_main_idtf:
+		[Jakob Mebdi](* <-lang_en;; *);
+		[Якоб Мебди](* <-lang_ru;; *);
+	=> nrel_idtf:
+		[Yamato Cannon](* <-lang_en;; *);	
+	
+	<-coach;
+	
+	<=nrel_with_whom: contract_yamatocannon_and_team_vitality
+	(*
+		<-contract;;
+		=>nrel_with_what: team_vitality_lol;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 03_05_2017;;
+		*);;
+	*);
+
+	=>nrel_citizen_of: Sweden;
+	=>nrel_surname: Mebdi;
+	=>nrel_first_name: Jakob;
+	=>nrel_birthday: [30.12.1995];;

@@ -1,0 +1,29 @@
+shemek
+
+	<-sc_node_not_relation;
+
+	=> nrel_main_idtf:
+		[Damien "Shemek" Soulagnet](* <-lang_en;; *);
+		[Дамиен "Shemek" Солагнет](* <-lang_ru;; *);
+	=> nrel_idtf:
+		[Shemek](* <-lang_en;; *);
+
+	<-player_lol;
+
+	<=nrel_with_whom: contract_shemek_and_team_vitality
+	(*
+		<-contract;;
+		=>nrel_with_what: team_vitality_lol;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 08_01_2019;;
+		*);;
+	*);
+
+	=>nrel_citizen_of: France;
+	=>nrel_surname: Soulagnet;
+	=>nrel_first_name: Damien;
+	=>nrel_nickname: Shemek;
+	=>nrel_birthday: [07.01.1996];
+	=>nrel_gamerole: top_laner_lol;;

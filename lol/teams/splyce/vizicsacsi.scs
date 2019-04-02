@@ -1,0 +1,30 @@
+vizicsacsi
+
+	<-sc_node_not_relation;
+
+	=> nrel_main_idtf:
+		[Kiss "Vizicsacsi" Tamas](* <-lang_en;; *);
+		[Эрленд "Vizicsacsi" Ватевик Хольм](* <-lang_ru;; *);
+	=> nrel_idtf:
+		[Vizicsacsi](* <-lang_en;; *);
+
+	<-player_lol;
+
+	<=nrel_with_whom: contract_vizicsacsi_and_splyce
+	(*
+		<-contract;;
+		=>nrel_with_what: splyce_lol;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 01_12_2018;;
+			->rrel_end: 18_11_2019;;
+		*);;
+	*);
+
+	=>nrel_citizen_of: Hungary;
+	=>nrel_surname: Tamas;
+	=>nrel_first_name: Kiss;
+	=>nrel_nickname: Vizicsacsi;
+	=>nrel_birthday: [05.10.1994];
+	=>nrel_gamerole: top_laner_lol;;

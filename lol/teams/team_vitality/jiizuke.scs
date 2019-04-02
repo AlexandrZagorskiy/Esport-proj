@@ -1,0 +1,29 @@
+jiizuke
+
+	<-sc_node_not_relation;
+
+	=> nrel_main_idtf:
+		[Daniele "Jiizuke" di Mauro](* <-lang_en;; *);
+		[Даниэль "Jiizuke" ди Мауро](* <-lang_ru;; *);
+	=> nrel_idtf:
+		[Jiizuke](* <-lang_en;; *);
+
+	<-player_lol;
+
+	<=nrel_with_whom: contract_jiizuke_and_team_vitality
+	(*
+		<-contract;;
+		=>nrel_with_what: team_vitality_lol;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 21_12_2017;;
+		*);;
+	*);
+
+	=>nrel_citizen_of: Italy;
+	=>nrel_surname: di_Mauro;
+	=>nrel_first_name: Daniele;
+	=>nrel_nickname: Jiizuke;
+	=>nrel_birthday: [14.01.1996];
+	=>nrel_gamerole: mid_laner_lol;;

@@ -1,0 +1,26 @@
+guilhoto
+
+	<-sc_node_not_relation;
+
+	=> nrel_main_idtf:
+		[Andre Guilhoto](* <-lang_en;; *);
+		[Андре Гуилхото](* <-lang_ru;; *);
+	=> nrel_idtf:
+		[Guilhoto](* <-lang_en;; *);
+
+	<-coach;
+	
+	<=nrel_with_whom: contract_guilhoto_and_origen
+	(*
+		<-contract;;
+		=>nrel_with_what: origen_lol;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 03_12_2018;;
+		*);;
+	*);
+
+	=>nrel_citizen_of: Portugal;
+	=>nrel_surname: Guilhoto;
+	=>nrel_first_name: Andre;;

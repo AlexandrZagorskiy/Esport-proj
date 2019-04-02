@@ -1,0 +1,21 @@
+jungler_lol
+
+	<-sc_node_not_relation;
+
+	=> nrel_main_idtf:
+		[jungler](* <-lang_en;; *);
+		[лесник](* <-lang_ru;; *);
+
+<-rrel_sc_key_element: definition_jungler_lol
+	(*
+		<- definition;;
+		=> nrel_main_idtf:
+			[def.(jungler)](* <-lang_en;; *);
+			[опр.(лесник)](* <-lang_ru;; *);;
+
+		<=nrel_sc_text_translation: ...
+		(*			
+			->rrel_example:
+				[Jungler is one of gameroles in games.]  (* <-lang_en;; *);;
+		*);;
+	*);;

@@ -1,0 +1,29 @@
+prosfair
+
+	<-sc_node_not_relation;
+
+	=> nrel_main_idtf:
+		[Tom "Prosfair" Willis](* <-lang_en;; *);
+		[Том "Prosfair" Уиллис](* <-lang_ru;; *);
+	=> nrel_idtf:
+		[Prosfair](* <-lang_en;; *);
+
+	<-player_lol;
+
+	<=nrel_with_whom: contract_prosfair_and_fnatic
+	(*
+		<-contract;;
+		=>nrel_with_what: fnatic_lol;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 07_01_2019;;
+		*);;
+	*);
+
+	=>nrel_citizen_of: United_Kingdom;
+	=>nrel_surname: Willis;
+	=>nrel_first_name: Tom;
+	=>nrel_nickname: Prosfair;
+	=>nrel_birthday: [11.06.1996];
+	=>nrel_gamerole: support_lol;;

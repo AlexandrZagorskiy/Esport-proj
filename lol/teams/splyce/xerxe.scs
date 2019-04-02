@@ -1,0 +1,30 @@
+xerxe
+
+	<-sc_node_not_relation;
+
+	=> nrel_main_idtf:
+		[Andrei "Xerxe" Dragomir](* <-lang_en;; *);
+		[Андрей "Xerxe" Драгомир](* <-lang_ru;; *);
+	=> nrel_idtf:
+		[Xerxe](* <-lang_en;; *);
+
+	<-player_lol;
+
+	<=nrel_with_whom: contract_xerxe_and_splyce
+	(*
+		<-contract;;
+		=>nrel_with_what: splyce_lol;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 28_11_2017;;
+			->rrel_end: 18_11_2019;;
+		*);;
+	*);
+
+	=>nrel_citizen_of: Romania;
+	=>nrel_surname: Dragomir;
+	=>nrel_first_name: Andrei;
+	=>nrel_nickname: Xerxe;
+	=>nrel_birthday: [05.11.1999];
+	=>nrel_gamerole: jungler_lol;;

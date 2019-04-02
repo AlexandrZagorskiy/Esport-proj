@@ -1,0 +1,29 @@
+rekkles
+
+	<-sc_node_not_relation;
+
+	=> nrel_main_idtf:
+		[Martin "Rekkles" Larsson](* <-lang_en;; *);
+		[Мартин "Rekkles" Ларссон](* <-lang_ru;; *);
+	=> nrel_idtf:
+		[Rekkles](* <-lang_en;; *);
+
+	<-player_lol;
+
+	<=nrel_with_whom: contract_rekkles_and_fnatic
+	(*
+		<-contract;;
+		=>nrel_with_what: fnatic_lol;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 14_05_2015;;
+		*);;
+	*);
+
+	=>nrel_citizen_of: Sweden;
+	=>nrel_surname: Larsson;
+	=>nrel_first_name: Martin;
+	=>nrel_nickname: Rekkles;
+	=>nrel_birthday: [20.09.1996];
+	=>nrel_gamerole: bot_laner_lol;;
