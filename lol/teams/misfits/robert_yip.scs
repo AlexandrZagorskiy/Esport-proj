@@ -5,7 +5,7 @@ robert_yip
 	=> nrel_main_idtf:
 		[Robert Yip](* <-lang_en;; *);
 		[Роберт Юип](* <-lang_ru;; *);
-	<-coach;;
+	<-coach;
 	
 	<=nrel_with_whom: contract_robert_yip_and_misfits_gaming
 	(*
