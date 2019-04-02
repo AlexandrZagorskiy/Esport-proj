@@ -1,8 +1,0 @@
-rrel_ad_carry
-
-	<-sc_node_role_relation;
-	<-oriented_relation;
-	
-	=> nrel_main_idtf:
-		[АД-керри*](* <-lang_ru;; *);
-		[Ad-carry*](* <-lang_en;; *);;

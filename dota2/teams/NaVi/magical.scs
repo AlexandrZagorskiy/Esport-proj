@@ -15,7 +15,6 @@ magical
 	=>nrel_first_name: Idan;
 	=>nrel_nickname: MagicaL;
 	=>nrel_birthday: [25.10.1998];
-	=>nrel_gamerole: mid_laner;
 
 	<=nrel_with_whom: contract_magical_and_20_min_afk_les_dota
 	(*

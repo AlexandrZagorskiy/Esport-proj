@@ -1,8 +1,0 @@
-rrel_support
-
-	<-sc_node_role_relation;
-	<-oriented_relation;
-	
-	=> nrel_main_idtf:
-		[Поддержка*](* <-lang_ru;; *);
-		[support*](* <-lang_en;; *);;

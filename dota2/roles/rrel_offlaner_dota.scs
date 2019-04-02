@@ -1,0 +1,11 @@
+rrel_offlaner_dota
+
+	<-sc_node_role_relation;
+	<-oriented_relation;
+	
+	=> nrel_main_idtf:
+		[offlaner'](* <-lang_en;; *);
+		[оффлейнер'](* <-lang_ru;; *);
+	=> nrel_idtf:
+		[хардлайнер'](* <-lang_ru;; *);
+		[третья позиция'](* <-lang_ru;; *);;

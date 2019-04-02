@@ -15,7 +15,6 @@ chuvash
 	=>nrel_first_name: Evgeniy;
 	=>nrel_nickname: Chuvash;
 	=>nrel_birthday: [10.05.1998];
-	=>nrel_gamerole: support;
 
   <=nrel_with_whom: contract_chuvash_and_comanche_dota
 	(*

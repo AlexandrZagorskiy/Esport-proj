@@ -15,7 +15,6 @@ crystallize
 	=>nrel_first_name: Vladislav;
 	=>nrel_nickname: Crystallize;
 	=>nrel_birthday: [08.08.1999];
-	=>nrel_gamerole: carry;
 
 	<=nrel_with_whom: contract_crystallize_and_chew_toy_dota
 	(*

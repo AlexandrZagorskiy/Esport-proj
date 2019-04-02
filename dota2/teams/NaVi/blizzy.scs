@@ -15,8 +15,6 @@ blizzy
 	=>nrel_first_name: Evgeniy;
 	=>nrel_nickname: Blizzy;
 	=>nrel_birthday: [05.01.1995];
-	=>nrel_gamerole: offlaner;
-	=>nrel_gamerole: support;
 
   <=nrel_with_whom: contract_blizzy_and_no_lifer5_dota
 	(*

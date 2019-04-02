@@ -1,0 +1,8 @@
+rrel_coach_dota
+
+	<-sc_node_role_relation;
+	<-oriented_relation;
+	
+	=> nrel_main_idtf:
+		[coach'](* <-lang_en;; *);
+		[тренер'](* <-lang_ru;; *);;

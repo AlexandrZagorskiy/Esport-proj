@@ -1,0 +1,11 @@
+rrel_carry_dota
+
+	<-sc_node_role_relation;
+	<-oriented_relation;
+	
+	=> nrel_main_idtf:
+		[carry'](* <-lang_en;; *);
+		[керри'](* <-lang_ru;; *);
+	=> nrel_idtf:
+		[кор'](* <-lang_ru;; *);
+		[первая позиция'](* <-lang_ru;; *);;

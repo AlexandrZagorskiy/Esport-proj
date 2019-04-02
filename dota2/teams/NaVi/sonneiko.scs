@@ -15,8 +15,6 @@ sonneiko
 	=>nrel_first_name: Akbar;
 	=>nrel_nickname: SoNNeikO;
 	=>nrel_birthday: [16.05.1997];
-	=>nrel_gamerole: support;	
-	=>nrel_gamerole: captain;
 
   <=nrel_with_whom: contract_sonneiko_and_vega_squadron_dota
 	(*
