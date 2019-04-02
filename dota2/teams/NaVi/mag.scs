@@ -15,8 +15,6 @@ mag
 	=>nrel_first_name: Andrey;
 	=>nrel_nickname: Mag;
 	=>nrel_birthday: [10.05.1990];
-	=>nrel_gamerole: coach;
-	=>nrel_gamerole: offlaner;
 
   <=nrel_with_whom: contract_mag_and_dts_gaming_dota
 	(*
