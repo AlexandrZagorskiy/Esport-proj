@@ -8,7 +8,7 @@ yamatocannon
 	=> nrel_idtf:
 		[Yamato Cannon](* <-lang_en;; *);	
 	
-	<-trainer;
+	<-coach;
 	
 	<=nrel_with_whom: contract_yamatocannon_and_team_vitality
 	(*
@@ -24,5 +24,4 @@ yamatocannon
 	=>nrel_citizen_of: Sweden;
 	=>nrel_surname: Mebdi;
 	=>nrel_first_name: Jakob;
-	=>nrel_birthday: [30.12.1995];
-	=>nrel_gamerole: trainer;;
+	=>nrel_birthday: [30.12.1995];;

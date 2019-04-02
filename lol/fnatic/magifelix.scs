@@ -8,7 +8,7 @@ magifelix
 	=> nrel_idtf:
 		[Magifelix](* <-lang_en;; *);
 
-	<-player;
+	<-player_lol;
 
 	<=nrel_with_whom: contract_Magifelix_and_fnatic
 	(*
@@ -26,4 +26,4 @@ magifelix
 	=>nrel_first_name: Felix;
 	=>nrel_nickname: Magifelix;
 	=>nrel_birthday: [27.02.2000];
-	=>nrel_gamerole: mid_laner;;
+	=>nrel_gamerole: mid_laner_lol;;

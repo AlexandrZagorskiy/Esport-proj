@@ -8,7 +8,7 @@ broxah
 	=> nrel_idtf:
 		[Broxah](* <-lang_en;; *);
 
-	<-player;
+	<-player_lol;
 
 	<=nrel_with_whom: contract_broxah_and_fnatic
 	(*
@@ -26,4 +26,4 @@ broxah
 	=>nrel_first_name: Mads;
 	=>nrel_nickname: Broxah;
 	=>nrel_birthday: [12.08.1997];
-	=>nrel_gamerole: junger;;
+	=>nrel_gamerole: junger_lol;;

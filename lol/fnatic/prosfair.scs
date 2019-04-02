@@ -8,7 +8,7 @@ prosfair
 	=> nrel_idtf:
 		[Prosfair](* <-lang_en;; *);
 
-	<-player;
+	<-player_lol;
 
 	<=nrel_with_whom: contract_prosfair_and_fnatic
 	(*
@@ -26,4 +26,4 @@ prosfair
 	=>nrel_first_name: Tom;
 	=>nrel_nickname: Prosfair;
 	=>nrel_birthday: [11.06.1996];
-	=>nrel_gamerole: support;;
+	=>nrel_gamerole: support_lol;;

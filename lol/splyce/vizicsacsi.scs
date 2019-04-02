@@ -8,7 +8,7 @@ vizicsacsi
 	=> nrel_idtf:
 		[Vizicsacsi](* <-lang_en;; *);
 
-	<-player;
+	<-player_lol;
 
 	<=nrel_with_whom: contract_vizicsacsi_and_splyce
 	(*
@@ -27,4 +27,4 @@ vizicsacsi
 	=>nrel_first_name: Kiss;
 	=>nrel_nickname: Vizicsacsi;
 	=>nrel_birthday: [05.10.1994];
-	=>nrel_gamerole: top_laner;;
+	=>nrel_gamerole: top_laner_lol;;

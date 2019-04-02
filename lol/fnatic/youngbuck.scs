@@ -8,7 +8,7 @@ youngbuck
 	=> nrel_idtf:
 		[YoungBuck](* <-lang_en;; *);	
 	
-	<-trainer;
+	<-coach;
 	
 	<=nrel_with_whom: contract_youngbuck_and_fnatic
 	(*
@@ -24,5 +24,4 @@ youngbuck
 	=>nrel_citizen_of: Netherlands;
 	=>nrel_surname: Steltenpool;
 	=>nrel_first_name: Joey;
-	=>nrel_birthday: [27.07.1991];
-	=>nrel_gamerole: trainer;;
+	=>nrel_birthday: [27.07.1991];;

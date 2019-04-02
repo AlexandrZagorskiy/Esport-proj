@@ -8,7 +8,7 @@ attila
 	=> nrel_idtf:
 		[Attila](* <-lang_en;; *);
 
-	<-player;
+	<-player_lol;
 
 	<=nrel_with_whom: contract_attila_and_team_vitality
 	(*
@@ -26,4 +26,4 @@ attila
 	=>nrel_first_name: Amadeu;
 	=>nrel_nickname: Attila;
 	=>nrel_birthday: [26.02.1996];
-	=>nrel_gamerole: bot_laner;;
+	=>nrel_gamerole: bot_laner_lol;;

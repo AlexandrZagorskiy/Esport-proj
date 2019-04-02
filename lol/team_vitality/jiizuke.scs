@@ -8,7 +8,7 @@ jiizuke
 	=> nrel_idtf:
 		[Jiizuke](* <-lang_en;; *);
 
-	<-player;
+	<-player_lol;
 
 	<=nrel_with_whom: contract_jiizuke_and_team_vitality
 	(*
@@ -26,4 +26,4 @@ jiizuke
 	=>nrel_first_name: Daniele;
 	=>nrel_nickname: Jiizuke;
 	=>nrel_birthday: [14.01.1996];
-	=>nrel_gamerole: mid_laner;;
+	=>nrel_gamerole: mid_laner_lol;;

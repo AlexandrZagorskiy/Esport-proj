@@ -8,7 +8,7 @@ xmatty
 	=> nrel_idtf:
 		[xMatty](* <-lang_en;; *);
 
-	<-player;
+	<-player_lol;
 
 	<=nrel_with_whom: contract_xmatty_and_fnatic
 	(*
@@ -26,4 +26,4 @@ xmatty
 	=>nrel_first_name: Matthew;
 	=>nrel_nickname: xMatty;
 	=>nrel_birthday: [16.07.1999];
-	=>nrel_gamerole: bot_laner;;
+	=>nrel_gamerole: bot_laner_lol;;

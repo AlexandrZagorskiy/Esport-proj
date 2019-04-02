@@ -8,7 +8,7 @@ xerxe
 	=> nrel_idtf:
 		[Xerxe](* <-lang_en;; *);
 
-	<-player;
+	<-player_lol;
 
 	<=nrel_with_whom: contract_xerxe_and_splyce
 	(*
@@ -27,4 +27,4 @@ xerxe
 	=>nrel_first_name: Andrei;
 	=>nrel_nickname: Xerxe;
 	=>nrel_birthday: [05.11.1999];
-	=>nrel_gamerole: jungler;;
+	=>nrel_gamerole: jungler_lol;;

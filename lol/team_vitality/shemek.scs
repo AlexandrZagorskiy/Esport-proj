@@ -8,7 +8,7 @@ shemek
 	=> nrel_idtf:
 		[Shemek](* <-lang_en;; *);
 
-	<-player;
+	<-player_lol;
 
 	<=nrel_with_whom: contract_shemek_and_team_vitality
 	(*
@@ -26,4 +26,4 @@ shemek
 	=>nrel_first_name: Damien;
 	=>nrel_nickname: Shemek;
 	=>nrel_birthday: [07.01.1996];
-	=>nrel_gamerole: top_laner;;
+	=>nrel_gamerole: top_laner_lol;;

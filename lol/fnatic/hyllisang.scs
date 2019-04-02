@@ -8,7 +8,7 @@ hyllisang
 	=> nrel_idtf:
 		[Hylissang](* <-lang_en;; *);
 
-	<-player;
+	<-player_lol;
 
 	<=nrel_with_whom: contract_hylissang_and_fnatic
 	(*
@@ -26,4 +26,4 @@ hyllisang
 	=>nrel_first_name: Zdravets;
 	=>nrel_nickname: Hylissang;
 	=>nrel_birthday: [30.04.1995];
-	=>nrel_gamerole: support;;
+	=>nrel_gamerole: support_lol;;

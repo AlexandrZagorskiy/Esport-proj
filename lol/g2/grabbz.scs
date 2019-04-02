@@ -8,7 +8,7 @@ grabbz
 	=> nrel_idtf:
 		[GrabbZ](* <-lang_en;; *);
 
-	<-trainer;
+	<-coach;
 	
 	<=nrel_with_whom: contract_grabbz_and_g2_esports_lol
 	(*
@@ -23,5 +23,4 @@ grabbz
 
 	=>nrel_citizen_of: Germany;
 	=>nrel_surname: Lohmann;
-	=>nrel_first_name: Fabian;
-	=>nrel_gamerole: trainer;;
+	=>nrel_first_name: Fabian;;

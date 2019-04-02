@@ -8,7 +8,7 @@ jactroll
 	=> nrel_idtf:
 		[Jactroll](* <-lang_en;; *);
 
-	<-player;
+	<-player_lol;
 
 	<=nrel_with_whom: contract_jactroll_and_team_vitality
 	(*
@@ -26,4 +26,4 @@ jactroll
 	=>nrel_first_name: Jakub;
 	=>nrel_nickname: Jactroll;
 	=>nrel_birthday: [05.08.1998];
-	=>nrel_gamerole: support;;
+	=>nrel_gamerole: support_lol;;

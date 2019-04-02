@@ -8,7 +8,7 @@ mowgli
 	=> nrel_idtf:
 		[Mowgli](* <-lang_en;; *);
 
-	<-player;
+	<-player_lol;
 
 	<=nrel_with_whom: contract_mowgli_and_team_vitality
 	(*
@@ -26,4 +26,4 @@ mowgli
 	=>nrel_first_name: Lee;
 	=>nrel_nickname: Mowgli;
 	=>nrel_birthday: [14.04.1998];
-	=>nrel_gamerole: jungle;;
+	=>nrel_gamerole: jungler_lol;;

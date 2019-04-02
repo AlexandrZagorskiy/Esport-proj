@@ -8,7 +8,7 @@ guilhoto
 	=> nrel_idtf:
 		[Guilhoto](* <-lang_en;; *);
 
-	<-trainer;
+	<-coach;
 	
 	<=nrel_with_whom: contract_guilhoto_and_origen
 	(*
@@ -23,5 +23,4 @@ guilhoto
 
 	=>nrel_citizen_of: Portugal;
 	=>nrel_surname: Guilhoto;
-	=>nrel_first_name: Andre;
-	=>nrel_gamerole: trainer;;
+	=>nrel_first_name: Andre;;

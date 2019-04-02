@@ -8,7 +8,7 @@ shikari
 	=> nrel_idtf:
 		[Shikari](* <-lang_en;; *);
 
-	<-player;
+	<-player_lol;
 
 	<=nrel_with_whom: contract_shikari_and_fnatic
 	(*
@@ -26,4 +26,4 @@ shikari
 	=>nrel_first_name: Jordan;
 	=>nrel_nickname: Shikari;
 	=>nrel_birthday: [16.05.1999];
-	=>nrel_gamerole: top_laner;;
+	=>nrel_gamerole: top_laner_lol;;
