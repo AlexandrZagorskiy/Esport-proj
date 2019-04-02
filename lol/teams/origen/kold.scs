@@ -1,0 +1,30 @@
+kold
+
+	<-sc_node_not_relation;
+
+	=> nrel_main_idtf:
+		[Jonas "Kold" Andersen](* <-lang_en;; *);
+		[Джонас "Kold" Андерсен](* <-lang_ru;; *);
+	=> nrel_idtf:
+		[Kold](* <-lang_en;; *);
+
+	<-player_lol;
+
+	<=nrel_with_whom: contract_kold_and_origen
+	(*
+		<-contract;;
+		=>nrel_with_what: origen_lol;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 03_12_2018;;
+			->rrel_end: 16_11_2020;;
+		*);;
+	*);
+
+	=>nrel_citizen_of: Denmark;
+	=>nrel_surname: Andersen;
+	=>nrel_first_name: Jonas;
+	=>nrel_nickname: Kold;
+	=>nrel_birthday: [22.02.1995];
+	=>nrel_gamerole: jungler_lol;;
