@@ -9,48 +9,33 @@ the_international_2013
 
 	<-tournament;
 
-	<-rrel_sc_key_element: definition_the_international_2013
-	(*
-		<- definition;;
-		=> nrel_main_idtf:
-			[def.(The International 2013)](* <-lang_en;; *);
-			[опр.(The International 2013)](* <-lang_ru;; *);;
-
-		<=nrel_sc_text_translation: ...
-		(*			
-			->rrel_example:
-				[The International Dota 2 Championships was a double-elimination offline tournament organized by Valve.]  (* <-lang_en;; *);;
-		*);;
-	*);
-
 	=> nrel_organizer: valve;
 	=> nrel_sponsor: valve;
 	=> nrel_type: offline;
-	=> nrel_location: seattle;
+	=> nrel_location: Seattle;
 	=>nrel_prize_pool: [$2,874,380];
-	=>nrel_start_date: [02.08.2013];
-	=>nrel_end_date: [11.08.2013];
-	<= nrel_subdividing: ...
-    (*
-      <- explanation;;
-      => nrel_main_idtf:
-        [Участник](*<-lang_ru;; *);
-        [Participating team](*<-lang_en;; *);;
-			->lgd_gaming;
-			fnatic;
-			invictus_gaming;
-			team_dk;
-			team_dignitas;
-			team_zenith;
-			mufc;
-			alliance;
-			mousesports;
-			team_liquid;
-			lgd_international;
-			orange_esports;
-			tongfu;
+	=>nrel_period: ...
+	(*
+		<-period_of_time;;
+		->rrel_start: 02_08_2013;;
+		->rrel_end: 11_08_2013;;
+	*);
+
+	=>nrel_participate: 
+			lgd_gaming_dota;
+			fnatic_dota;
+			invictus_gaming_dota;
+			team_dk_dota;
+			team_dignitas_dota;
+			team_zenith_dota;
+			mufc_dota;
+			alliance_dota;
+			mousesports_dota;
+			team_liquid_dota;
+			lgd_international_dota;
+			orange_esports_dota;
+			tongfu_dota;
 			natus_vincere_dota;
-			rattlesnake;
-			virtus_pro;;
-		*);;
+			rattlesnake_dota;
+			virtus_pro_dota;;
 

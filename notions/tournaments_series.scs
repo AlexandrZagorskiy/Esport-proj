@@ -1,0 +1,7 @@
+tournaments_series
+
+<-sc_node_not_relation;
+
+	=> nrel_main_idtf:
+		[серия турниров](* <-lang_ru;; *);
+		[tournaments series](* <-lang_en;; *);;

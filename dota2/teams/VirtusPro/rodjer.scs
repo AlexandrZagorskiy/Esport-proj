@@ -1,0 +1,196 @@
+rodjer
+
+	<-sc_node_not_relation;
+
+	=> nrel_main_idtf:
+		[Vladimir "RodjER" Nikogosyan](* <-lang_en;; *);
+		[Владимир "RodjER" Никогосян](* <-lang_ru;; *);
+	=> nrel_idtf:
+		[RodjER](* <-lang_en; lang_ru;; *);
+
+	<-player_dota;
+
+	=>nrel_citizen_of: Russia;
+	=>nrel_surname: Nikogosyan;
+	=>nrel_first_name: Vladimir;
+	=>nrel_nickname: RodjER;
+	=>nrel_birthday: 14_12_1993;
+
+  <=nrel_with_whom: contract_rodjer_and_cleave_gaming_dota
+	(*
+		=> nrel_main_idtf:
+			[Сontract between RodjER and Cleave Gaming](* <-lang_en;; *);
+			[Контракт между RodjER и Cleave Gaming](* <-lang_ru;; *);;
+		<-contract;;
+		=>nrel_with_what: cleave_gaming_dota;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: xx_xx_2014;;
+			->rrel_end: 19_03_2014;;
+		*);;
+	*);
+
+  <=nrel_with_whom: contract_rodjer_and_aware_gaming_dota
+	(*
+		=> nrel_main_idtf:
+			[Сontract between RodjER and Aware Gaming](* <-lang_en;; *);
+			[Контракт между RodjER и Aware Gaming](* <-lang_ru;; *);;
+		<-contract;;
+		=>nrel_with_what: aware_gaming_dota;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 19_03_2014;;
+			->rrel_end: xx_xx_2014;;
+		*);;
+	*);
+
+  <=nrel_with_whom: contract_rodjer_and_hard_n_play_dota
+	(*
+		=> nrel_main_idtf:
+			[Сontract between RodjER and Hard'N'play](* <-lang_en;; *);
+			[Контракт между RodjER и Hard'N'play](* <-lang_ru;; *);;
+		<-contract;;
+		=>nrel_with_what: hard_n_play_dota;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 21_10_2015;;
+			->rrel_end: 27_10_2015;;
+		*);;
+	*);
+
+  <=nrel_with_whom: contract_rodjer_and_prodota_gaming_dota
+	(*
+		=> nrel_main_idtf:
+			[Сontract between RodjER and Prodota Gaming](* <-lang_en;; *);
+			[Контракт между RodjER и Prodota Gaming](* <-lang_ru;; *);;
+		<-contract;;
+		=>nrel_with_what: prodota_gaming_dota;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 30_01_2016;;
+			->rrel_end: 02_06_2016;;
+		*);;
+	*);
+
+  <=nrel_with_whom: contract_rodjer_and_gus_gaming_dota
+	(*
+		=> nrel_main_idtf:
+			[Сontract between RodjER and GUS Gaming](* <-lang_en;; *);
+			[Контракт между RodjER и GUS Gaming](* <-lang_ru;; *);;
+		<-contract;;
+		=>nrel_with_what: gus_gaming_dota;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: xx_06_2016;;
+			->rrel_end: xx_07_2016;;
+		*);;
+	*);
+
+  <=nrel_with_whom: contract_rodjer_and_flipside_tactics_dota
+	(*
+		=> nrel_main_idtf:
+			[Сontract between RodjER and FlipSid3 Tactics](* <-lang_en;; *);
+			[Контракт между RodjER и FlipSid3 Tactics](* <-lang_ru;; *);;
+		<-contract;;
+		=>nrel_with_what: flipside_tactics_dota;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 23_08_2016;;
+			->rrel_end: xx_10_2016;;
+		*);;
+	*);
+
+  <=nrel_with_whom: contract_rodjer_and_skorokhod_plus_4_dota
+	(*
+		=> nrel_main_idtf:
+			[Сontract between RodjER and Skorokhod+4](* <-lang_en;; *);
+			[Контракт между RodjER и Skorokhod+4](* <-lang_ru;; *);;
+		<-contract;;
+		=>nrel_with_what: skorokhod_plus_4_dota;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: xx_10_2016;;
+			->rrel_end: 14_11_2016;;
+		*);;
+	*);
+
+  <=nrel_with_whom: contract_rodjer_and_rebels_dota
+	(*
+		=> nrel_main_idtf:
+			[Сontract between RodjER and Rebels](* <-lang_en;; *);
+			[Контракт между RodjER и Rebels](* <-lang_ru;; *);;
+		<-contract;;
+		=>nrel_with_what: rebels_dota;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 14_11_2016;;
+			->rrel_end: 29_01_2017;;
+		*);;
+	*);
+
+  <=nrel_with_whom: contract_rodjer_and_effect_dota
+	(*
+		=> nrel_main_idtf:
+			[Сontract between RodjER and Effect](* <-lang_en;; *);
+			[Контракт между RodjER и Effect](* <-lang_ru;; *);;
+		<-contract;;
+		=>nrel_with_what: effect_dota;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 29_01_2017;;
+			->rrel_end: 23_05_2017;;
+		*);;
+	*);
+
+  <=nrel_with_whom: contract_rodjer_and_team_empire_dota
+	(*
+		=> nrel_main_idtf:
+			[Сontract between RodjER and Team Empire](* <-lang_en;; *);
+			[Контракт между RodjER и Team Empire](* <-lang_ru;; *);;
+		<-contract;;
+		=>nrel_with_what: team_empire_dota;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 23_05_2017;;
+			->rrel_end: 04_09_2017;;
+		*);;
+	*);
+
+  <=nrel_with_whom: contract_rodjer_and_natus_vincere_dota
+	(*
+		=> nrel_main_idtf:
+			[Сontract between RodjER and Natus Vincere](* <-lang_en;; *);
+			[Контракт между RodjER и Natus Vincere](* <-lang_ru;; *);;
+		<-contract;;
+		=>nrel_with_what: natus_vincere_dota;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 04_09_2017;;
+			->rrel_end: 01_02_2018;;
+		*);;
+	*);
+
+  <=nrel_with_whom: contract_RodjER_and_virtus_pro_dota
+	(*
+		=> nrel_main_idtf:
+			[Сontract between RodjER and Virtus.pro](* <-lang_en;; *);
+			[Контракт между RodjER и Virtus.pro](* <-lang_ru;; *);;
+		<-contract;;
+		=>nrel_with_what: virtus_pro_dota;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 01_02_2018;;
+		*);;
+	*);;

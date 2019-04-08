@@ -9,47 +9,32 @@ the_international_2014
 
 	<-tournament;
 
-	<-rrel_sc_key_element: definition_the_international_2014
-	(*
-		<- definition;;
-		=> nrel_main_idtf:
-			[def.(The International 2014)](* <-lang_en;; *);
-			[опр.(The International 2014)](* <-lang_ru;; *);;
-
-		<=nrel_sc_text_translation: ...
-		(*			
-			->rrel_example:
-				[The International Dota 2 Championships was a double-elimination offline tournament organized by Valve.]  (* <-lang_en;; *);;
-		*);;
-	*);
-
 	=> nrel_organizer: valve;
 	=> nrel_sponsor: valve;
 	=> nrel_type: offline;
-	=> nrel_location: seattle;
+	=> nrel_location: Seattle;
 	=>nrel_prize_pool: [$10,923,977];
-	=>nrel_start_date: [08.07.2014];
-	=>nrel_end_date: [21.07.2014];
-	<= nrel_subdividing: ...
-    (*
-      <- explanation;;
-      => nrel_main_idtf:
-        [Участник](*<-lang_ru;; *);
-        [Participating team](*<-lang_en;; *);;
-			->lgd_gaming;
-			fnatic;
-			invictus_gaming;
-			team_dk;
-			evil_geniuses;
-			cloud_nine;
-			titan;
-			alliance;
-			mousesports;
-			team_liquid;
-			newbee;
-			team_empire;
-			natus_vincere_north_america;
+	=>nrel_period: ...
+	(*
+		<-period_of_time;;
+		->rrel_start: 08_07_2014;;
+		->rrel_end: 21_07_2014;;
+	*);
+
+	=>nrel_participate: 
+			lgd_gaming_dota;
+			fnatic_dota;
+			invictus_gaming_dota;
+			team_dk_dota;
+			evil_geniuses_dota;
+			cloud_nine_dota;
+			titan_dota;
+			alliance_dota;
+			mousesports_dota;
+			team_liquid_dota;
+			newbee_dota;
+			team_empire_dota;
+			natus_vincere_north_america_dota;
 			natus_vincere_dota;
-			arrow_gaming;
-			vici_gaming;;
-		*);;
+			arrow_gaming_dota;
+			vici_gaming_dota;;

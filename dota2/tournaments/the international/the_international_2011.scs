@@ -12,31 +12,30 @@ the_international_2011
 	=> nrel_organizer: valve;
 	=> nrel_sponsor: valve;
 	=> nrel_type: offline;
-	=> nrel_location: cologne;
+	=> nrel_location: Cologne;
 	=>nrel_prize_pool: [$1,600,000];
-	=>nrel_start_date: [17.08.2011];
-	=>nrel_end_date: [21.08.2011];
-	<= nrel_subdividing: ...
-    (*
-      <- explanation;;
-      => nrel_main_idtf:
-        [Участник](*<-lang_ru;; *);
-        [Participating team](*<-lang_en;; *);;
-			->ehome;
-			invictus_gaming;
-			storm_games_clan;
-			mineski;
-			nirvana_int;
-			tyloo;
-			ok_nirvana_cn;
-			virus_gaming;
-			meet_your_makers;
-			moskow_five;
-			mith_trust;
-			mufc;
+	=>nrel_period: ...
+	(*
+		<-period_of_time;;
+		->rrel_start: 17_08_2011;;
+		->rrel_end: 21_08_2011;;
+	*);
+
+	=>nrel_participate: 
+			ehome_dota;
+			invictus_gaming_dota;
+			storm_games_clan_dota;
+			mineski_dota;
+			nirvana_int_dota;
+			tyloo_dota;
+			ok_nirvana_cn_dota;
+			virus_gaming_dota;
+			meet_your_makers_dota;
+			moskow_five_dota;
+			mith_trust_dota;
+			mufc_dota;
 			natus_vincere_dota;
-			scythe_gaming;
-			next_evolution;
-			gosu_gamers;;
-		*);;
+			scythe_gaming_dota;
+			next_evolution_dota;
+			gosu_gamers_dota;;
 

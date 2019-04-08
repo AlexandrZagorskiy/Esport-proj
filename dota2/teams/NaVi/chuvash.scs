@@ -14,7 +14,7 @@ chuvash
 	=>nrel_surname: Makarov;
 	=>nrel_first_name: Evgeniy;
 	=>nrel_nickname: Chuvash;
-	=>nrel_birthday: [10.05.1998];
+	=>nrel_birthday: 10_05_1998;
 
   <=nrel_with_whom: contract_chuvash_and_comanche_dota
 	(*
@@ -34,21 +34,6 @@ chuvash
 			<-period_of_time;;
 			->rrel_start: 03_01_2017;;
 			->rrel_end: 17_03_2017;;
-		*);;
-	*);
-
-  <=nrel_with_whom: contract_chuvash_and_effect_dota
-	(*
-		=> nrel_main_idtf:
-			[Сontract between Chuvash and Effect](* <-lang_en;; *);
-			[Контракт между Chuvash и Effect](* <-lang_ru;; *);;
-		<-contract;;
-		=>nrel_with_what: effect_dota;;
-		=>nrel_period: ...
-		(*
-			<-period_of_time;;
-			->rrel_start: xx_11_2016;;
-			->rrel_end: 03_01_2017;;
 		*);;
 	*);
 

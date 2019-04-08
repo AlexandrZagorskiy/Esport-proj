@@ -14,7 +14,7 @@ blizzy
 	=>nrel_surname: Ree;
 	=>nrel_first_name: Evgeniy;
 	=>nrel_nickname: Blizzy;
-	=>nrel_birthday: [05.01.1995];
+	=>nrel_birthday: 05_01_1995;
 
   <=nrel_with_whom: contract_blizzy_and_no_lifer5_dota
 	(*

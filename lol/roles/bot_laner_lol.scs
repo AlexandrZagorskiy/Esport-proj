@@ -9,7 +9,7 @@ bot_laner_lol
 	(*
 		<- definition;;
 		=> nrel_main_idtf:
-			[def.(bot laner)](* <-lang_en;; *);
+			[def.(bot laner)](* <-lang_en;; *);;
 			<=nrel_sc_text_translation: ...
 		(*			
 			->rrel_example:
