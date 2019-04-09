@@ -1,0 +1,220 @@
+solo
+
+	<-sc_node_not_relation;
+
+	=> nrel_main_idtf:
+		[Alexei "Solo" Berezin](* <-lang_en;; *);
+		[Алексей "Solo" Березин](* <-lang_ru;; *);
+	=> nrel_idtf:
+		[Solo](* <-lang_en; lang_ru;; *);
+
+	<-player_dota;
+
+	=>nrel_citizen_of: Russia;
+	=>nrel_surname: Berezin;
+	=>nrel_first_name: Alexei;
+	=>nrel_nickname: Solo;
+	=>nrel_birthday: 07_08_1990;
+
+  <=nrel_with_whom: contract_solo_and_moscow_five_dota
+	(*
+		=> nrel_main_idtf:
+			[Сontract between Solo and Moscow Five](* <-lang_en;; *);
+			[Контракт между Solo и Moscow Five](* <-lang_ru;; *);;
+		<-contract;;
+		=>nrel_with_what: moscow_five_dota;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 16_09_2012;;
+			->rrel_end: 01_11_2012;;
+		*);;
+	*);
+
+  <=nrel_with_whom: contract_solo_and_eclypsia_dota
+	(*
+		=> nrel_main_idtf:
+			[Сontract between Solo and Eclypsia](* <-lang_en;; *);
+			[Контракт между Solo и Eclypsia](* <-lang_ru;; *);;
+		<-contract;;
+		=>nrel_with_what: eclypsia_dota;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 12_11_2012;;
+			->rrel_end: 12_12_2012;;
+		*);;
+	*);
+
+  <=nrel_with_whom: contract_solo_and_united_sexy_boys_dota
+	(*
+		=> nrel_main_idtf:
+			[Сontract between Solo and United Sexy Boys](* <-lang_en;; *);
+			[Контракт между Solo и United Sexy Boys](* <-lang_ru;; *);;
+		<-contract;;
+		=>nrel_with_what: united_sexy_boys_dota;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 12_12_2012;;
+			->rrel_end: 01_01_2013;;
+		*);;
+	*);
+
+  <=nrel_with_whom: contract_solo_and_xx5_gaming_dota
+	(*
+		=> nrel_main_idtf:
+			[Сontract between Solo and XX5 Gaming](* <-lang_en;; *);
+			[Контракт между Solo и XX5 Gaming](* <-lang_ru;; *);;
+		<-contract;;
+		=>nrel_with_what: xx5_gaming_dota;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 01_01_2013;;
+			->rrel_end: 18_01_2013;;
+		*);;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 25_01_2015;;
+			->rrel_end: xx_03_2015;;
+		*);;
+	*);
+
+  <=nrel_with_whom: contract_solo_and_ice_climbers_dota
+	(*
+		=> nrel_main_idtf:
+			[Сontract between Solo and Ice Climbers](* <-lang_en;; *);
+			[Контракт между Solo и Ice Climbers](* <-lang_ru;; *);;
+		<-contract;;
+		=>nrel_with_what: ice_climbers_dota;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 18_01_2013;;
+			->rrel_end: 10_02_2013;;
+		*);;
+	*);
+
+  <=nrel_with_whom: contract_solo_and_3d_clan_dota
+	(*
+		=> nrel_main_idtf:
+			[Сontract between Solo and 3D!Clan](* <-lang_en;; *);
+			[Контракт между Solo и 3D!Clan](* <-lang_ru;; *);;
+		<-contract;;
+		=>nrel_with_what: 3d_clan_dota;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 10_02_2013;;
+			->rrel_end: 20_03_2013;;
+		*);;
+	*);
+
+  <=nrel_with_whom: contract_solo_and_rox_dota
+	(*
+		=> nrel_main_idtf:
+			[Сontract between Solo and RoX](* <-lang_en;; *);
+			[Контракт между Solo и RoX](* <-lang_ru;; *);;
+		<-contract;;
+		=>nrel_with_what: rox_dota;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 20_03_2013;;
+			->rrel_end: 21_06_2013;;
+		*);;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 08_10_2013;;
+			->rrel_end: 25_10_2013;;
+		*);;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 13_02_2014;;
+			->rrel_end: 31_05_2014;;
+		*);;
+	*);
+
+  <=nrel_with_whom: contract_solo_and_poseidon_dota
+	(*
+		=> nrel_main_idtf:
+			[Сontract between Solo and Poseidon](* <-lang_en;; *);
+			[Контракт между Solo и Poseidon](* <-lang_ru;; *);;
+		<-contract;;
+		=>nrel_with_what: poseidon_dota;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 05_11_2013;;
+			->rrel_end: 01_12_2013;;
+		*);;
+	*);
+
+  <=nrel_with_whom: contract_solo_and_relax_dota
+	(*
+		=> nrel_main_idtf:
+			[Сontract between Solo and Relax](* <-lang_en;; *);
+			[Контракт между Solo и Relax](* <-lang_ru;; *);;
+		<-contract;;
+		=>nrel_with_what: relax_dota;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 01_12_2013;;
+			->rrel_end: 05_12_2013;;
+		*);;
+	*);
+
+  <=nrel_with_whom: contract_solo_and_team_empire_dota
+	(*
+		=> nrel_main_idtf:
+			[Сontract between Solo and Team Empire](* <-lang_en;; *);
+			[Контракт между Solo и Team Empire](* <-lang_ru;; *);;
+		<-contract;;
+		=>nrel_with_what: team_empire_dota;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 26_08_2014;;
+			->rrel_end: 10_12_2014;;
+		*);;
+	*);
+
+  <=nrel_with_whom: contract_solo_and_vega_squadron_dota
+	(*
+		=> nrel_main_idtf:
+			[Сontract between Solo and Vega Squadron](* <-lang_en;; *);
+			[Контракт между Solo и Vega Squadron](* <-lang_ru;; *);;
+		<-contract;;
+		=>nrel_with_what: vega_squadron_dota;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 25_04_2015;;
+			->rrel_end: 04_08_2016;;
+		*);;
+	*);
+
+  <=nrel_with_whom: contract_solo_and_virtus_pro_dota
+	(*
+		=> nrel_main_idtf:
+			[Сontract between Solo and Virtus.pro](* <-lang_en;; *);
+			[Контракт между Solo и Virtus.pro](* <-lang_ru;; *);;
+		<-contract;;
+		=>nrel_with_what: virtus_pro_dota;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 25_10_2013;;
+			->rrel_end: 04_11_2013;;
+		*);;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 04_08_2016;;
+		*);;
+	*);;
