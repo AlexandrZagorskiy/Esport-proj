@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<GWF version="2.0">
+    <staticSector>
+        <node type="node/const/relation" idtf="nrel_with_whom" shapeColor="0" id="114350816" parent="72027144" left="0" top="0" right="101" bottom="25" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="389.242" y="193.254" haveBus="false">
+            <content type="0" mime_type="" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="chuvash" shapeColor="0" id="114354128" parent="72027144" left="0" top="0" right="53" bottom="25" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="308.242" y="119.254" haveBus="false">
+            <content type="0" mime_type="" file_name=""/>
+        </node>
+        <node type="node/var/general_node" idtf="" shapeColor="0" id="114353984" parent="72027144" x="316.742" y="244.754" haveBus="false">
+            <content type="0" mime_type="" file_name=""/>
+        </node>
+        <node type="node/const/group" idtf="contract" shapeColor="0" id="114353840" parent="72027144" left="0" top="0" right="55" bottom="25" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="319.742" y="304.754" haveBus="false">
+            <content type="0" mime_type="" file_name=""/>
+        </node>
+        <arc type="arc/var/pos" idtf="" shapeColor="0" id="115285032" parent="72027144" id_b="114350816" id_e="115291416" b_x="389.242" b_y="193.254" e_x="7.24221" e_y="-64.7463" dotBBalance="0" dotEBalance="0.394514">
+            <points/>
+        </arc>
+        <arc type="arc/var/pos" idtf="" shapeColor="0" id="115287384" parent="72027144" id_b="114353840" id_e="114353984" b_x="319.742" b_y="304.754" e_x="316.742" e_y="244.754" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <pair type="pair/var/orient" idtf="" shapeColor="0" id="115291416" parent="72027144" id_b="114353984" id_e="114354128" b_x="316.742" b_y="244.754" e_x="308.242" e_y="119.254" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <contour type="" idtf="pattern_find_contracts_with_chuvash" shapeColor="0" id="72027144" parent="0" left="0" top="0" right="218" bottom="25" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10">
+            <points>
+                <point x="278.242" y="94.2537"/>
+                <point x="294.242" y="336.254"/>
+                <point x="404.242" y="341.254"/>
+                <point x="506.242" y="207.254"/>
+                <point x="391.242" y="108.254"/>
+            </points>
+        </contour>
+    </staticSector>
+</GWF>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<GWF version="2.0">
+    <staticSector>
+        <node type="node/const/relation" idtf="nrel_sponsor" shapeColor="0" id="71987224" parent="72656904" left="0" top="0" right="80" bottom="25" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="417.5" y="196.5" haveBus="false">
+            <content type="0" mime_type="" file_name=""/>
+        </node>
+        <node type="node/var/general_node" idtf="" shapeColor="0" id="71990536" parent="72656904" x="348" y="281" haveBus="false">
+            <content type="0" mime_type="" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="virtus_pro_dota" shapeColor="0" id="71987800" parent="72656904" left="0" top="0" right="97" bottom="25" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="345.5" y="142.5" haveBus="false">
+            <content type="0" mime_type="" file_name=""/>
+        </node>
+        <pair type="pair/var/orient" idtf="" shapeColor="0" id="115838208" parent="72656904" id_b="71987800" id_e="71990536" b_x="345.5" b_y="142.5" e_x="348" e_y="281" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <arc type="arc/var/pos" idtf="" shapeColor="0" id="115835016" parent="72656904" id_b="71987224" id_e="115838208" b_x="417.5" b_y="196.5" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.520746">
+            <points/>
+        </arc>
+        <contour type="" idtf="pattern_find_virtus_pro_sponsors" shapeColor="0" id="72656904" parent="0" left="0" top="0" right="196" bottom="25" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10">
+            <points>
+                <point x="306" y="314"/>
+                <point x="307" y="108"/>
+                <point x="577" y="129"/>
+                <point x="648" y="320"/>
+            </points>
+        </contour>
+    </staticSector>
+</GWF>

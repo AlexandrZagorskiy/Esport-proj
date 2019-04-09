@@ -1,0 +1,106 @@
+9pasha
+
+	<-sc_node_not_relation;
+
+	=> nrel_main_idtf:
+		[Pavel "9pasha" Khvastunov](* <-lang_en;; *);
+		[Павел "9pasha" Хвастунов](* <-lang_ru;; *);
+	=> nrel_idtf:
+		[9pasha](* <-lang_en; lang_ru;; *);
+
+	<-player_dota;
+
+	=>nrel_citizen_of: Russia;
+	=>nrel_surname: Khvastunov;
+	=>nrel_first_name: Pavel;
+	=>nrel_nickname: 9pasha;
+	=>nrel_birthday: 30_06_1992;
+
+  <=nrel_with_whom: contract_9pasha_and_ursastroithram_dota
+	(*
+		=> nrel_main_idtf:
+			[Сontract between 9pasha and Ursastroithram](* <-lang_en;; *);
+			[Контракт между 9pasha и Ursastroithram](* <-lang_ru;; *);;
+		<-contract;;
+		=>nrel_with_what: ursastroithram_dota;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: xx_01_2013;;
+			->rrel_end: xx_11_2014;;
+		*);;
+	*);
+
+  <=nrel_with_whom: contract_9pasha_and_buhlo_ugorb_dota
+	(*
+		=> nrel_main_idtf:
+			[Сontract between 9pasha and BUHLO-UroPb](* <-lang_en;; *);
+			[Контракт между 9pasha и BUHLO-UroPb](* <-lang_ru;; *);;
+		<-contract;;
+		=>nrel_with_what: buhlo_ugorb_dota;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: xx_11_2014;;
+			->rrel_end: 24_11_2014;;
+		*);;
+	*);
+
+  <=nrel_with_whom: contract_9pasha_and_vega_squadron_dota
+	(*
+		=> nrel_main_idtf:
+			[Сontract between 9pasha and Vega Squadron](* <-lang_en;; *);
+			[Контракт между 9pasha и Vega Squadron](* <-lang_ru;; *);;
+		<-contract;;
+		=>nrel_with_what: vega_squadron_dota;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 24_11_2014;;
+			->rrel_end: 22_03_2016;;
+		*);;
+	*);
+
+  <=nrel_with_whom: contract_9pasha_and_polarity_dota
+	(*
+		=> nrel_main_idtf:
+			[Сontract between 9pasha and Polarity](* <-lang_en;; *);
+			[Контракт между 9pasha и Polarity](* <-lang_ru;; *);;
+		<-contract;;
+		=>nrel_with_what: polarity_dota;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 25_03_2016;;
+			->rrel_end: 05_06_2016;;
+		*);;
+	*);
+
+  <=nrel_with_whom: contract_9pasha_and_fantastic_five_dota
+	(*
+		=> nrel_main_idtf:
+			[Сontract between 9pasha and Fantastic Five](* <-lang_en;; *);
+			[Контракт между 9pasha и Fantastic Five](* <-lang_ru;; *);;
+		<-contract;;
+		=>nrel_with_what: fantastic_five_dota;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 29_07_2016;;
+			->rrel_end: 04_08_2016;;
+		*);;
+	*);
+
+  <=nrel_with_whom: contract_9pasha_and_virtus_pro_dota
+	(*
+		=> nrel_main_idtf:
+			[Сontract between 9pasha and Virtus.pro](* <-lang_en;; *);
+			[Контракт между 9pasha и Virtus.pro](* <-lang_ru;; *);;
+		<-contract;;
+		=>nrel_with_what: virtus_pro_dota;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 04_08_2016;;
+		*);;
+	*);;

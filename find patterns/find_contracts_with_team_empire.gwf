@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<GWF version="2.0">
+    <staticSector>
+        <node type="node/const/general_node" idtf="team_empire_dota" shapeColor="0" id="114351968" parent="72802336" left="0" top="0" right="112" bottom="25" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="301" y="184" haveBus="false">
+            <content type="0" mime_type="" file_name=""/>
+        </node>
+        <node type="node/const/group" idtf="contract" shapeColor="0" id="114351824" parent="72802336" left="0" top="0" right="55" bottom="25" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="312.5" y="369.5" haveBus="false">
+            <content type="0" mime_type="" file_name=""/>
+        </node>
+        <node type="node/const/relation" idtf="nrel_with_what" shapeColor="0" id="114351680" parent="72802336" left="0" top="0" right="96" bottom="25" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="382" y="258" haveBus="false">
+            <content type="0" mime_type="" file_name=""/>
+        </node>
+        <node type="node/var/general_node" idtf="" shapeColor="0" id="114353696" parent="72802336" x="309.5" y="309.5" haveBus="false">
+            <content type="0" mime_type="" file_name=""/>
+        </node>
+        <pair type="pair/var/orient" idtf="" shapeColor="0" id="115840392" parent="72802336" id_b="114353696" id_e="114351968" b_x="309.5" b_y="309.5" e_x="301" e_y="184" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <arc type="arc/var/pos" idtf="" shapeColor="0" id="115841400" parent="72802336" id_b="114351680" id_e="115840392" b_x="382" b_y="258" e_x="-264" e_y="1" dotBBalance="0" dotEBalance="0.394514">
+            <points/>
+        </arc>
+        <arc type="arc/var/pos" idtf="" shapeColor="0" id="115841232" parent="72802336" id_b="114351824" id_e="114353696" b_x="312.5" b_y="369.5" e_x="309.5" e_y="309.5" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <contour type="" idtf="pattern_find_contracts_with_team_empire" shapeColor="0" id="72802336" parent="0" left="0" top="0" right="245" bottom="25" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10">
+            <points>
+                <point x="271" y="159"/>
+                <point x="287" y="401"/>
+                <point x="397" y="406"/>
+                <point x="499" y="272"/>
+                <point x="384" y="173"/>
+            </points>
+        </contour>
+    </staticSector>
+</GWF>
