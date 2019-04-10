@@ -15,7 +15,7 @@ cabochard
 	=>nrel_first_name: Lucas;
 	=>nrel_nickname: Cabochard;
 	=>nrel_birthday: [14.04.1997];
-	=>nrel_gamerole: top_laner_lol;;
+	=>nrel_gamerole: top_laner_lol;
 
 	<=nrel_with_whom: contract_cabochard_and_heavy_botlane_lol
 	(*
@@ -74,5 +74,5 @@ cabochard
 			<-period_of_time;;
 			->rrel_start: 14_12_2015;;
 		*);;
-	*);
+	*);;
 

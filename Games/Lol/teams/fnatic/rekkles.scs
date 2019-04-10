@@ -15,7 +15,7 @@ rekkles
 	=>nrel_first_name: Martin;
 	=>nrel_nickname: Rekkles;
 	=>nrel_birthday: [20.09.1996];
-	=>nrel_gamerole: bot_laner_lol;;
+	=>nrel_gamerole: bot_laner_lol;
 
 	<=nrel_with_whom: contract_rekkles_and_fnatic_lol
 	(*
@@ -119,5 +119,5 @@ rekkles
 			<-period_of_time;;
 			->rrel_start: 14_05_2015;;
 		*);;
-	*);
+	*);;
 

@@ -14,7 +14,7 @@ toaster
 	=>nrel_surname: Ruplys;
 	=>nrel_first_name: Augustas;
 	=>nrel_nickname: Toaster;
-	=>nrel_gamerole: bot_laner_lol;;
+	=>nrel_gamerole: bot_laner_lol;
 
 	<=nrel_with_whom: contract_toaster_and_gamers_origin_lol
 	(*
@@ -43,5 +43,5 @@ toaster
 			<-period_of_time;;
 			->rrel_start: 11_03_2019;;
 		*);;
-	*);
+	*);;
 

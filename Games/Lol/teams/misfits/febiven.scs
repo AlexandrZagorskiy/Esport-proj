@@ -15,7 +15,7 @@ febiven
 	=>nrel_first_name: Fabian;
 	=>nrel_nickname: Febiven;
 	=>nrel_birthday: [23.09.1996];
-	=>nrel_gamerole: mid_laner_lol;;
+	=>nrel_gamerole: mid_laner_lol;
 	
 	  <=nrel_with_whom: contract_febiven_and_cloud9_eclipse_lol
 	(*
@@ -30,7 +30,7 @@ febiven
 			->rrel_start: 04_01_2014;;
 			->rrel_end: xx_05_2014;;
 		*);;
-	*);;
+	*);
 	
 	
 	<=nrel_with_whom: contract_febiven_and_h2k_lol
@@ -95,16 +95,17 @@ febiven
 	
 	<=nrel_with_whom: contract_febiven_and_misfits_gaming
 	(*
-		(*
+		
 			=> nrel_main_idtf:
 			[Сontract between Febiven and Misfits Gaming](* <-lang_en;; *);
 			[Контракт между Febiven и Misfits Gaming](* <-lang_ru;; *);;
 		<-contract;;
 		=>nrel_with_what: misfits_gaming_lol;;
 		=>nrel_period: ...
+		(*
 			<-period_of_time;;
 			->rrel_start: 20_11_2018;;
 		*);;
-	*);
+	*);;
 	
 		

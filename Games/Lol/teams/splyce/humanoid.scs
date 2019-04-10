@@ -15,7 +15,7 @@ humanoid
 	=>nrel_first_name: Marek;
 	=>nrel_nickname: Humanoid;
 	=>nrel_birthday: [14.03.2000];
-	=>nrel_gamerole: mid_laner_lol;;
+	=>nrel_gamerole: mid_laner_lol;
 
 	<=nrel_with_whom: contract_humanoid_and_esuba_lol
 	(*
@@ -73,5 +73,5 @@ humanoid
 			->rrel_start: 30_11_2018;;
 			->rrel_end: 16_11_2020;;
 		*);;
-	*);
+	*);;
 

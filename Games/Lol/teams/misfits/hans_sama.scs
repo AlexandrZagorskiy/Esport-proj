@@ -15,7 +15,7 @@ hans_sama
 	=>nrel_first_name: Steven;
 	=>nrel_nickname: Hans_Sama;
 	=>nrel_birthday: [02.09.1999];
-	=>nrel_gamerole: bot_laner_lol;;
+	=>nrel_gamerole: bot_laner_lol;
 
 	<=nrel_with_whom: contract_hans_sama_and_the_gentle_team_lol
 	(*
@@ -47,7 +47,7 @@ hans_sama
 		*);;
 	*);
 	
-	<=nrel_with_whom: contract_Hans Sama_and_millenium_lol
+	<=nrel_with_whom: contract_hans_sama_and_millenium_lol
 	(*
 		=> nrel_main_idtf:
 			[Сontract between Hans Sama and Millenium](* <-lang_en;; *);
@@ -74,6 +74,6 @@ hans_sama
 			<-period_of_time;;
 			->rrel_start: 02_06_2016;;
 		*);;
-	*);
+	*);;
 	
 		

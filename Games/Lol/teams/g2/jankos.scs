@@ -15,7 +15,7 @@ jankos
 	=>nrel_first_name: Marcin;
 	=>nrel_nickname: Jankos;
 	=>nrel_birthday: [23.07.1995];
-	=>nrel_gamerole: jungler_lol;;
+	=>nrel_gamerole: jungler_lol;
 	
 	<=nrel_with_whom: contract_jankos_and_team_mistral_lol
 	(*
@@ -60,7 +60,7 @@ jankos
 			->rrel_start: 14_09_2013;;
 			->rrel_end: 18_11_2013;;
 		*);;
-	*);;
+	*);
 	  <=nrel_with_whom: contract_jankos_and_gf_gaming_lol
 	(*
 		=> nrel_main_idtf:
@@ -74,7 +74,7 @@ jankos
 			->rrel_start: 18_11_2013;;
 			->rrel_end: 25_11_2013;;
 		*);;
-	*);;
+	*);
 	
 	<=nrel_with_whom: contract_jankos_and_kledys_mialem_team_lol
 	(*
@@ -134,6 +134,6 @@ jankos
 			<-period_of_time;;
 			->rrel_start: 08_12_2017;;
 		*);;
-	*);
+	*);;
 
 	

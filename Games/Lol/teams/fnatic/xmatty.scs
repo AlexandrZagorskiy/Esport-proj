@@ -15,7 +15,7 @@ xmatty
 	=>nrel_first_name: Matthew;
 	=>nrel_nickname: xMatty;
 	=>nrel_birthday: [16.07.1999];
-	=>nrel_gamerole: bot_laner_lol;;
+	=>nrel_gamerole: bot_laner_lol;
 
 	<=nrel_with_whom: contract_xmatty_and_digital_warfare_lol
 	(*
@@ -104,5 +104,5 @@ xmatty
 			<-period_of_time;;
 			->rrel_start: 07_01_2019;;
 		*);;
-	*);
+	*);;
 

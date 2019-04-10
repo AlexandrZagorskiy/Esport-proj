@@ -15,7 +15,7 @@ nukeduck
 	=>nrel_first_name: Erlend;
 	=>nrel_nickname: Nukeduck;
 	=>nrel_birthday: [21.05.1996];
-	=>nrel_gamerole: mid_laner_lol;;
+	=>nrel_gamerole: mid_laner_lol;
 
 	<=nrel_with_whom: contract_nukeduck_and_sinners_never_sleep_lol
 	(*
@@ -120,5 +120,5 @@ nukeduck
 			->rrel_start: 20_11_2018;;
 			->rrel_end: 15_11_2021;;
 		*);;
-	*);
+	*);;
 

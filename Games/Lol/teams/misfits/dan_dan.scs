@@ -14,9 +14,9 @@ dan_dan
 	=>nrel_surname: Le_Comte;
 	=>nrel_first_name: Danny;
 	=>nrel_nickname: Dan_Dan;
-	=>nrel_gamerole: top_laner_lol;;
+	=>nrel_gamerole: top_laner_lol;
 	
-	<=nrel_with_whom: contract_dan dan_and_cerberus_esports_club_lol
+	<=nrel_with_whom: contract_dan_dan_and_cerberus_esports_club_lol
 	(*
 		=> nrel_main_idtf:
 			[Сontract between Dan Dan and Cerberus e-Sports Club](* <-lang_en;; *);
@@ -31,7 +31,7 @@ dan_dan
 		*);;
 	*);
 
-	  <=nrel_with_whom: contract_dan dan_and_the_penguins_mafia_lol
+	 <=nrel_with_whom: contract_dan_dan_and_the_penguins_mafia_lol
 	(*
 		=> nrel_main_idtf:
 			[Сontract between Dan Dan and The Penguins Mafia](* <-lang_en;; *);
@@ -46,7 +46,7 @@ dan_dan
 		*);;
 	*);
 
-	  <=nrel_with_whom: contract_dan dan_and_pam_esports_lol
+	  <=nrel_with_whom: contract_dan_dan_and_pam_esports_lol
 	(*
 		=> nrel_main_idtf:
 			[Сontract between Dan Dan and PAM eSports](* <-lang_en;; *);
@@ -59,7 +59,7 @@ dan_dan
 			->rrel_start: 12_01_2017;;
 			->rrel_end: 04_04_2017;;
 		*);;
-	*);;
+	*);
 	
 	
 	<=nrel_with_whom: contract_dan_dan_and_wind_and_rain_lol
@@ -134,6 +134,6 @@ dan_dan
 			<-period_of_time;;
 			->rrel_start: 09_01_2019;;
 		*);;
-	*);
+	*);;
 
 	

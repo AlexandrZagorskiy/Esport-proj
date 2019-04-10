@@ -15,7 +15,7 @@ caps
 	=>nrel_first_name: Rasmus;
 	=>nrel_nickname: Caps;
 	=>nrel_birthday: [17.11.1999];
-	=>nrel_gamerole: mid_laner_lol;;
+	=>nrel_gamerole: mid_laner_lol;
 
 	<=nrel_with_whom: contract_caps_and_enigma_esports_lol
 	(*
@@ -60,7 +60,7 @@ caps
 			->rrel_start: 26_02_2016;;
 			->rrel_end: 17_03_2016;;
 		*);;
-	*);;
+	*);
 	  <=nrel_with_whom: contract_caps_and_mouseesports_lol
 	(*
 		=> nrel_main_idtf:
@@ -74,7 +74,7 @@ caps
 			->rrel_start: xx_04_2016;;
 			->rrel_end: xx_05_2016;;
 		*);;
-	*);;
+	*);
 	
 	<=nrel_with_whom: contract_caps_and_nerv_lol
 	(*
@@ -133,4 +133,4 @@ caps
 			<-period_of_time;;
 			->rrel_start: 29_11_2018;;
 		*);;
-	*);
+	*);;

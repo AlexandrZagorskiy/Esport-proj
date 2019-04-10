@@ -15,7 +15,7 @@ freeze
 	=>nrel_first_name: Ales;
 	=>nrel_nickname: Freeze;
 	=>nrel_birthday: [06.06.1994];
-	=>nrel_gamerole: bot_laner_lol;;
+	=>nrel_gamerole: bot_laner_lol;
 
 	<=nrel_with_whom: contract_freeze_and_royal_bandits_lol
 	(*
@@ -44,5 +44,5 @@ freeze
 			<-period_of_time;;
 			->rrel_start: 14_01_2019;;
 		*);;
-	*);
+	*);;
 

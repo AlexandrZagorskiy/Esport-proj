@@ -9,7 +9,7 @@ peter_dun
 	
 		=>nrel_citizen_of: United_Kingdom;
 	=>nrel_surname: Dun;
-	=>nrel_first_name: Peter;;
+	=>nrel_first_name: Peter;
 	
 	<=nrel_with_whom: contract_peter_dun_and_splyce_lol
 	(*
@@ -23,6 +23,6 @@ peter_dun
 			<-period_of_time;;
 			->rrel_start: 31_10_2017;;
 		*);;
-	*);
+	*);;
 
 

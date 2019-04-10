@@ -15,7 +15,7 @@ shemek
 	=>nrel_first_name: Damien;
 	=>nrel_nickname: Shemek;
 	=>nrel_birthday: [07.01.1996];
-	=>nrel_gamerole: top_laner_lol;;
+	=>nrel_gamerole: top_laner_lol;
 
 	<=nrel_with_whom: contract_shemek_and_gamers_origin_lol
 	(*
@@ -44,5 +44,5 @@ shemek
 			<-period_of_time;;
 			->rrel_start: 22_01_2018;;
 		*);;
-	*);
+	*);;
 

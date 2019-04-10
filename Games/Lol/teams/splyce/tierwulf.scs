@@ -15,7 +15,7 @@ tierwulf
 	=>nrel_first_name: Sebastian;
 	=>nrel_nickname: Tierwulf;
 	=>nrel_birthday: [05.11.1996];
-	=>nrel_gamerole: jungler_lol;;
+	=>nrel_gamerole: jungler_lol;
 
 	<=nrel_with_whom: contract_tierwulf_and_kaos_latin_gamers_lol
 	(*
@@ -44,5 +44,5 @@ tierwulf
 			<-period_of_time;;
 			->rrel_start: 06_12_2018;;
 		*);;
-	*);
+	*);;
 

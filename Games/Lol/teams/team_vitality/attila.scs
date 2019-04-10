@@ -15,7 +15,7 @@ attila
 	=>nrel_first_name: Amadeu;
 	=>nrel_nickname: Attila;
 	=>nrel_birthday: [26.02.1996];
-	=>nrel_gamerole: bot_laner_lol;;
+	=>nrel_gamerole: bot_laner_lol;
 
 	<=nrel_with_whom: contract_attila_and_infamous_esport_lol
 	(*
@@ -89,5 +89,5 @@ attila
 			<-period_of_time;;
 			->rrel_start: 21_12_2017;;
 		*);;
-	*);
+	*);;
 

@@ -15,7 +15,7 @@ bwipo
 	=>nrel_first_name: Gabriel;
 	=>nrel_nickname: Bwipo;
 	=>nrel_birthday: [24.12.1998];
-	=>nrel_gamerole: top_laner_lol;;
+	=>nrel_gamerole: top_laner_lol;
 	
 	<=nrel_with_whom: contract_bwipo_and_mcon_esports_lol
 	(*
@@ -119,5 +119,5 @@ bwipo
 			<-period_of_time;;
 			->rrel_start: 07_01_2018;;
 		*);;
-	*);
+	*);;
 

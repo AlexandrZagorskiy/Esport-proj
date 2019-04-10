@@ -15,7 +15,7 @@ gorilla
 	=>nrel_first_name: Kang;
 	=>nrel_nickname: GorillA;
 	=>nrel_birthday: [18.11.1994];
-	=>nrel_gamerole: support_lol;;
+	=>nrel_gamerole: support_lol;
 	
 	<=nrel_with_whom: contract_gorilla_and_najin_white_shield_lol
 	(*
@@ -89,6 +89,6 @@ gorilla
 			<-period_of_time;;
 			->rrel_start: 23_11_2018;;
 		*);;
-	*);
+	*);;
 	
 	

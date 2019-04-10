@@ -16,7 +16,7 @@ thebausffs
 	=>nrel_first_name: Simon;
 	=>nrel_nickname: Thebausffs;
 	=>nrel_birthday: [03.10.1999];
-	=>nrel_gamerole: top_laner_lol;;
+	=>nrel_gamerole: top_laner_lol;
 
 	<=nrel_with_whom: contract_thebausffs_and_g2_esports
 	(*
@@ -30,4 +30,4 @@ thebausffs
 			<-period_of_time;;
 			->rrel_start: 09_01_2019;;
 		*);;
-	*);
+	*);;

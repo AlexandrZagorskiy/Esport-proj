@@ -9,6 +9,9 @@ robert_yip
 	
 	<=nrel_with_whom: contract_robert_yip_and_misfits_gaming
 	(*
+		=> nrel_main_idtf:
+			[Сontract between Robert Yip and Misfits Gaming](* <-lang_en;; *);
+			[Контракт между Robert Yip и Misfits Gaming](* <-lang_ru;; *);;
 		<-contract;;
 		=>nrel_with_what: misfits_gaming_lol;;
 		=>nrel_period: ...

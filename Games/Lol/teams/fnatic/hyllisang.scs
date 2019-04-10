@@ -15,7 +15,7 @@ hyllisang
 	=>nrel_first_name: Zdravets;
 	=>nrel_nickname: Hylissang;
 	=>nrel_birthday: [30.04.1995];
-	=>nrel_gamerole: support_lol;;
+	=>nrel_gamerole: support_lol;
 
 	<=nrel_with_whom: contract_hyllisang_and_unicorns_of_love_lol
 	(*
@@ -44,5 +44,5 @@ hyllisang
 			<-period_of_time;;
 			->rrel_start: 14_12_2017;;
 		*);;
-	*);
+	*);;
 

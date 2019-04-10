@@ -15,7 +15,7 @@ hiiva
 	=>nrel_first_name: Aleksi;
 	=>nrel_nickname: Hiiva;
 	=>nrel_birthday: [31.08.1994];
-	=>nrel_gamerole: support_lol;;
+	=>nrel_gamerole: support_lol;
 
 	<=nrel_with_whom: contract_hiiva_and_rctic_esports_lol
 	(*
@@ -271,6 +271,6 @@ hiiva
 			<-period_of_time;;
 			->rrel_start: 08_01_2019;;
 		*);;
-	*);
+	*);;
 
 	

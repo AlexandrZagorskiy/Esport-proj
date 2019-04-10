@@ -15,7 +15,7 @@ xerxe
 	=>nrel_first_name: Andrei;
 	=>nrel_nickname: Xerxe;
 	=>nrel_birthday: [05.11.1999];
-	=>nrel_gamerole: jungler_lol;;
+	=>nrel_gamerole: jungler_lol;
 	
 	<=nrel_with_whom: contract_xerxe_and_unicorns_of_love_lol
 	(*
@@ -45,5 +45,5 @@ xerxe
 			->rrel_start: 28_11_2017;;
 			->rrel_end: 18_11_2019;;
 		*);;
-	*);
+	*);;
 
