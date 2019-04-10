@@ -10,8 +10,108 @@ rekkles
 
 	<-player_lol;
 
-	<=nrel_with_whom: contract_rekkles_and_fnatic
+	=>nrel_citizen_of: Sweden;
+	=>nrel_surname: Larsson;
+	=>nrel_first_name: Martin;
+	=>nrel_nickname: Rekkles;
+	=>nrel_birthday: [20.09.1996];
+	=>nrel_gamerole: bot_laner_lol;;
+
+	<=nrel_with_whom: contract_rekkles_and_fnatic_lol
 	(*
+		=> nrel_main_idtf:
+			[Сontract between Rekkles and Fnatic](* <-lang_en;; *);
+			[Контракт между Rekkles и Fnatic](* <-lang_ru;; *);;
+		<-contract;;
+		=>nrel_with_what: fnatic_lol;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: xx_11_2012;;
+			->rrel_end: 22_04_2013;;	
+		*);;
+	*);
+	
+	<=nrel_with_whom: contract_rekkles_and_pridefc_lol
+	(*
+		=> nrel_main_idtf:
+			[Сontract between Rekkles and PrideFC](* <-lang_en;; *);
+			[Контракт между Rekkles и PrideFC](* <-lang_ru;; *);;
+		<-contract;;
+		=>nrel_with_what: pridefc_lol;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 26_05_2013;;
+			->rrel_end: 14_06_2013;;	
+		*);;
+	*);
+	
+	<=nrel_with_whom: contract_rekkles_and_copenhagen_wolves_lol
+	(*
+		=> nrel_main_idtf:
+			[Сontract between Rekkles and Copenhagen Wolves](* <-lang_en;; *);
+			[Контракт между Rekkles и Copenhagen Wolves](* <-lang_ru;; *);;
+		<-contract;;
+		=>nrel_with_what: copenhagen_wolves_lol;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 15_06_2013;;
+			->rrel_end: 15_09_2013;;	
+		*);;
+	*);
+	
+	<=nrel_with_whom: contract_rekkles_and_fnatic_lol
+	(*
+		=> nrel_main_idtf:
+			[Сontract between Rekkles and Fnatic](* <-lang_en;; *);
+			[Контракт между Rekkles и Fnatic](* <-lang_ru;; *);;
+		<-contract;;
+		=>nrel_with_what: fnatic_lol;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 11_11_2013;;
+			->rrel_end: 24_11_2014;;	
+		*);;
+	*);
+	
+	<=nrel_with_whom: contract_rekkles_and_alliance_lol
+	(*
+		=> nrel_main_idtf:
+			[Сontract between Rekkles and Alliance](* <-lang_en;; *);
+			[Контракт между Rekkles и Alliance](* <-lang_ru;; *);;
+		<-contract;;
+		=>nrel_with_what: alliance_lol;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 24_11_2014;;
+			->rrel_end: 08_01_2015;;	
+		*);;
+	*);
+	
+	<=nrel_with_whom: contract_rekkles_and_elements_lol
+	(*
+		=> nrel_main_idtf:
+			[Сontract between Rekkles and Elements](* <-lang_en;; *);
+			[Контракт между Rekkles и Elements](* <-lang_ru;; *);;
+		<-contract;;
+		=>nrel_with_what: fnatic_lol;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 08_01_2015;;
+			->rrel_end: 13_05_2015;;	
+		*);;
+	*);
+
+	<=nrel_with_whom: contract_rekkles_and_fnatic_lol
+	(*
+		=> nrel_main_idtf:
+			[Сontract between Rekkles and Fnatic](* <-lang_en;; *);
+			[Контракт между Rekkles и Fnatic](* <-lang_ru;; *);;
 		<-contract;;
 		=>nrel_with_what: fnatic_lol;;
 		=>nrel_period: ...
@@ -21,9 +121,3 @@ rekkles
 		*);;
 	*);
 
-	=>nrel_citizen_of: Sweden;
-	=>nrel_surname: Larsson;
-	=>nrel_first_name: Martin;
-	=>nrel_nickname: Rekkles;
-	=>nrel_birthday: [20.09.1996];
-	=>nrel_gamerole: bot_laner_lol;;

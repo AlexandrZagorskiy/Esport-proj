@@ -7,8 +7,15 @@ peter_dun
 		[Питер Дан](* <-lang_ru;; *);
 	<-coach;
 	
-	<=nrel_with_whom: contract_peter_dun_and_splyce
+		=>nrel_citizen_of: United_Kingdom;
+	=>nrel_surname: Dun;
+	=>nrel_first_name: Peter;;
+	
+	<=nrel_with_whom: contract_peter_dun_and_splyce_lol
 	(*
+		=> nrel_main_idtf:
+			[Сontract between Peter Dun and Splyce](* <-lang_en;; *);
+			[Контракт между Peter Dun и Splyce](* <-lang_ru;; *);;
 		<-contract;;
 		=>nrel_with_what: splyce_lol;;
 		=>nrel_period: ...
@@ -18,6 +25,4 @@ peter_dun
 		*);;
 	*);
 
-	=>nrel_citizen_of: United_Kingdom;
-	=>nrel_surname: Dun;
-	=>nrel_first_name: Peter;;
+
