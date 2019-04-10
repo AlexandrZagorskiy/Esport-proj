@@ -10,20 +10,69 @@ broxah
 
 	<-player_lol;
 
-	<=nrel_with_whom: contract_broxah_and_fnatic
-	(*
-		<-contract;;
-		=>nrel_with_what: fnatic_lol;;
-		=>nrel_period: ...
-		(*
-			<-period_of_time;;
-			->rrel_start: 06_02_2017;;
-		*);;
-	*);
-
 	=>nrel_citizen_of: Denmark;
 	=>nrel_surname: Brock_Pedersen;
 	=>nrel_first_name: Mads;
 	=>nrel_nickname: Broxah;
 	=>nrel_birthday: [12.08.1997];
 	=>nrel_gamerole: junger_lol;;
+	
+	<=nrel_with_whom: contract_broxah_and_tricked_esports_lol
+	(*
+		=> nrel_main_idtf:
+			[Сontract between Broxah and Tricked eSports](* <-lang_en;; *);
+			[Контракт между Broxah и Tricked eSports](* <-lang_ru;; *);;
+		<-contract;;
+		=>nrel_with_what: tricked_esports_lol;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: xx_01_2016;;
+			->rrel_end: xx_03_2016;;	
+		*);;
+	*);
+	
+	<=nrel_with_whom: contract_broxah_and_last_remedy_lol
+	(*
+		=> nrel_main_idtf:
+			[Сontract between Broxah and Last Remedy](* <-lang_en;; *);
+			[Контракт между Broxah и Last Remedy](* <-lang_ru;; *);;
+		<-contract;;
+		=>nrel_with_what: last_remedy_lol;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: xx_09_2016;;
+			->rrel_end: xx_10_2016;;	
+		*);;
+	*);
+	
+	<=nrel_with_whom: contract_broxah_and_epiphany_bolt_lol
+	(*
+		=> nrel_main_idtf:
+			[Сontract between Broxah and Epiphany Bolt](* <-lang_en;; *);
+			[Контракт между Broxah и Epiphany Bolt](* <-lang_ru;; *);;
+		<-contract;;
+		=>nrel_with_what: epiphany_bolt_lol;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: xx_10_2016;;
+			->rrel_end: xx_11_2016;;	
+		*);;
+	*);
+
+	<=nrel_with_whom: contract_broxah_and_fnatic_lol
+	(*
+		=> nrel_main_idtf:
+			[Сontract between Broxah and Fnatic](* <-lang_en;; *);
+			[Контракт между Broxah и Fnatic](* <-lang_ru;; *);;
+		<-contract;;
+		=>nrel_with_what: fnatic_lol;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: xx_11_2016;;
+		*);;
+	*);
+
