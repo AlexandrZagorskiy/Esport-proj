@@ -15,7 +15,7 @@ mowgli
 	=>nrel_first_name: Lee;
 	=>nrel_nickname: Mowgli;
 	=>nrel_birthday: [14.04.1998];
-	=>nrel_gamerole: jungler_lol;;
+	=>nrel_gamerole: jungler_lol;
 
 	<=nrel_with_whom: contract_mowgli_and_afreeca_freecs_lol
 	(*
@@ -44,6 +44,6 @@ mowgli
 			<-period_of_time;;
 			->rrel_start: 28_11_2018;;
 		*);;
-	*);
+	*);;
 
 

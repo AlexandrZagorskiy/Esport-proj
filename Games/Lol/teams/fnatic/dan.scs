@@ -15,7 +15,7 @@ dan
 	=>nrel_first_name: Daniel;
 	=>nrel_nickname: Dan;
 	=>nrel_birthday: [11.09.1996];
-	=>nrel_gamerole: jungler_lol;;
+	=>nrel_gamerole: jungler_lol;
 
 	<=nrel_with_whom: contract_dan_and_unicorns_of_love_lol
 	(*
@@ -134,5 +134,5 @@ dan
 			<-period_of_time;;
 			->rrel_start: 07_01_2019;;
 		*);;
-	*);
+	*);;
 

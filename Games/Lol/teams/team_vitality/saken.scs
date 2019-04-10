@@ -14,7 +14,7 @@ saken
 	=>nrel_surname: Fayard;
 	=>nrel_first_name: Lucas;
 	=>nrel_nickname: Saken;
-	=>nrel_gamerole: mid_laner_lol;;
+	=>nrel_gamerole: mid_laner_lol;
 
 	<=nrel_with_whom: contract_saken_and_gentside_lol
 	(*
@@ -43,5 +43,5 @@ saken
 			<-period_of_time;;
 			->rrel_start: 08_01_2019;;
 		*);;
-	*);
+	*);;
 

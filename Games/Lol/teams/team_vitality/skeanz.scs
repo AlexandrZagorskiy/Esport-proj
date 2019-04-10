@@ -15,7 +15,7 @@ skeanz
 	=>nrel_first_name: Duncan;
 	=>nrel_nickname: Skeanz;
 	=>nrel_birthday: [25.09.2000];
-	=>nrel_gamerole: jungler_lol;;
+	=>nrel_gamerole: jungler_lol;
 
 	<=nrel_with_whom: contract_skeanz_and_solary_lol
 	(*
@@ -44,5 +44,5 @@ skeanz
 			<-period_of_time;;
 			->rrel_start: 08_01_2019;;
 		*);;
-	*);
+	*);;
 

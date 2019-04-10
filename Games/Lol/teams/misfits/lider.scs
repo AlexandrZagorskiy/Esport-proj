@@ -15,7 +15,7 @@ lider
 	=>nrel_first_name: Adam;
 	=>nrel_nickname: LIDER;
 	=>nrel_birthday: [03.07.1999];
-	=>nrel_gamerole: mid_laner_lol;;
+	=>nrel_gamerole: mid_laner_lol;
 	
 	<=nrel_with_whom: contract_lider_and_riddle_esports_lol
 	(*
@@ -120,6 +120,6 @@ lider
 			<-period_of_time;;
 			->rrel_start: 08_01_2019;;
 		*);;
-	*);
+	*);;
 
 

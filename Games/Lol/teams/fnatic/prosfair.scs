@@ -15,7 +15,7 @@ prosfair
 	=>nrel_first_name: Tom;
 	=>nrel_nickname: Prosfair;
 	=>nrel_birthday: [11.06.1996];
-	=>nrel_gamerole: support_lol;;
+	=>nrel_gamerole: support_lol;
 
 	<=nrel_with_whom: contract_prosfair_and_mnm_gaming_lol
 	(*
@@ -104,5 +104,5 @@ prosfair
 			<-period_of_time;;
 			->rrel_start: 07_01_2019;;
 		*);;
-	*);
+	*);;
 

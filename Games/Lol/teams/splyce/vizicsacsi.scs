@@ -15,7 +15,7 @@ vizicsacsi
 	=>nrel_first_name: Kiss;
 	=>nrel_nickname: Vizicsacsi;
 	=>nrel_birthday: [05.10.1994];
-	=>nrel_gamerole: top_laner_lol;;
+	=>nrel_gamerole: top_laner_lol;
 
 	<=nrel_with_whom: contract_vizicsacsi_and_unicorns_of_love_lol
 	(*
@@ -60,5 +60,5 @@ vizicsacsi
 			->rrel_start: 30_12_2018;;
 			->rrel_end: 18_11_2019;;
 		*);;
-	*);
+	*);;
 

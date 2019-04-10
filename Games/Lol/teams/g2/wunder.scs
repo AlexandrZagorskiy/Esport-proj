@@ -15,7 +15,7 @@ wunder
 	=>nrel_first_name: Martin;
 	=>nrel_nickname: Wunder;
 	=>nrel_birthday: [9.11.1998];
-	=>nrel_gamerole: top_laner_lol;;
+	=>nrel_gamerole: top_laner_lol;
 	
 	<=nrel_with_whom: contract_wunder_and_g4everzenyg_lol
 	(*
@@ -60,7 +60,7 @@ wunder
 			->rrel_start: 13_02_2015;;
 			->rrel_end: 29_10_2015;;
 		*);;
-	*);;
+	*);
 	
 	  <=nrel_with_whom: contract_wunder_and_splyce_lol
 	(*
@@ -75,7 +75,7 @@ wunder
 			->rrel_start: 29_10_2015;;
 			->rrel_end: 21_11_2017;;
 		*);;
-	*);;	
+	*);	
 	
 	<=nrel_with_whom: contract_wunder_and_g2_esports
 	(*
@@ -89,6 +89,6 @@ wunder
 			<-period_of_time;;
 			->rrel_start: 08_12_2017;;
 		*);;
-	*);
+	*);;
 
 	

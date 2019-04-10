@@ -15,7 +15,7 @@ promisq
 	=>nrel_first_name: Hampus_Mikael;
 	=>nrel_nickname: Promisq;
 	=>nrel_birthday: [04.03.1994];
-	=>nrel_gamerole: support_lol;;
+	=>nrel_gamerole: support_lol;
 	
 	<=nrel_with_whom: contract_promisq_and_inferno_esports_lol
 	(*
@@ -60,7 +60,7 @@ promisq
 			->rrel_start: 16_05_2016;;
 			->rrel_end: 14_10_2016;;
 		*);;
-	*);;
+	*);
 	
 	  <=nrel_with_whom: contract_promisq_and_paris_saint_germain_esports_lol
 	(*
@@ -75,7 +75,7 @@ promisq
 			->rrel_start: 14_12_2016;;
 			->rrel_end: 29_04_2017;;
 		*);;
-	*);;	
+	*);
 	
 	  <=nrel_with_whom: contract_promisq_and_ninjas_in_pyjamas_lol
 	(*
@@ -90,7 +90,7 @@ promisq
 			->rrel_start: 24_05_2017;;
 			->rrel_end: 21_11_2017;;
 		*);;
-	*);;
+	*);
 	
 	  <=nrel_with_whom: contract_promisq_and_h2k_lol
 	(*
@@ -105,7 +105,7 @@ promisq
 			->rrel_start: 13_11_2017;;
 			->rrel_end: 03_09_2018;;
 		*);;
-	*);;
+	*);
 	
 	<=nrel_with_whom: contract_promisq_and_g2_esports_lol
 	(*
@@ -119,6 +119,6 @@ promisq
 			<-period_of_time;;
 			->rrel_start: 11_03_2019;;
 		*);;
-	*);
+	*);;
 
 

@@ -15,7 +15,7 @@ patrik
 	=>nrel_first_name: Patrik;
 	=>nrel_nickname: Patrik;
 	=>nrel_birthday: [07.04.2000];
-	=>nrel_gamerole: bot_laner_lol;;
+	=>nrel_gamerole: bot_laner_lol;
 
 	<=nrel_with_whom: contract_patrik_and_esuba_lol
 	(*
@@ -121,5 +121,5 @@ patrik
 			->rrel_start: 20_11_2018;;
 			->rrel_end: 18_11_2019;;
 		*);;
-	*);
+	*);;
 

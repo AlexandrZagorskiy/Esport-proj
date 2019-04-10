@@ -15,7 +15,7 @@ norskeren
 	=>nrel_first_name: Tore_Hoel;
 	=>nrel_nickname: Norskeren;
 	=>nrel_birthday: [27.12.1999];
-	=>nrel_gamerole: support_lol;;
+	=>nrel_gamerole: support_lol;
 
 	<=nrel_with_whom: contract_norskeren_and_millenium_lol
 	(*
@@ -75,5 +75,5 @@ norskeren
 			->rrel_start: 04_12_2018;;
 			->rrel_end: 16_11_2020;;
 		*);;
-	*);
+	*);;
 

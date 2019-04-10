@@ -14,7 +14,7 @@ orome
 	=>nrel_surname: Popa;
 	=>nrel_first_name: Anrei;
 	=>nrel_nickname: Orome;
-	=>nrel_gamerole: top_laner_lol;;
+	=>nrel_gamerole: top_laner_lol;
 	
 	<=nrel_with_whom: contract_orome_and_splyce
 	(*
@@ -28,5 +28,5 @@ orome
 			<-period_of_time;;
 			->rrel_start: 10_12_2018;;
 		*);;
-	*);
+	*);;
 

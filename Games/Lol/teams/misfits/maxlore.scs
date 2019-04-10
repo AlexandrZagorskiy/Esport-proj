@@ -15,7 +15,7 @@ maxlore
 	=>nrel_first_name: Nubar;
 	=>nrel_nickname: Maxlore;
 	=>nrel_birthday: [01.07.1996];
-	=>nrel_gamerole: jungler_lol;;
+	=>nrel_gamerole: jungler_lol;
 	
 	<=nrel_with_whom: contract_maxlore_and_perilous_gaming_rift_lol
 	(*
@@ -164,6 +164,6 @@ maxlore
 			<-period_of_time;;
 			->rrel_start: 09_05_2017;;
 		*);;
-	*);
+	*);;
 
 

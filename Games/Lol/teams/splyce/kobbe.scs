@@ -15,7 +15,7 @@ kobbe
 	=>nrel_first_name: Kasper;
 	=>nrel_nickname: Kobbe;
 	=>nrel_birthday: [21.09.1996];
-	=>nrel_gamerole: bot_laner_lol;;
+	=>nrel_gamerole: bot_laner_lol;
 	
 	<=nrel_with_whom: contract_kobbe_and_splyce_lol
 	(*
@@ -30,5 +30,5 @@ kobbe
 			->rrel_start: 29_10_2015;;
 			->rrel_end: 18_11_2019;;
 		*);;
-	*);
+	*);;
 

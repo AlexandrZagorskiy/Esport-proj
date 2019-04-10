@@ -15,7 +15,7 @@ mithy
 	=>nrel_first_name: Alfonso;
 	=>nrel_nickname: Mithy;
 	=>nrel_birthday: [05.10.1994];
-	=>nrel_gamerole: support_lol;;
+	=>nrel_gamerole: support_lol;
 
 	<=nrel_with_whom: contract_mithy_and_giants_gaming_lol
 	(*
@@ -165,5 +165,5 @@ mithy
 			->rrel_start: 03_12_2018;;
 			->rrel_end: 18_11_2019;;
 		*);;
-	*);
+	*);;
 

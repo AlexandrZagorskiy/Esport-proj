@@ -12,8 +12,8 @@ grabbz
 
 	=>nrel_citizen_of: Germany;
 	=>nrel_surname: Lohmann;
-	=>nrel_first_name: Fabian;;
-	=>nrel_nickname: GrabbZ;;
+	=>nrel_first_name: Fabian;
+	=>nrel_nickname: GrabbZ;
 	
 	<=nrel_with_whom: contract_grabbz_and_unicorns_of_love_lol
 	(*
@@ -41,7 +41,7 @@ grabbz
 		(*
 			<-period_of_time;;
 			->rrel_start: xx_xx_xxxx;;
-			->rrel_end: xx_xx_xxxx
+			->rrel_end: xx_xx_xxxx;;
 		*);;
 	*);
 	
@@ -72,4 +72,4 @@ grabbz
 			<-period_of_time;;
 			->rrel_start: 15_12_2017;;
 		*);;
-	*);
+	*);;

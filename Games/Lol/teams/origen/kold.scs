@@ -15,7 +15,7 @@ kold
 	=>nrel_first_name: Jonas;
 	=>nrel_nickname: Kold;
 	=>nrel_birthday: [22.02.1995];
-	=>nrel_gamerole: jungler_lol;;
+	=>nrel_gamerole: jungler_lol;
 
 	<=nrel_with_whom: contract_kold_and_tricked_esports_lol
 	(*
@@ -120,5 +120,5 @@ kold
 			->rrel_start: 03_12_2018;;
 			->rrel_end: 16_11_2020;;
 		*);;
-	*);
+	*);;
 

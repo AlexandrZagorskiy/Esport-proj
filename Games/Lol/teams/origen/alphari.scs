@@ -15,7 +15,7 @@ alphari
 	=>nrel_first_name: Barney;
 	=>nrel_nickname: Alphari;
 	=>nrel_birthday: [20.10.1999];
-	=>nrel_gamerole: top_laner_lol;;
+	=>nrel_gamerole: top_laner_lol;
 
 	<=nrel_with_whom: contract_alphari_and_enigma_esports_lol
 	(*
@@ -105,5 +105,5 @@ alphari
 			->rrel_start: 20_11_2018;;
 			->rrel_end: 16_11_2020;;
 		*);;
-	*);
+	*);;
 

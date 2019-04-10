@@ -15,7 +15,7 @@ mikyx
 	=>nrel_first_name: Mihael;
 	=>nrel_nickname: Mikyx;
 	=>nrel_birthday: [02.11.1998];
-	=>nrel_gamerole: support_lol;;
+	=>nrel_gamerole: support_lol;
 
 	<=nrel_with_whom: contract_mikyx_and_fnatic_lol
 	(*
@@ -30,7 +30,7 @@ mikyx
 			->rrel_start: 07_01_2016;;
 			->rrel_end: 24_04_2016;;
 		*);;
-	*);;
+	*);
 	
 	  <=nrel_with_whom: contract_mikyx_and_splyce_lol
 	(*
@@ -45,7 +45,7 @@ mikyx
 			->rrel_start: 24_04_2016;;
 			->rrel_end: 19_11_2016;;
 		*);;
-	*);;
+	*);
 
 	<=nrel_with_whom: contract_mikyx_and_splyce_lol
 	(*
@@ -60,7 +60,7 @@ mikyx
 			->rrel_start: 25_11_2016;;
 			->rrel_end: 23_11_2017;;
 		*);;
-	*);;
+	*);
 	
 	  <=nrel_with_whom: contract_mikyx_and_misfits_gaming_lol
 	(*
@@ -75,7 +75,7 @@ mikyx
 			->rrel_start: 23_11_2017;;
 			->rrel_end: 29_11_2018;;
 		*);;
-	*);;
+	*);
 
 	<=nrel_with_whom: contract_mikyx_and_g2_esports_lol
 	(*
@@ -89,6 +89,6 @@ mikyx
 			<-period_of_time;;
 			->rrel_start: 29_11_2018;;
 		*);;
-	*);
+	*);;
 
 	

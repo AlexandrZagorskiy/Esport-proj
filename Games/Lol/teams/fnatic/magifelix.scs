@@ -15,7 +15,7 @@ magifelix
 	=>nrel_first_name: Felix;
 	=>nrel_nickname: Magifelix;
 	=>nrel_birthday: [27.02.2000];
-	=>nrel_gamerole: mid_laner_lol;;
+	=>nrel_gamerole: mid_laner_lol;
 
 	<=nrel_with_whom: contract_magifelix_and_euronics_gaming_lol
 	(*
@@ -89,5 +89,5 @@ magifelix
 			<-period_of_time;;
 			->rrel_start: 07_01_2019;;
 		*);;
-	*);
+	*);;
 

@@ -15,7 +15,7 @@ nemesis
 	=>nrel_first_name: Tim;
 	=>nrel_nickname: Nemesis;
 	=>nrel_birthday: [26.07.1999];
-	=>nrel_gamerole: mid_laner_lol;;
+	=>nrel_gamerole: mid_laner_lol;
 
 	<=nrel_with_whom: contract_nemesis_and_vape_nays_lol
 	(*
@@ -59,5 +59,5 @@ nemesis
 			<-period_of_time;;
 			->rrel_start: 29_11_2018;;
 		*);;
-	*);
+	*);;
 

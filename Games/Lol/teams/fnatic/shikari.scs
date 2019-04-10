@@ -15,7 +15,7 @@
 	=>nrel_first_name: Jordan;
 	=>nrel_nickname: Shikari;
 	=>nrel_birthday: [16.05.1999];
-	=>nrel_gamerole: top_laner_lol;;
+	=>nrel_gamerole: top_laner_lol;
 
 	<=nrel_with_whom: contract_shikari_and_uk_legends_lol
 	(*
@@ -89,5 +89,5 @@
 			<-period_of_time;;
 			->rrel_start: 07_01_2019;;
 		*);;
-	*);
+	*);;
 

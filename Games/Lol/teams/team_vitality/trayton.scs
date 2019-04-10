@@ -15,7 +15,7 @@ trayton
 	=>nrel_first_name: Jean;
 	=>nrel_nickname: TraYtoN;
 	=>nrel_birthday: [26.09.1998];
-	=>nrel_gamerole: support_lol;;
+	=>nrel_gamerole: support_lol;
 	
 	<=nrel_with_whom: contract_trayton_and_solary_lol
 	(*
@@ -44,5 +44,5 @@ trayton
 			<-period_of_time;;
 			->rrel_start: 08_01_2019;;
 		*);;
-	*);
+	*);;
 

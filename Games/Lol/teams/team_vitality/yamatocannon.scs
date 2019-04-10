@@ -13,7 +13,7 @@ yamatocannon
 	=>nrel_citizen_of: Sweden;
 	=>nrel_surname: Mebdi;
 	=>nrel_first_name: Jakob;
-	=>nrel_birthday: [30.12.1995];;
+	=>nrel_birthday: [30.12.1995];
 	
 	<=nrel_with_whom: contract_yamatocannon_and_team_roccat_lol
 	(*
@@ -57,4 +57,4 @@ yamatocannon
 			<-period_of_time;;
 			->rrel_start: 03_05_2017;;
 		*);;
-	*);
+	*);;
