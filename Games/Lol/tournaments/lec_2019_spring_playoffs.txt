@@ -1,0 +1,44 @@
+lec_2019_spring_playoffs
+
+	<-sc_node_not_relation;
+
+	=> nrel_main_idtf:
+		[League of Legends European Championship 2019 Spring Playoffs](* <-lang_en; lang_ru;; *);
+	=> nrel_idtf:
+		[LEC 2019 Spring Playoffs](* <-lang_en; lang_ru;; *);
+
+	<-tournament;
+
+	=> nrel_organizer: Riot_Games;
+	=> nrel_sponsor:
+			kia;
+			alienware;
+			shell;
+			logitech;
+			foot_locker;
+			dxracer;
+			redbull;
+			beko;
+			sanquin;
+			godaddy;
+	=> nrel_type: offline;
+	=> nrel_location: Berlin;
+		Rotterdam;
+	
+	=>nrel_period: ...
+	(*
+		=> nrel_main_idtf:
+			[Time frame of LEC 2019 Spring Playoffs](* <-lang_en;; *);
+			[Период проведения LEC 2019 Spring Playoffs](* <-lang_ru;; *);;
+		<-period_of_time;;
+		->rrel_start: 29_03_2019;;
+		->rrel_end: 14_04_2019;;
+	*);
+
+	=>nrel_participate: 
+			fnatic_lol;
+			g2_esports_lol;
+			origen_lol;
+			sk_gaming_lol;
+			splyce_lol;
+			team_vitality;;
