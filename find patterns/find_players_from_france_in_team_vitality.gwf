@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<GWF version="2.0">
+    <staticSector>
+        <node type="node/var/symmetry" idtf="" shapeColor="0" id="79769600" parent="79972064" x="363.415" y="237.819" haveBus="false">
+            <content type="0" mime_type="" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="team_vitality_lol" shapeColor="0" id="79771040" parent="79972064" left="0" top="0" right="149" bottom="32" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="363.915" y="161.819" haveBus="false">
+            <content type="0" mime_type="" file_name=""/>
+        </node>
+        <node type="node/var/attribute" idtf="" shapeColor="0" id="79771184" parent="79972064" x="305.981" y="265.753" haveBus="false">
+            <content type="0" mime_type="" file_name=""/>
+        </node>
+        <node type="node/const/group" idtf="player_lol" shapeColor="0" id="79770608" parent="79972064" left="0" top="0" right="93" bottom="32" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="328.981" y="385.753" haveBus="false">
+            <content type="0" mime_type="" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="France" shapeColor="0" id="57712384" parent="79972064" left="0" top="0" right="69" bottom="32" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="499.981" y="309.753" haveBus="false">
+            <content type="0" mime_type="" file_name=""/>
+        </node>
+        <node type="node/const/relation" idtf="nrel_roster" shapeColor="0" id="79770752" parent="79972064" left="0" top="0" right="102" bottom="32" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="466.415" y="198.819" haveBus="false">
+            <content type="0" mime_type="" file_name=""/>
+        </node>
+        <node type="node/const/relation" idtf="nrel_citizen_of" shapeColor="0" id="79773776" parent="79972064" left="0" top="0" right="139" bottom="32" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="440.481" y="372.253" haveBus="false">
+            <content type="0" mime_type="" file_name=""/>
+        </node>
+        <node type="node/var/general_node" idtf="" shapeColor="0" id="79771328" parent="79972064" x="360.981" y="303.753" haveBus="false">
+            <content type="0" mime_type="" file_name=""/>
+        </node>
+        <arc type="arc/var/pos" idtf="" shapeColor="0" id="57824056" parent="79972064" id_b="79770608" id_e="79771328" b_x="328.981" b_y="385.753" e_x="360.981" e_y="303.753" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/var/pos" idtf="" shapeColor="0" id="57825064" parent="79972064" id_b="79773776" id_e="57826072" b_x="440.481" b_y="372.253" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.561539">
+            <points/>
+        </arc>
+        <arc type="arc/var/pos" idtf="" shapeColor="0" id="57824896" parent="79972064" id_b="79769600" id_e="79771328" b_x="363.415" b_y="237.819" e_x="360.981" e_y="303.753" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/var/pos" idtf="" shapeColor="0" id="57823888" parent="79972064" id_b="79770752" id_e="57825568" b_x="466.415" b_y="198.819" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.484761">
+            <points/>
+        </arc>
+        <pair type="pair/var/orient" idtf="" shapeColor="0" id="57826072" parent="79972064" id_b="79771328" id_e="57712384" b_x="360.981" b_y="303.753" e_x="499.981" e_y="309.753" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/var/orient" idtf="" shapeColor="0" id="57825568" parent="79972064" id_b="79769600" id_e="79771040" b_x="363.415" b_y="237.819" e_x="363.915" e_y="161.819" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <arc type="arc/var/pos" idtf="" shapeColor="0" id="57824392" parent="79972064" id_b="79771184" id_e="57824896" b_x="305.981" b_y="265.753" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.351337">
+            <points/>
+        </arc>
+        <contour type="" idtf="pattern_find_team_vitality_france_player" shapeColor="0" id="79972064" parent="0" left="0" top="0" right="355" bottom="32" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10">
+            <points>
+                <point x="260.481" y="420.319"/>
+                <point x="293.481" y="121.319"/>
+                <point x="665.481" y="190.319"/>
+                <point x="663.481" y="427.319"/>
+            </points>
+        </contour>
+    </staticSector>
+</GWF>

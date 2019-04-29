@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<GWF version="2.0">
+    <staticSector>
+        <node type="node/const/general_node" idtf="g2_esports_lol" shapeColor="0" id="79637248" parent="79751240" left="0" top="0" right="131" bottom="32" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="168.242" y="105.254" haveBus="false">
+            <content type="0" mime_type="" file_name=""/>
+        </node>
+        <node type="node/const/group" idtf="contract" shapeColor="0" id="79637392" parent="79751240" left="0" top="0" right="79" bottom="32" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="179.742" y="290.754" haveBus="false">
+            <content type="0" mime_type="" file_name=""/>
+        </node>
+        <node type="node/var/general_node" idtf="" shapeColor="0" id="79636240" parent="79751240" x="176.742" y="230.754" haveBus="false">
+            <content type="0" mime_type="" file_name=""/>
+        </node>
+        <node type="node/const/relation" idtf="nrel_with_what" shapeColor="0" id="79638112" parent="79751240" left="0" top="0" right="142" bottom="32" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="249.242" y="179.254" haveBus="false">
+            <content type="0" mime_type="" file_name=""/>
+        </node>
+        <pair type="pair/var/orient" idtf="" shapeColor="0" id="80423520" parent="79751240" id_b="79636240" id_e="79637248" b_x="176.742" b_y="230.754" e_x="168.242" e_y="105.254" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <arc type="arc/var/pos" idtf="" shapeColor="0" id="80423184" parent="79751240" id_b="79638112" id_e="80423520" b_x="249.242" b_y="179.254" e_x="-132.758" e_y="-78.7463" dotBBalance="0" dotEBalance="0.394514">
+            <points/>
+        </arc>
+        <arc type="arc/var/pos" idtf="" shapeColor="0" id="80426208" parent="79751240" id_b="79637392" id_e="79636240" b_x="179.742" b_y="290.754" e_x="176.742" e_y="230.754" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <contour type="" idtf="pattern_find_contracts_with_g2_esports" shapeColor="193" id="79751240" parent="0" left="0" top="0" right="346" bottom="32" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10">
+            <points>
+                <point x="138.242" y="80.2537"/>
+                <point x="154.242" y="322.254"/>
+                <point x="264.242" y="327.254"/>
+                <point x="366.242" y="193.254"/>
+                <point x="251.242" y="94.2537"/>
+            </points>
+        </contour>
+    </staticSector>
+</GWF>
