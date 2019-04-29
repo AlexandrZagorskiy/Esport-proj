@@ -9,26 +9,22 @@ kobbe
 		[Kobbe](* <-lang_en;; *);
 
 	<-player_lol;
-	
-	=>nrel_citizen_of: Denmark;
-	=>nrel_surname: Kobberup;
-	=>nrel_first_name: Kasper;
-	=>nrel_nickname: Kobbe;
-	=>nrel_birthday: [21.09.1996];
-	=>nrel_gamerole: bot_laner_lol;
-	
-	<=nrel_with_whom: contract_kobbe_and_splyce_lol
+
+	<=nrel_with_whom: contract_kobbe_and_splyce
 	(*
-		=> nrel_main_idtf:
-			[Сontract between Kobbe and Splyce](* <-lang_en;; *);
-			[Контракт между Kobbe и Splyce](* <-lang_ru;; *);;
 		<-contract;;
 		=>nrel_with_what: splyce_lol;;
 		=>nrel_period: ...
 		(*
 			<-period_of_time;;
-			->rrel_start: 29_10_2015;;
+			->rrel_start: 26_11_2017;;
 			->rrel_end: 18_11_2019;;
 		*);;
-	*);;
+	*);
 
+	=>nrel_citizen_of: Denmark;
+	=>nrel_surname: Kobberup;
+	=>nrel_first_name: Kasper;
+	=>nrel_nickname: Kobbe;
+	=>nrel_birthday: [21.09.1996];
+	=>nrel_gamerole: bot_laner_lol;;

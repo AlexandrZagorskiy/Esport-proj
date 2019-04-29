@@ -12,9 +12,6 @@ neon
 
 	<=nrel_with_whom: contract_neon_and_misfits_gaming
 	(*
-		=> nrel_main_idtf:
-			[Сontract between Neon and Misfits Gaming](* <-lang_en;; *);
-			[Контракт между Neon и Misfits Gaming](* <-lang_ru;; *);;
 		<-contract;;
 		=>nrel_with_what: misfits_gaming_lol;;
 		=>nrel_period: ...

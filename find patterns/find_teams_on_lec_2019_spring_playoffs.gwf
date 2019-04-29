@@ -1,22 +1,22 @@
-<?xml version="1.0" encoding="windows-1251"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <GWF version="2.0">
     <staticSector>
-        <node type="node/const/relation" idtf="nrel_participate" shapeColor="0" id="58133080" parent="80151376" left="0" top="0" right="142" bottom="32" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="359.242" y="206.254" haveBus="false">
-            <content type="0" mime_type="" file_name=""/>
+        <node type="node/var/general_node" idtf="" shapeColor="0" id="105094984" parent="48074584" x="278.242" y="132.254" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
         </node>
-        <node type="node/var/general_node" idtf="" shapeColor="0" id="79840456" parent="80151376" x="278.242" y="132.254" haveBus="false">
-            <content type="0" mime_type="" file_name=""/>
+        <node type="node/const/general_node" idtf="lec_2019_spring_season" shapeColor="0" id="105095128" parent="48074584" left="0" top="0" right="156" bottom="24" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="286.742" y="257.754" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
         </node>
-        <node type="node/const/general_node" idtf="lec_2019_spring_playoffs" shapeColor="0" id="79839304" parent="80151376" left="0" top="0" right="222" bottom="32" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="286.742" y="257.754" haveBus="false">
-            <content type="0" mime_type="" file_name=""/>
+        <node type="node/const/relation" idtf="nrel_participate" shapeColor="0" id="104429904" parent="48074584" left="0" top="0" right="104" bottom="24" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="359.242" y="206.254" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
         </node>
-        <arc type="arc/var/pos" idtf="" shapeColor="0" id="58699352" parent="80151376" id_b="58133080" id_e="58701872" b_x="359.242" b_y="206.254" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.394514">
-            <points/>
-        </arc>
-        <pair type="pair/var/orient" idtf="" shapeColor="0" id="58701872" parent="80151376" id_b="79839304" id_e="79840456" b_x="286.742" b_y="257.754" e_x="278.242" e_y="132.254" dotBBalance="0" dotEBalance="0">
+        <pair type="pair/var/orient" idtf="" shapeColor="0" id="47973704" parent="48074584" id_b="105095128" id_e="105094984" b_x="286.742" b_y="257.754" e_x="278.242" e_y="132.254" dotBBalance="0" dotEBalance="0">
             <points/>
         </pair>
-        <contour type="" idtf="pattern_find_teams_on_lec_2019_spring_playoffs" shapeColor="0" id="80151376" parent="0" left="0" top="0" right="426" bottom="32" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10">
+        <arc type="arc/var/pos" idtf="" shapeColor="0" id="47971352" parent="48074584" id_b="104429904" id_e="47973704" b_x="359.242" b_y="206.254" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.394514">
+            <points/>
+        </arc>
+        <contour type="" idtf="pattern_find_teams_on_lec_2019_spring_season" shapeColor="193" id="48074584" parent="0" left="0" top="0" right="303" bottom="24" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10">
             <points>
                 <point x="248.242" y="107.254"/>
                 <point x="264.242" y="349.254"/>

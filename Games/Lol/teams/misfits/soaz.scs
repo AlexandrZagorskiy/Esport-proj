@@ -12,9 +12,6 @@ soaz
 
 	<=nrel_with_whom: contract_soaz_and_misfits_gaming
 	(*
-		=> nrel_main_idtf:
-			[Сontract between sOAZ and Misfits Gaming](* <-lang_en;; *);
-			[Контракт между sOAZ и Misfits Gaming](* <-lang_ru;; *);;
 		<-contract;;
 		=>nrel_with_what: misfits_gaming_lol;;
 		=>nrel_period: ...

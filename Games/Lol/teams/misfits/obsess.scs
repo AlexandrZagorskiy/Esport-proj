@@ -12,9 +12,6 @@ obsess
 
 	<=nrel_with_whom: contract_obsess_and_misfits_gaming
 	(*
-		=> nrel_main_idtf:
-			[Сontract between Obsess and Misfits Gaming](* <-lang_en;; *);
-			[Контракт между Obsess и Misfits Gaming](* <-lang_ru;; *);;
 		<-contract;;
 		=>nrel_with_what: misfits_gaming_lol;;
 		=>nrel_period: ...

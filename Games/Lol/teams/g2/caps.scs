@@ -10,122 +10,8 @@ caps
 
 	<-player_lol;
 
-	=>nrel_citizen_of: Denmark;
-	=>nrel_surname: Winther;
-	=>nrel_first_name: Rasmus;
-	=>nrel_nickname: Caps;
-	=>nrel_birthday: [17.11.1999];
-	=>nrel_gamerole: mid_laner_lol;
-
-	<=nrel_with_whom: contract_caps_and_enigma_esports_lol
+	<=nrel_with_whom: contract_caps_and_g2_esports
 	(*
-		=> nrel_main_idtf:
-			[Сontract between Caps and Enigma Esports](* <-lang_en;; *);
-			[Контракт между Caps и Enigma Esports](* <-lang_ru;; *);;
-		<-contract;;
-		=>nrel_with_what: enigma_esports_lol;;
-		=>nrel_period: ...
-		(*
-			<-period_of_time;;
-			->rrel_start: xx_01_2015;;
-			->rrel_end: xx_12_2015;;	
-		*);;
-	*);
-
-	  <=nrel_with_whom: contract_caps_and_inspire_esports_lol
-	(*
-		=> nrel_main_idtf:
-			[Сontract between Caps and Inspire eSports](* <-lang_en;; *);
-			[Контракт между Caps и Inspire eSports](* <-lang_ru;; *);;
-		<-contract;;
-		=>nrel_with_what: inspire_esports_lol;;
-		=>nrel_period: ...
-		(*
-			<-period_of_time;;
-			->rrel_start: 22_01_2016;;
-			->rrel_end: 26_02_2016;;	
-		*);;
-	*);
-
-	  <=nrel_with_whom: contract_caps_and_e_corp_gaming_lol
-	(*
-		=> nrel_main_idtf:
-			[Сontract between Caps and E-corp Gaming](* <-lang_en;; *);
-			[Контракт между Caps и E-corp Gaming](* <-lang_ru;; *);;
-		<-contract;;
-		=>nrel_with_what: e_corp_gaming_lol;;
-		=>nrel_period: ...
-		(*
-			<-period_of_time;;
-			->rrel_start: 26_02_2016;;
-			->rrel_end: 17_03_2016;;
-		*);;
-	*);
-	  <=nrel_with_whom: contract_caps_and_mouseesports_lol
-	(*
-		=> nrel_main_idtf:
-			[Сontract between Caps and mouseesports](* <-lang_en;; *);
-			[Контракт между Caps и mouseesports](* <-lang_ru;; *);;
-		<-contract;;
-		=>nrel_with_what: mouseesports_lol;;
-		=>nrel_period: ...
-		(*
-			<-period_of_time;;
-			->rrel_start: xx_04_2016;;
-			->rrel_end: xx_05_2016;;
-		*);;
-	*);
-	
-	<=nrel_with_whom: contract_caps_and_nerv_lol
-	(*
-		=> nrel_main_idtf:
-			[Сontract between Caps and Nerv](* <-lang_en;; *);
-			[Контракт между Caps и Nerv](* <-lang_ru;; *);;
-		<-contract;;
-		=>nrel_with_what: nerv_lol;;
-		=>nrel_period: ...
-		(*
-			<-period_of_time;;
-			->rrel_start: 20_06_2016;;
-			->rrel_end: 15_07_2016;;	
-		*);;
-	*);
-
-	  <=nrel_with_whom: contract_caps_and_dark_passage_lol
-	(*
-		=> nrel_main_idtf:
-			[Сontract between Caps and Dark Passage](* <-lang_en;; *);
-			[Контракт между Caps и Dark Passage](* <-lang_ru;; *);;
-		<-contract;;
-		=>nrel_with_what: dark_passage_lol;;
-		=>nrel_period: ...
-		(*
-			<-period_of_time;;
-			->rrel_start: 15_07_2016;;
-			->rrel_end: 23_10_2017;;	
-		*);;
-	*);
-
-	<=nrel_with_whom: contract_caps_and_fnatic_lol
-	(*
-		=> nrel_main_idtf:
-			[Сontract between Caps and Fnatic](* <-lang_en;; *);
-			[Контракт между Caps и Fnatic](* <-lang_ru;; *);;
-		<-contract;;
-		=>nrel_with_what: fnatic_lol;;
-		=>nrel_period: ...
-		(*
-			<-period_of_time;;
-			->rrel_start: 01_12_2017;;
-			->rrel_end: 25_11_2018;;	
-		*);;
-	*);
-	
-	<=nrel_with_whom: contract_caps_and_g2_esports_lol
-	(*
-		=> nrel_main_idtf:
-			[Сontract between Caps and G2 Esports](* <-lang_en;; *);
-			[Контракт между Caps и G2 Esports](* <-lang_ru;; *);;
 		<-contract;;
 		=>nrel_with_what: g2_esports_lol;;
 		=>nrel_period: ...
@@ -133,4 +19,11 @@ caps
 			<-period_of_time;;
 			->rrel_start: 29_11_2018;;
 		*);;
-	*);;
+	*);
+
+	=>nrel_citizen_of: Denmark;
+	=>nrel_surname: Winther;
+	=>nrel_first_name: Rasmus;
+	=>nrel_nickname: Caps;
+	=>nrel_birthday: [17.11.1999];
+	=>nrel_gamerole: mid_laner_lol;;
