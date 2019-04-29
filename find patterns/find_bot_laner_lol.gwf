@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<GWF version="2.0">
+    <staticSector>
+        <node type="node/const/relation" idtf="nrel_gamerole" shapeColor="0" id="79754848" parent="80031752" left="0" top="0" right="130" bottom="32" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="246.636" y="159.482" haveBus="false">
+            <content type="0" mime_type="" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="bot_laner_lol" shapeColor="0" id="79755568" parent="80031752" left="0" top="0" right="122" bottom="32" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="169.136" y="108.482" haveBus="false">
+            <content type="0" mime_type="" file_name=""/>
+        </node>
+        <node type="node/var/general_node" idtf="" shapeColor="0" id="79754416" parent="80031752" x="168.202" y="237.416" haveBus="false">
+            <content type="0" mime_type="" file_name=""/>
+        </node>
+        <arc type="arc/var/pos" idtf="" shapeColor="0" id="82864952" parent="80031752" id_b="79754848" id_e="80252688" b_x="246.636" b_y="159.482" e_x="1" e_y="0" dotBBalance="0" dotEBalance="0.469639">
+            <points/>
+        </arc>
+        <pair type="pair/var/orient" idtf="" shapeColor="0" id="80252688" parent="80031752" id_b="79754416" id_e="79755568" b_x="168.202" b_y="237.416" e_x="169.136" e_y="108.482" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <contour type="" idtf="pattern_find_bot_laner_lol" shapeColor="0" id="80031752" parent="0" left="0" top="0" right="236" bottom="32" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10">
+            <points>
+                <point x="87.7021" y="297.982"/>
+                <point x="96.7021" y="78.9819"/>
+                <point x="429.702" y="125.982"/>
+                <point x="347.702" y="267.982"/>
+            </points>
+        </contour>
+    </staticSector>
+</GWF>
