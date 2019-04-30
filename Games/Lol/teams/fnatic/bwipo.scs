@@ -9,115 +9,21 @@ bwipo
 		[Bwipo](* <-lang_en;; *);
 
 	<-player_lol;
-	
-	=>nrel_citizen_of: Belgium;
-	=>nrel_surname: Rau;
-	=>nrel_first_name: Gabriel;
-	=>nrel_nickname: Bwipo;
-	=>nrel_birthday: [24.12.1998];
-	=>nrel_gamerole: top_laner_lol;
-	
-	<=nrel_with_whom: contract_bwipo_and_mcon_esports_lol
+
+	<=nrel_with_whom: contract_bwipo_and_fnatic
 	(*
-		=> nrel_main_idtf:
-			[Сontract between Bwipo and mCon esports](* <-lang_en;; *);
-			[Контракт между Bwipo и mCon esports](* <-lang_ru;; *);;
-		<-contract;;
-		=>nrel_with_what: mcon_esports_lol;;
-		=>nrel_period: ...
-		(*
-			<-period_of_time;;
-			->rrel_start: xx_12_2015;;
-			->rrel_end: xx_12_2015;;	
-		*);;
-	*);
-	
-	<=nrel_with_whom: contract_bwipo_and_enigma_esports_benelux_lol
-	(*
-		=> nrel_main_idtf:
-			[Сontract between Bwipo and Enigma Esports Benelux](* <-lang_en;; *);
-			[Контракт между Bwipo и Enigma Esports Benelux](* <-lang_ru;; *);;
-		<-contract;;
-		=>nrel_with_what: enigma_esports_benelux_lol;;
-		=>nrel_period: ...
-		(*
-			<-period_of_time;;
-			->rrel_start: 09_04_2016;;
-			->rrel_end: xx_04_2016;;	
-		*);;
-	*);
-	
-	<=nrel_with_whom: contract_bwipo_and_epiphany_bolt_lol
-	(*
-		=> nrel_main_idtf:
-			[Сontract between Bwipo and Epiphany Bolt](* <-lang_en;; *);
-			[Контракт между Bwipo и Epiphany Bolt](* <-lang_ru;; *);;
-		<-contract;;
-		=>nrel_with_what: epiphany_bolt_lol;;
-		=>nrel_period: ...
-		(*
-			<-period_of_time;;
-			->rrel_start: xx_10_2016;;
-			->rrel_end: xx_11_2016;;	
-		*);;
-	*);
-	
-	<=nrel_with_whom: contract_bwipo_and_sector_one_lol
-	(*
-		=> nrel_main_idtf:
-			[Сontract between Bwipo and Sector One](* <-lang_en;; *);
-			[Контракт между Bwipo и Sector One](* <-lang_ru;; *);;
-		<-contract;;
-		=>nrel_with_what: sector_one_lol;;
-		=>nrel_period: ...
-		(*
-			<-period_of_time;;
-			->rrel_start: 15_07_2016;;
-			->rrel_end: xx_12_2016;;	
-		*);;
-	*);
-	
-	<=nrel_with_whom: contract_bwipo_and_dark_passage_lol
-	(*
-		=> nrel_main_idtf:
-			[Сontract between Bwipo and Dark Passage](* <-lang_en;; *);
-			[Контракт между Bwipo и Dark Passage](* <-lang_ru;; *);;
-		<-contract;;
-		=>nrel_with_what: dark_passage_lol;;
-		=>nrel_period: ...
-		(*
-			<-period_of_time;;
-			->rrel_start: 07_01_2017;;
-			->rrel_end: 07_02_2017;;	
-		*);;
-	*);
-	
-	<=nrel_with_whom: contract_bwipo_and_rox_lol
-	(*
-		=> nrel_main_idtf:
-			[Сontract between Bwipo and RoX](* <-lang_en;; *);
-			[Контракт между Bwipo и RoX](* <-lang_ru;; *);;
-		<-contract;;
-		=>nrel_with_what: rox_lol;;
-		=>nrel_period: ...
-		(*
-			<-period_of_time;;
-			->rrel_start: xx_06_2017;;
-			->rrel_end: 05_09_2017;;	
-		*);;
-	*);
-	
-	<=nrel_with_whom: contract_bwipo_and_fnatic_lol
-	(*
-		=> nrel_main_idtf:
-			[Сontract between Bwipo and Fnatic](* <-lang_en;; *);
-			[Контракт между Bwipo и Fnatic](* <-lang_ru;; *);;
 		<-contract;;
 		=>nrel_with_what: fnatic_lol;;
 		=>nrel_period: ...
 		(*
 			<-period_of_time;;
-			->rrel_start: 07_01_2018;;
+			->rrel_start: 08_01_2018;;
 		*);;
-	*);;
+	*);
 
+	=>nrel_citizen_of: Belgium;
+	=>nrel_surname: Rau;
+	=>nrel_first_name: Gabriel;
+	=>nrel_nickname: Bwipo;
+	=>nrel_birthday: [24.12.1998];
+	=>nrel_gamerole: top_laner_lol;;
