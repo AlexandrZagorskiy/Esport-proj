@@ -1,91 +1,58 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="windows-1251"?>
 <GWF version="2.0">
     <staticSector>
-        <node type="node/var/general_node" idtf="" shapeColor="0" id="98780480" parent="98549992" x="408" y="283" haveBus="false" idtf_pos="0">
-            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        <node type="node/var/symmetry" idtf="" shapeColor="0" id="71986648" parent="69238784" x="344.434" y="235.066" haveBus="false">
+            <content type="0" mime_type="" file_name=""/>
         </node>
-        <node type="node/var/attribute" idtf="" shapeColor="0" id="98781344" parent="98549992" x="353" y="245" haveBus="false" idtf_pos="0">
-            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        <node type="node/var/general_node" idtf="" shapeColor="0" id="71993704" parent="69238784" x="342" y="301" haveBus="false">
+            <content type="0" mime_type="" file_name=""/>
         </node>
-        <node type="node/const/relation" idtf="nrel_citizen_of" shapeColor="0" id="98775296" parent="98549992" left="0" top="0" right="101" bottom="24" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="487.5" y="351.5" haveBus="false" idtf_pos="0">
-            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        <node type="node/const/general_node" idtf="virtus_pro_dota" shapeColor="0" id="71989384" parent="69238784" left="0" top="0" right="97" bottom="25" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="344.934" y="159.066" haveBus="false">
+            <content type="0" mime_type="" file_name=""/>
         </node>
-        <node type="node/const/general_node" idtf="virtus_pro_dota" shapeColor="0" id="98780912" parent="98549992" left="0" top="0" right="104" bottom="24" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="410.934" y="141.066" haveBus="false" idtf_pos="0">
-            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        <node type="node/var/attribute" idtf="" shapeColor="0" id="71990680" parent="69238784" x="287" y="263" haveBus="false">
+            <content type="0" mime_type="" file_name=""/>
         </node>
-        <node type="node/const/relation" idtf="nrel_roster" shapeColor="0" id="98781776" parent="98549992" left="0" top="0" right="75" bottom="24" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="513.434" y="178.066" haveBus="false" idtf_pos="0">
-            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        <node type="node/const/relation" idtf="nrel_roster" shapeColor="0" id="71988952" parent="69238784" left="0" top="0" right="69" bottom="25" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="447.434" y="196.066" haveBus="false">
+            <content type="0" mime_type="" file_name=""/>
         </node>
-        <node type="node/const/group" idtf="player_dota" shapeColor="0" id="98776160" parent="98549992" left="0" top="0" right="80" bottom="24" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="376" y="365" haveBus="false" idtf_pos="0">
-            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        <node type="node/const/general_node" idtf="Russia" shapeColor="0" id="71986936" parent="69238784" left="0" top="0" right="45" bottom="25" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="481" y="307" haveBus="false">
+            <content type="0" mime_type="" file_name=""/>
         </node>
-        <node type="node/const/general_node" idtf="Russia" shapeColor="0" id="98775728" parent="98549992" left="0" top="0" right="48" bottom="24" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="547" y="289" haveBus="false" idtf_pos="0">
-            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        <node type="node/const/relation" idtf="nrel_citizen_of" shapeColor="0" id="71989528" parent="69238784" left="0" top="0" right="93" bottom="25" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="421.5" y="369.5" haveBus="false">
+            <content type="0" mime_type="" file_name=""/>
         </node>
-        <node type="node/var/symmetry" idtf="" shapeColor="0" id="98780336" parent="98549992" x="410.434" y="217.066" haveBus="false" idtf_pos="0">
-            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        <node type="node/const/group" idtf="player_dota" shapeColor="0" id="71987944" parent="69238784" left="0" top="0" right="75" bottom="25" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="310" y="383" haveBus="false">
+            <content type="0" mime_type="" file_name=""/>
         </node>
-        <arc type="arc/var/pos" idtf="" shapeColor="0" id="98330616" parent="98549992" id_b="98776160" id_e="98780480" b_x="376" b_y="365" e_x="408" e_y="283" dotBBalance="0" dotEBalance="0">
+        <arc type="arc/var/pos" idtf="" shapeColor="0" id="115841400" parent="69238784" id_b="71989528" id_e="115840392" b_x="421.5" b_y="369.5" e_x="1" e_y="0" dotBBalance="0" dotEBalance="0.561539">
             <points/>
         </arc>
-        <pair type="pair/var/orient" idtf="" shapeColor="0" id="98331120" parent="98549992" id_b="98780336" id_e="98780912" b_x="410.434" b_y="217.066" e_x="410.934" e_y="141.066" dotBBalance="0" dotEBalance="0">
+        <pair type="pair/var/orient" idtf="" shapeColor="0" id="115840392" parent="69238784" id_b="71993704" id_e="71986936" b_x="342" b_y="301" e_x="481" e_y="307" dotBBalance="0" dotEBalance="0">
             <points/>
         </pair>
-        <arc type="arc/var/pos" idtf="" shapeColor="0" id="98331792" parent="98549992" id_b="98780336" id_e="98780480" b_x="410.434" b_y="217.066" e_x="408" e_y="283" dotBBalance="0" dotEBalance="0">
+        <arc type="arc/var/pos" idtf="" shapeColor="0" id="115842072" parent="69238784" id_b="71988952" id_e="115842408" b_x="447.434" b_y="196.066" e_x="1" e_y="0" dotBBalance="0" dotEBalance="0.484761">
             <points/>
         </arc>
-        <arc type="arc/var/pos" idtf="" shapeColor="0" id="98333808" parent="98549992" id_b="98781776" id_e="98331120" b_x="513.434" b_y="178.066" e_x="66" e_y="-18" dotBBalance="0" dotEBalance="0.484761">
-            <points/>
-        </arc>
-        <arc type="arc/var/pos" idtf="" shapeColor="0" id="98330448" parent="98549992" id_b="98775296" id_e="98330784" b_x="487.5" b_y="351.5" e_x="66" e_y="-18" dotBBalance="0" dotEBalance="0.561539">
-            <points/>
-        </arc>
-        <arc type="arc/var/pos" idtf="" shapeColor="0" id="98334816" parent="98549992" id_b="98781344" id_e="98331792" b_x="353" b_y="245" e_x="66" e_y="-18" dotBBalance="0" dotEBalance="0.351337">
-            <points/>
-        </arc>
-        <pair type="pair/var/orient" idtf="" shapeColor="0" id="98330784" parent="98549992" id_b="98780480" id_e="98775728" b_x="408" b_y="283" e_x="547" e_y="289" dotBBalance="0" dotEBalance="0">
+        <pair type="pair/var/orient" idtf="" shapeColor="0" id="115842408" parent="69238784" id_b="71986648" id_e="71989384" b_x="344.434" b_y="235.066" e_x="344.934" e_y="159.066" dotBBalance="0" dotEBalance="0">
             <points/>
         </pair>
-        <contour type="" idtf="pattern_find_vp_russian_player" shapeColor="0" id="98549992" parent="0" left="0" top="0" right="201" bottom="24" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10">
+        <arc type="arc/var/pos" idtf="" shapeColor="0" id="115840728" parent="69238784" id_b="71990680" id_e="115842240" b_x="287" b_y="263" e_x="1" e_y="0" dotBBalance="0" dotEBalance="0.351337">
+            <points/>
+        </arc>
+        <arc type="arc/var/pos" idtf="" shapeColor="0" id="115842240" parent="69238784" id_b="71986648" id_e="71993704" b_x="344.434" b_y="235.066" e_x="342" e_y="301" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/var/pos" idtf="" shapeColor="0" id="115842912" parent="69238784" id_b="71987944" id_e="71993704" b_x="310" b_y="383" e_x="342" e_y="301" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <contour type="" idtf="pattern_find_vp_russian_player" shapeColor="0" id="69238784" parent="0" left="0" top="0" right="186" bottom="25" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10">
             <points>
-                <point x="307.5" y="399.566"/>
-                <point x="340.5" y="100.566"/>
-                <point x="712.5" y="169.566"/>
-                <point x="710.5" y="406.566"/>
+                <point x="241.5" y="417.566"/>
+                <point x="274.5" y="118.566"/>
+                <point x="646.5" y="187.566"/>
+                <point x="644.5" y="424.566"/>
             </points>
         </contour>
-        <node type="node/const/general_node" idtf="" shapeColor="0" id="98781632" parent="0" x="139.385" y="244" haveBus="false" idtf_pos="0">
-            <content type="1" mime_type="content/term" content_visibility="true" file_name=""><![CDATA[Find Virtus Pro Dota 2 players from Russia]]></content>
-        </node>
-        <node type="node/const/general_node" idtf="" shapeColor="0" id="98782496" parent="0" x="135.5" y="190" haveBus="false" idtf_pos="0">
-            <content type="1" mime_type="content/term" content_visibility="true" file_name=""><![CDATA[Найти игроков и их роль состава Virtus Pro из России]]></content>
-        </node>
-        <node type="node/const/group" idtf="lang_en" shapeColor="0" id="98779760" parent="0" left="0" top="0" right="57" bottom="24" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="136.885" y="297.5" haveBus="false" idtf_pos="0">
-            <content type="0" mime_type="" content_visibility="false" file_name=""/>
-        </node>
-        <node type="node/const/relation" idtf="nrel_main_idtf" shapeColor="0" id="98781920" parent="0" left="0" top="0" right="99" bottom="24" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="268.385" y="62.5" haveBus="false" idtf_pos="0">
-            <content type="0" mime_type="" content_visibility="false" file_name=""/>
-        </node>
-        <node type="node/const/group" idtf="lang_ru" shapeColor="0" id="98782784" parent="0" left="0" top="0" right="55" bottom="24" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="139.385" y="117" haveBus="false" idtf_pos="0">
-            <content type="0" mime_type="" content_visibility="false" file_name=""/>
-        </node>
-        <pair type="pair/const/orient" idtf="" shapeColor="0" id="98334312" parent="0" id_b="98549992" id_e="98781632" b_x="510" b_y="253.566" e_x="139.385" e_y="244" dotBBalance="0" dotEBalance="0">
-            <points/>
-        </pair>
-        <pair type="pair/const/orient" idtf="" shapeColor="0" id="98332632" parent="0" id_b="98549992" id_e="98782496" b_x="510" b_y="253.566" e_x="135.5" e_y="190" dotBBalance="0" dotEBalance="0">
-            <points/>
-        </pair>
-        <arc type="arc/const/pos" idtf="" shapeColor="0" id="98332800" parent="0" id_b="98781920" id_e="98334312" b_x="268.385" b_y="62.5" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.448293">
-            <points/>
-        </arc>
-        <arc type="arc/const/pos" idtf="" shapeColor="0" id="98334144" parent="0" id_b="98781920" id_e="98332632" b_x="268.385" b_y="62.5" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.717864">
-            <points/>
-        </arc>
-        <arc type="arc/const/pos" idtf="" shapeColor="0" id="98332296" parent="0" id_b="98779760" id_e="98781632" b_x="136.885" b_y="297.5" e_x="139.385" e_y="244" dotBBalance="0" dotEBalance="0">
-            <points/>
-        </arc>
-        <arc type="arc/const/pos" idtf="" shapeColor="0" id="98331288" parent="0" id_b="98782784" id_e="98782496" b_x="139.385" b_y="117" e_x="135.5" e_y="190" dotBBalance="0" dotEBalance="0">
-            <points/>
-        </arc>
     </staticSector>
 </GWF>

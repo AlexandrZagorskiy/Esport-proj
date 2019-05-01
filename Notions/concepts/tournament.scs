@@ -6,16 +6,15 @@ tournament
 		[турнир](* <-lang_ru;; *);
 		[tournament](* <-lang_en;; *);
 
-	->tournament_dota
+	<-rrel_sc_key_element: definition_tournament
 	(*
+		<-definition;;
 		=> nrel_main_idtf:
-			[турнир | Dota 2](* <-lang_ru;; *);
-			[tournament | Dota 2](* <-lang_en;; *);;
-	*);
+			[Опр.(турнир)](* <-lang_ru;; *);
+			[def.(tournament)](* <-lang_en;; *);;
 
-	->tournament_lol
-	(*
-		=> nrel_main_idtf:
-			[турнир | LoL](* <-lang_ru;; *);
-			[tournament | LoL](* <-lang_en;; *);;
+		<=nrel_sc_text_translation: ...
+		(*
+			->rrel_example:	[Tournament is a series of contests between teams, competing for an overall prize.]  (* <-lang_en;; *);;
+		*);;
 	*);;
