@@ -1,73 +1,40 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="windows-1251"?>
 <GWF version="2.0">
     <staticSector>
-        <node type="node/var/general_node" idtf="" shapeColor="0" id="98779904" parent="98551912" x="398" y="295" haveBus="false" idtf_pos="0">
-            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        <node type="node/var/symmetry" idtf="" shapeColor="0" id="71993992" parent="72594200" x="307.434" y="235.066" haveBus="false">
+            <content type="0" mime_type="" file_name=""/>
         </node>
-        <node type="node/var/symmetry" idtf="" shapeColor="0" id="98782208" parent="98551912" x="396.434" y="230.066" haveBus="false" idtf_pos="0">
-            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        <node type="node/var/general_node" idtf="" shapeColor="0" id="71994136" parent="72594200" x="309" y="300" haveBus="false">
+            <content type="0" mime_type="" file_name=""/>
         </node>
-        <node type="node/var/attribute" idtf="" shapeColor="0" id="98781056" parent="98551912" x="339" y="258" haveBus="false" idtf_pos="0">
-            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        <node type="node/const/general_node" idtf="natus_vincere_dota" shapeColor="0" id="71987080" parent="72594200" left="0" top="0" right="117" bottom="25" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="306.934" y="159.066" haveBus="false">
+            <content type="0" mime_type="" file_name=""/>
         </node>
-        <node type="node/const/relation" idtf="nrel_roster" shapeColor="0" id="98781200" parent="98551912" left="0" top="0" right="75" bottom="24" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="499.434" y="191.066" haveBus="false" idtf_pos="0">
-            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        <node type="node/var/attribute" idtf="" shapeColor="0" id="71992696" parent="72594200" x="250" y="263" haveBus="false">
+            <content type="0" mime_type="" file_name=""/>
         </node>
-        <node type="node/const/general_node" idtf="natus_vincere_dota" shapeColor="0" id="98780624" parent="98551912" left="0" top="0" right="127" bottom="24" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="395.934" y="154.066" haveBus="false" idtf_pos="0">
-            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        <node type="node/const/relation" idtf="nrel_roster" shapeColor="0" id="71992120" parent="72594200" left="0" top="0" right="69" bottom="25" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="410.434" y="196.066" haveBus="false">
+            <content type="0" mime_type="" file_name=""/>
         </node>
-        <arc type="arc/var/pos" idtf="" shapeColor="0" id="47319272" parent="98551912" id_b="98781200" id_e="47316584" b_x="499.434" b_y="191.066" e_x="89" e_y="-5" dotBBalance="0" dotEBalance="0.484761">
+        <arc type="arc/var/pos" idtf="" shapeColor="0" id="115290576" parent="72594200" id_b="71992120" id_e="115284528" b_x="410.434" b_y="196.066" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.484761">
             <points/>
         </arc>
-        <arc type="arc/var/pos" idtf="" shapeColor="0" id="47318432" parent="98551912" id_b="98781056" id_e="47318768" b_x="339" b_y="258" e_x="89" e_y="-5" dotBBalance="0" dotEBalance="0.351337">
-            <points/>
-        </arc>
-        <arc type="arc/var/pos" idtf="" shapeColor="0" id="47318768" parent="98551912" id_b="98782208" id_e="98779904" b_x="396.434" b_y="230.066" e_x="398" e_y="295" dotBBalance="0" dotEBalance="0">
-            <points/>
-        </arc>
-        <pair type="pair/var/orient" idtf="" shapeColor="0" id="47316584" parent="98551912" id_b="98782208" id_e="98780624" b_x="396.434" b_y="230.066" e_x="395.934" e_y="154.066" dotBBalance="0" dotEBalance="0">
+        <pair type="pair/var/orient" idtf="" shapeColor="0" id="115284528" parent="72594200" id_b="71993992" id_e="71987080" b_x="307.434" b_y="235.066" e_x="306.934" e_y="159.066" dotBBalance="0" dotEBalance="0">
             <points/>
         </pair>
-        <contour type="" idtf="pattern_find_navi_roster" shapeColor="0" id="98551912" parent="0" left="0" top="0" right="158" bottom="24" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10">
+        <arc type="arc/var/pos" idtf="" shapeColor="0" id="115287048" parent="72594200" id_b="71992696" id_e="115285368" b_x="250" b_y="263" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.351337">
+            <points/>
+        </arc>
+        <arc type="arc/var/pos" idtf="" shapeColor="0" id="115285368" parent="72594200" id_b="71993992" id_e="71994136" b_x="307.434" b_y="235.066" e_x="309" e_y="300" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <contour type="" idtf="pattern_find_navi_roster" shapeColor="0" id="72594200" parent="0" left="0" top="0" right="147" bottom="25" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10">
             <points>
-                <point x="314.5" y="343.566"/>
-                <point x="323.5" y="124.566"/>
-                <point x="656.5" y="171.566"/>
-                <point x="574.5" y="313.566"/>
+                <point x="225.5" y="348.566"/>
+                <point x="234.5" y="129.566"/>
+                <point x="567.5" y="176.566"/>
+                <point x="485.5" y="318.566"/>
             </points>
         </contour>
-        <node type="node/const/relation" idtf="nrel_main_idtf" shapeColor="0" id="98776304" parent="0" left="0" top="0" right="99" bottom="24" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="250" y="63.5" haveBus="false" idtf_pos="0">
-            <content type="0" mime_type="" content_visibility="false" file_name=""/>
-        </node>
-        <node type="node/const/general_node" idtf="" shapeColor="0" id="98776016" parent="0" x="126.115" y="196" haveBus="false" idtf_pos="0">
-            <content type="1" mime_type="content/term" content_visibility="true" file_name=""><![CDATA[Найти состав NaVi по дисциплине Dota 2]]></content>
-        </node>
-        <node type="node/const/group" idtf="lang_ru" shapeColor="0" id="98776448" parent="0" left="0" top="0" right="55" bottom="24" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="130" y="123" haveBus="false" idtf_pos="0">
-            <content type="0" mime_type="" content_visibility="false" file_name=""/>
-        </node>
-        <node type="node/const/general_node" idtf="" shapeColor="0" id="98779184" parent="0" x="129" y="250" haveBus="false" idtf_pos="0">
-            <content type="1" mime_type="content/term" content_visibility="true" file_name=""><![CDATA[Find NaVi Dota 2 roster ]]></content>
-        </node>
-        <node type="node/const/group" idtf="lang_en" shapeColor="0" id="98779472" parent="0" left="0" top="0" right="57" bottom="24" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="127.5" y="303.5" haveBus="false" idtf_pos="0">
-            <content type="0" mime_type="" content_visibility="false" file_name=""/>
-        </node>
-        <pair type="pair/const/orient" idtf="" shapeColor="0" id="98334648" parent="0" id_b="98551912" id_e="98776016" b_x="485.5" b_y="234.066" e_x="126.115" e_y="196" dotBBalance="0" dotEBalance="0">
-            <points/>
-        </pair>
-        <pair type="pair/const/orient" idtf="" shapeColor="0" id="98331456" parent="0" id_b="98551912" id_e="98779184" b_x="485.5" b_y="234.066" e_x="129" e_y="250" dotBBalance="0" dotEBalance="0">
-            <points/>
-        </pair>
-        <arc type="arc/const/pos" idtf="" shapeColor="0" id="98330952" parent="0" id_b="98776304" id_e="98331456" b_x="250" b_y="63.5" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.495403">
-            <points/>
-        </arc>
-        <arc type="arc/const/pos" idtf="" shapeColor="0" id="98332632" parent="0" id_b="98776304" id_e="98334648" b_x="250" b_y="63.5" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.674021">
-            <points/>
-        </arc>
-        <arc type="arc/const/pos" idtf="" shapeColor="0" id="98331288" parent="0" id_b="98776448" id_e="98776016" b_x="130" b_y="123" e_x="126.115" e_y="196" dotBBalance="0" dotEBalance="0">
-            <points/>
-        </arc>
-        <arc type="arc/const/pos" idtf="" shapeColor="0" id="98329608" parent="0" id_b="98779472" id_e="98779184" b_x="127.5" b_y="303.5" e_x="129" e_y="250" dotBBalance="0" dotEBalance="0">
-            <points/>
-        </arc>
     </staticSector>
 </GWF>

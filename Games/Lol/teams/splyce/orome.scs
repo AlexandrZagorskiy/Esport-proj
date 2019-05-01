@@ -9,9 +9,18 @@ orome
 		[Orome](* <-lang_en;; *);
 
 	<-player_lol;
-
+	
+	=>nrel_citizen_of: Romania;
+	=>nrel_surname: Popa;
+	=>nrel_first_name: Anrei;
+	=>nrel_nickname: Orome;
+	=>nrel_gamerole: top_laner_lol;
+	
 	<=nrel_with_whom: contract_orome_and_splyce
 	(*
+		=> nrel_main_idtf:
+			[Сontract between Orome and Splyce](* <-lang_en;; *);
+			[Контракт между Orome и Splyce](* <-lang_ru;; *);;
 		<-contract;;
 		=>nrel_with_what: splyce_lol;;
 		=>nrel_period: ...
@@ -19,10 +28,5 @@ orome
 			<-period_of_time;;
 			->rrel_start: 10_12_2018;;
 		*);;
-	*);
+	*);;
 
-	=>nrel_citizen_of: Romania;
-	=>nrel_surname: Popa;
-	=>nrel_first_name: Anrei;
-	=>nrel_nickname: Orome;
-	=>nrel_gamerole: top_laner_lol;;

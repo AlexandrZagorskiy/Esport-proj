@@ -10,8 +10,18 @@ prime
 
 	<-player_lol;
 
-	<=nrel_with_whom: contract_prime_and_splyce
+	=>nrel_citizen_of: France;
+	=>nrel_surname: Payet;
+	=>nrel_first_name: Olivier;
+	=>nrel_nickname: Prime;
+	=>nrel_birthday: [24.02.2000];
+	=>nrel_gamerole: support_lol;
+
+	<=nrel_with_whom: contract_prime_and_splyce_lol
 	(*
+		=> nrel_main_idtf:
+			[Сontract between Prime and Splyce](* <-lang_en;; *);
+			[Контракт между Prime и Splyce](* <-lang_ru;; *);;
 		<-contract;;
 		=>nrel_with_what: splyce_lol;;
 		=>nrel_period: ...
@@ -19,11 +29,5 @@ prime
 			<-period_of_time;;
 			->rrel_start: 14_01_2019;;
 		*);;
-	*);
+	*);;
 
-	=>nrel_citizen_of: France;
-	=>nrel_surname: Payet;
-	=>nrel_first_name: Olivier;
-	=>nrel_nickname: Prime;
-	=>nrel_birthday: [24.02.2000];
-	=>nrel_gamerole: support_lol;;
