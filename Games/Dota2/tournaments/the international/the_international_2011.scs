@@ -7,7 +7,7 @@ the_international_2011
 	=> nrel_idtf:
 		[TI1](* <-lang_en; lang_ru;; *);
 
-	<-tournament;
+	<-tournament_dota;
 
 	=> nrel_organizer: valve;
 	=> nrel_sponsor: valve;
