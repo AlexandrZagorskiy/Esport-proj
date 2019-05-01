@@ -2,6 +2,7 @@ nrel_birthday
 
 	=> nrel_first_domain: player;
 	=> nrel_second_domain: date; 
+	
 	<-sc_node_norole_relation;
 	<-oriented_relation;
 	<-binary_relation;
