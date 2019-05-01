@@ -2,7 +2,17 @@ omen_by_hp
 
  <-sc_node_not_relation;
 
-	=> nrel_main_idtf:
-		[OMEN by HP](* <-lang_en; lang_ru;; *);
+ => nrel_main_idtf:
+		[Audi](* <-lang_en;; *);
 
-	<- computer_manufacturing;;
+	<-rrel_sc_key_element: definition_omen_by_hp
+	(*
+		<-definition;;
+		=> nrel_main_idtf:
+			[def.(Audi)](* <-lang_en;; *);;
+
+		<=nrel_sc_text_translation: ...
+		(*
+			->rrel_example:	[an American multinational information technology company headquartered in Palo Alto, California, United States.]  (* <-lang_en;; *);;
+		*);;
+	*);;

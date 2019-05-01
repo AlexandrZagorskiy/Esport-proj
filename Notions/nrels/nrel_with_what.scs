@@ -1,8 +1,5 @@
 nrel_with_what
 
-	=> nrel_first_domain: contract;
-	=> nrel_second_domain: organization; 
-
 	<-sc_node_norole_relation;
 	<-oriented_relation;
 	<-binary_relation;

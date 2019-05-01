@@ -10,8 +10,33 @@ hyllisang
 
 	<-player_lol;
 
-	<=nrel_with_whom: contract_hylissang_and_fnatic
+	=>nrel_citizen_of: Bulgaria;
+	=>nrel_surname: Galabov;
+	=>nrel_first_name: Zdravets;
+	=>nrel_nickname: Hylissang;
+	=>nrel_birthday: [30.04.1995];
+	=>nrel_gamerole: support_lol;
+
+	<=nrel_with_whom: contract_hyllisang_and_unicorns_of_love_lol
 	(*
+		=> nrel_main_idtf:
+			[Сontract between Hyllisang and Unicorns Of Love](* <-lang_en;; *);
+			[Контракт между Hyllisang и Unicorns Of Love](* <-lang_ru;; *);;
+		<-contract;;
+		=>nrel_with_what: unicorns_of_love_lol;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: xx_01_2014;;
+			->rrel_end: 14_12_2017;;	
+		*);;
+	*);
+
+	<=nrel_with_whom: contract_hylissang_and_fnatic_lol
+	(*
+		=> nrel_main_idtf:
+			[Сontract between Magifelix and Fnatic](* <-lang_en;; *);
+			[Контракт между Magifelix и Fnatic](* <-lang_ru;; *);;
 		<-contract;;
 		=>nrel_with_what: fnatic_lol;;
 		=>nrel_period: ...
@@ -19,11 +44,5 @@ hyllisang
 			<-period_of_time;;
 			->rrel_start: 14_12_2017;;
 		*);;
-	*);
+	*);;
 
-	=>nrel_citizen_of: Bulgaria;
-	=>nrel_surname: Galabov;
-	=>nrel_first_name: Zdravets;
-	=>nrel_nickname: Hylissang;
-	=>nrel_birthday: [30.04.1995];
-	=>nrel_gamerole: support_lol;;
