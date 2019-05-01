@@ -6,6 +6,6 @@ subject_domain_of_video_games
 
 <- subject_domain;
 
--> rrel_maximum_studied_object_class: 
-	video_game;;
-	
+-> rrel_maximum_studied_object_class: video_game;
+
+=> nrel_video_game: dota_2;;	
