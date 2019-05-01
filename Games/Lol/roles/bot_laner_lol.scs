@@ -1,0 +1,18 @@
+bot_laner_lol
+
+	<-sc_node_not_relation;
+
+	=> nrel_main_idtf:
+		[bot laner](* <-lang_en;; *);
+
+	<-rrel_sc_key_element: definition_bot_laner_lol
+	(*
+		<- definition;;
+		=> nrel_main_idtf:
+			[def.(bot laner)](* <-lang_en;; *);;
+			<=nrel_sc_text_translation: ...
+		(*			
+			->rrel_example:
+				[Bot laner is one of gameroles in games.]  (* <-lang_en;; *);;
+		*);;
+	*);;
