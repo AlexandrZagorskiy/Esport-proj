@@ -12,7 +12,6 @@ dota_2
 	=> nrel_game_designer: icefrog;
 	=> nrel_game_engine: sourse_2;
 	=> nrel_game_genre: moba;
-	=> nrel_game_mode: multiplayer;
 	=> nrel_game_platform: pc;
 	=> nrel_game_release: 09_07_2013;
 

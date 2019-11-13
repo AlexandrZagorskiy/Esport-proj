@@ -109,5 +109,6 @@ chuvash
 		(*
 			<-period_of_time;;
 			->rrel_start: 07_09_2018;;
+			->rrel_end: 24_04_2019;;
 		*);;
 	*);;

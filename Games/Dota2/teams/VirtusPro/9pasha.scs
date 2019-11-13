@@ -102,5 +102,20 @@
 		(*
 			<-period_of_time;;
 			->rrel_start: 04_08_2016;;
+			->rrel_end: 05_09_2019;;
+		*);;
+	*);
+
+  <=nrel_with_whom: contract_9pasha_and_natus_vincere_dota
+	(*
+		=> nrel_main_idtf:
+			[Сontract between 9pasha and Natus Vincere](* <-lang_en;; *);
+			[Контракт между 9pasha и Natus Vincere](* <-lang_ru;; *);;
+		<-contract;;
+		=>nrel_with_what: natus_vincere_dota;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 05_09_2019;;
 		*);;
 	*);;

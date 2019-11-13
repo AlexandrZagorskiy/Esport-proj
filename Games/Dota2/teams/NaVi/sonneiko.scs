@@ -82,5 +82,6 @@ sonneiko
 		(*
 			<-period_of_time;;
 			->rrel_start: 01_09_2018;;
+			->rrel_end: 23_10_2019;;
 		*);;
 	*);;
