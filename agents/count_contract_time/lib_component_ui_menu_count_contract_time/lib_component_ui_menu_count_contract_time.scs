@@ -1,8 +1,8 @@
-lib_component_ui_menu_find_contract_of_player_and_team
+lib_component_ui_menu_count_contract_time
 => nrel_main_idtf:
-	[Компонент библиотеки. Команда поиска контрактов]
+	[Компонент библиотеки. Команда подсчёта времени действия контракта]
 	(* <- lang_ru;; *);
-	[Library component. User interface find contract]
+	[Library component. User interface count contract active time]
 	(* <- lang_en;; *);
 
 <- library_of_platform_independent_reusable_components;
@@ -22,4 +22,4 @@ lib_component_ui_menu_find_contract_of_player_and_team
 		*);;
 	*);;
 
-lib_component_ui_menu_find_team_roster  = [*^"file://ui_menu_find_contract_of_player_and_team.scsi"*];; 
+lib_component_ui_menu_find_team_roster  = [*^"file://ui_menu_count_contract_time.scsi"*];; 
