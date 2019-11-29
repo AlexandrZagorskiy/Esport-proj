@@ -87,6 +87,6 @@ blizzy
 		(*
 			<-period_of_time;;
 			->rrel_start: 01_09_2018;;
-			->rrel_end: 05-09-2019;;
+			->rrel_end: 05_09_2019;;
 		*);;
 	*);;
