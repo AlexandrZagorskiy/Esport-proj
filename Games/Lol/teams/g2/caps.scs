@@ -14,7 +14,16 @@ caps
 	=>nrel_surname: Winther;
 	=>nrel_first_name: Rasmus;
 	=>nrel_nickname: Caps;
-	=>nrel_birthday: [17.11.1999];
+	=>nrel_birthday: 17_11_1999
+	(*
+		<-sc_node_not_relation;;
+		=> nrel_maim_idtf:
+			[17.11.1999](* <-lang_en; lang_ru;; *);;
+		<-date;;
+		=>nrel_date_day: [17];;
+		=>nrel_date_month: [11];;
+		=>nrel_date_year: [1999];;
+	*);
 	=>nrel_gamerole: mid_laner_lol;
 
 	<=nrel_with_whom: contract_caps_and_enigma_esports_lol
