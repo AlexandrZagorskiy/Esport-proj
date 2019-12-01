@@ -88,7 +88,7 @@ scp_program -> agent_find_age_of_player(*
 			<- searchSetStr5;;
 			-> rrel_1: rrel_fixed: rrel_scp_var: _pattern;;
 			-> rrel_2: rrel_assign: rrel_scp_var: rrel_common: _arc1;;
-			-> rrel_3: rrel_assign: rrel_scp_var: _age_period;;
+			-> rrel_3: rrel_assign: rrel_scp_var: _age_date;;
 			-> rrel_4: rrel_assign: rrel_scp_var: rrel_const: rrel_pos_const_perm: _arc2;;
 			-> rrel_5: rrel_fixed: rrel_scp_const: nrel_birthday;;
 
@@ -104,9 +104,9 @@ scp_program -> agent_find_age_of_player(*
 		-> .agent_find_age_of_player_operator_y1
 			(*
 			<- searchSetStr5;;
-			-> rrel_1: rrel_fixed: rrel_scp_var: _age_period;;
+			-> rrel_1: rrel_fixed: rrel_scp_var: _age_date;;
 			-> rrel_2: rrel_assign: rrel_scp_var: rrel_common: _arc1;;
-			-> rrel_3: rrel_assign: rrel_scp_var: _age_period_year;;
+			-> rrel_3: rrel_assign: rrel_scp_var: _age_date_year;;
 			-> rrel_4: rrel_assign: rrel_scp_var: rrel_const: rrel_pos_const_perm: _arc2;;
 			-> rrel_5: rrel_fixed: rrel_scp_const: nrel_date_year;;
 
@@ -120,8 +120,8 @@ scp_program -> agent_find_age_of_player(*
 			<- contSub;;
 
 			-> rrel_1: rrel_assign: rrel_scp_var: _age_of_player;;
-			-> rrel_2: rrel_fixed: rrel_scp_var: [2019];;
-			-> rrel_3: rrel_fixed: rrel_scp_var: _age_period_year;;
+			-> rrel_2: rrel_fixed: rrel_scp_const: [2019];;
+			-> rrel_3: rrel_fixed: rrel_scp_var: _age_date_year;;
 
 			=> nrel_goto: .agent_find_age_of_player_operator_gz;;
 			*);;
@@ -153,7 +153,7 @@ scp_program -> agent_find_age_of_player(*
 			-> rrel_set_4: rrel_fixed: rrel_scp_var: _answer_for_checking_domains_of_relation;;
 
 			=> nrel_then: .agent_find_age_of_player_operator_y6;;
-			=> nrel_else: .agent_find_genres_of_animation_operator_return;;
+			=> nrel_else: .agent_find_age_of_player_operator_return;;
 			*);;
 
 		-> .agent_find_age_of_player_operator_y6
