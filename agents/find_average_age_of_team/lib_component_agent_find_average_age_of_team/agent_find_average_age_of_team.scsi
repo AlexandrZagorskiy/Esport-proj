@@ -1,7 +1,7 @@
 agent_find_average_age_of_team
 => nrel_main_idtf:
-	[агентная scp-программа поиска возраста игрока] (* <- lang_ru;; *);
-	[agent scp-program search age of player] (* <- lang_en;; *);
+	[агентная scp-программа поиска среднего возраста игроков заданной команды] (* <- lang_ru;; *);
+	[agent scp-program search average age of players of given team] (* <- lang_en;; *);
 	<- agent_scp_program;;
 
 scp_program -> agent_find_average_age_of_team(*
@@ -179,7 +179,7 @@ scp_program -> agent_find_average_age_of_team(*
 			-> rrel_set_3: rrel_fixed: rrel_scp_var: _answer_for_checking_domains_of_relation;;
 			-> rrel_set_4: rrel_fixed: rrel_scp_var: _answer_for_checking_domains_of_relation;;
 
-			=> nrel_then: .agent_find_average_age_of_team_operator_y1;;
+			=> nrel_then: .agent_find_average_age_of_team_operator_r6;;
 			=> nrel_else: .agent_find_average_age_of_team_operator_return;;
 			*);;
 		-> .agent_find_average_age_of_team_operator_r6
