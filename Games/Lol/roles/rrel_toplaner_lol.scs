@@ -5,4 +5,4 @@ rrel_toplaner_lol
 	
 	=> nrel_main_idtf:
 		[toplaner'](* <-lang_en;; *);
-		[топер'](* <-lang_ru;; *);
+		[топер'](* <-lang_ru;; *);;

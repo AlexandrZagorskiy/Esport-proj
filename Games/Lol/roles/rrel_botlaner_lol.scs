@@ -5,4 +5,4 @@ rrel_botlaner_lol
 	
 	=> nrel_main_idtf:
 		[botlaner'](* <-lang_en;; *);
-		[ботлэйнер'](* <-lang_ru;; *);
+		[ботлэйнер'](* <-lang_ru;; *);;
