@@ -24,7 +24,6 @@ caps
 		=>nrel_date_month: [11];;
 		=>nrel_date_year: [1999];;
 	*);
-	=>nrel_gamerole: mid_laner_lol;
 
 	<=nrel_with_whom: contract_caps_and_enigma_esports_lol
 	(*

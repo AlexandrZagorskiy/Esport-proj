@@ -14,8 +14,16 @@ perkz
 	=>nrel_surname: Perkovic;
 	=>nrel_first_name: Luka;
 	=>nrel_nickname: Perkz;
-	=>nrel_birthday: [30.09.1998];
-	=>nrel_gamerole: bot_laner_lol;
+	=>nrel_birthday: 30_09_1998
+	(*
+		<-sc_node_not_relation;;
+		=> nrel_main_idtf:
+			[30.09.1998](* <-lang_en; lang_ru;; *);;
+		<-date;;
+		=>nrel_date_day: [30];;
+		=>nrel_date_month: [9];;
+		=>nrel_date_year: [1998];;
+	*);
 	
 	<=nrel_with_whom: contract_perkz_and_millenium_lol
 	(*
