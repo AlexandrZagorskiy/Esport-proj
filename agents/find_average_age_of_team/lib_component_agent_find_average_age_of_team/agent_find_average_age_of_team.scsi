@@ -113,7 +113,7 @@ scp_program -> agent_find_average_age_of_team(*
 			-> rrel_set_3: rrel_fixed: rrel_scp_var: _answer_for_checking_domains_of_relation;;
 			-> rrel_set_4: rrel_fixed: rrel_scp_var: _answer_for_checking_domains_of_relation;;
 
-			=> nrel_then: .agent_find_average_age_of_team_r2;;
+			=> nrel_then: .agent_find_average_age_of_team_operator_r2;;
 			=> nrel_else: .agent_find_average_age_of_team_operator_return;;
 			*);;
 			
@@ -247,7 +247,7 @@ scp_program -> agent_find_average_age_of_team(*
 			-> rrel_set_3: rrel_fixed: rrel_scp_var: _answer_for_checking_domains_of_relation;;
 			-> rrel_set_4: rrel_fixed: rrel_scp_var: _answer_for_checking_domains_of_relation;;
 
-			=> nrel_then: .agent_find_average_age_of_team_perator_r10;;
+			=> nrel_then: .agent_find_average_age_of_team_operator_r10;;
 			=> nrel_else: .agent_find_average_age_of_team_operator_return;;
 			*);;
 			
@@ -264,7 +264,7 @@ scp_program -> agent_find_average_age_of_team(*
 			-> rrel_set_3: rrel_fixed: rrel_scp_var: _answer_for_checking_domains_of_relation;;
 			-> rrel_set_4: rrel_fixed: rrel_scp_var: _answer_for_checking_domains_of_relation;;
 
-			=> nrel_then: .agent_find_average_age_of_team_perator_y1_1;;
+			=> nrel_then: .agent_find_average_age_of_team_operator_y1_1;;
 			=> nrel_else: .agent_find_average_age_of_team_operator_return;;
 			*);;
 
@@ -392,7 +392,7 @@ scp_program -> agent_find_average_age_of_team(*
 			(*
 			<- contAdd;;
 
-			-> rrel_1: rrel_assign: rrel_scp_var: _average_age_of_team_add1;;
+			-> rrel_1: rrel_assign: rrel_scp_var: _average_age_of_team_add;;
 			-> rrel_2: rrel_fixed: rrel_scp_var: _average_age_of_team_support;;
 			-> rrel_3: rrel_fixed: rrel_scp_var: _average_age_of_team_botlaner;;
 
@@ -403,9 +403,9 @@ scp_program -> agent_find_average_age_of_team(*
 			(*
 			<- contAdd;;
 
-			-> rrel_1: rrel_assign: rrel_scp_var: _average_age_of_team_add2;;
-			-> rrel_2: rrel_fixed: rrel_scp_var: __average_age_of_team_midlaner;;
-			-> rrel_3: rrel_fixed: rrel_scp_var: _average_age_of_team_add1;;
+			-> rrel_1: rrel_fixed: rrel_scp_var: _average_age_of_team_add;;
+			-> rrel_2: rrel_fixed: rrel_scp_var: _average_age_of_team_midlaner;;
+			-> rrel_3: rrel_fixed: rrel_scp_var: _average_age_of_team_add;;
 
 			=> nrel_goto: .agent_find_average_age_of_team_operator_add3;;
 			*);;
@@ -414,9 +414,9 @@ scp_program -> agent_find_average_age_of_team(*
 			(*
 			<- contAdd;;
 
-			-> rrel_1: rrel_assign: rrel_scp_var: _average_age_of_team_add3;;
+			-> rrel_1: rrel_fixed: rrel_scp_var: _average_age_of_team_add;;
 			-> rrel_2: rrel_fixed: rrel_scp_var: _average_age_of_team_jungler;;
-			-> rrel_3: rrel_fixed: rrel_scp_var: _average_age_of_team_add2;;
+			-> rrel_3: rrel_fixed: rrel_scp_var: _average_age_of_team_add;;
 
 			=> nrel_goto: .agent_find_average_age_of_team_operator_add4;;
 			*);;
@@ -425,9 +425,9 @@ scp_program -> agent_find_average_age_of_team(*
 			(*
 			<- contAdd;;
 
-			-> rrel_1: rrel_assign: rrel_scp_var: _average_age_of_team_add4;;
+			-> rrel_1: rrel_fixed: rrel_scp_var: _average_age_of_team_add;;
 			-> rrel_2: rrel_fixed: rrel_scp_var: _average_age_of_team_toplaner;;
-			-> rrel_3: rrel_fixed: rrel_scp_var: _average_age_of_team_add3;;
+			-> rrel_3: rrel_fixed: rrel_scp_var: _average_age_of_team_add;;
 
 			=> nrel_goto: .agent_find_average_age_of_team_operator_div;;
 			*);;
@@ -437,7 +437,7 @@ scp_program -> agent_find_average_age_of_team(*
 			<- contDiv;;
 
 			-> rrel_1: rrel_assign: rrel_scp_var: _average_age_of_team;;
-			-> rrel_2: rrel_fixed: rrel_scp_var: _average_age_of_team_add4;;
+			-> rrel_2: rrel_fixed: rrel_scp_var: _average_age_of_team_add;;
 			-> rrel_3: rrel_fixed: rrel_scp_const: [5];;
 
 			=> nrel_goto: .agent_find_average_age_of_team_operator_gz;;
