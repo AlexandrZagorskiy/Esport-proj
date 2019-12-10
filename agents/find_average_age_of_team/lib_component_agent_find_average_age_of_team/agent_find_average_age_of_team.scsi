@@ -185,13 +185,13 @@ scp_program -> agent_find_average_age_of_team(*
 		-> .agent_find_average_age_of_team_operator_r6
 			(*
 			<-call;;
-			->rrel_1: rrel_fixed: rrel_scp_const: proc_find_age_player;;
+			->rrel_1: rrel_fixed: rrel_scp_const: agent_find_age_player;;
 			->rrel_2: rrel_fixed: rrel_scp_const: .agent_find_average_age_of_team_operator_r6_params
 			(*
 				->rrel_1: rrel_fixed: rrel_scp_var: _average_age_roster_support;;
 				->rrel_2: rrel_assign: rrel_scp_var: _answer_support;;
 			*);;
-			->rrel_3: rrel_assign: rrel_scp_var: _desrc;;
+			->rrel_3: rrel_assign: rrel_scp_var: _desrc_support;;
 			=>nrel_goto: .agent_find_average_age_of_team_operator_wait_sup;;
 			*);;
 			
@@ -206,7 +206,7 @@ scp_program -> agent_find_average_age_of_team(*
 		-> .agent_find_average_age_of_team_operator_r7
 			(*
 			<-call;;
-			->rrel_1: rrel_fixed: rrel_scp_const: proc_find_age_player;;
+			->rrel_1: rrel_fixed: rrel_scp_const: agent_find_age_player;;
 			->rrel_2: rrel_fixed: rrel_scp_const: .agent_find_average_age_of_team_operator_r7_params
 			(*
 				->rrel_1: rrel_fixed: rrel_scp_var: _average_age_roster_jungler;;
@@ -227,7 +227,7 @@ scp_program -> agent_find_average_age_of_team(*
 		-> .agent_find_average_age_of_team_operator_r8
 			(*
 			<-call;;
-			->rrel_1: rrel_fixed: rrel_scp_const: proc_find_age_player;;
+			->rrel_1: rrel_fixed: rrel_scp_const: agent_find_age_player;;
 			->rrel_2: rrel_fixed: rrel_scp_const: .agent_find_average_age_of_team_operator_r8_params
 			(*
 				->rrel_1: rrel_fixed: rrel_scp_var: _average_age_roster_botlaner;;
@@ -248,7 +248,7 @@ scp_program -> agent_find_average_age_of_team(*
 		-> .agent_find_average_age_of_team_operator_r9
 			(*
 			<-call;;
-			->rrel_1: rrel_fixed: rrel_scp_const: proc_find_age_player;;
+			->rrel_1: rrel_fixed: rrel_scp_const: agent_find_age_player;;
 			->rrel_2: rrel_fixed: rrel_scp_const: .agent_find_average_age_of_team_operator_r9_params
 			(*
 				->rrel_1: rrel_fixed: rrel_scp_var: _average_age_roster_midlaner;;
@@ -269,7 +269,7 @@ scp_program -> agent_find_average_age_of_team(*
 		-> .agent_find_average_age_of_team_operator_r10
 			(*
 			<-call;;
-			->rrel_1: rrel_fixed: rrel_scp_const: proc_find_age_player;;
+			->rrel_1: rrel_fixed: rrel_scp_const: agent_find_age_player;;
 			->rrel_2: rrel_fixed: rrel_scp_const: .agent_find_average_age_of_team_operator_r10_params
 			(*
 				->rrel_1: rrel_fixed: rrel_scp_var: _average_age_roster_toplaner;;
