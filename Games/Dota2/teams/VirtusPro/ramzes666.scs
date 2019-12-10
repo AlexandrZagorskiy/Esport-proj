@@ -14,7 +14,16 @@ ramzes666
 	=>nrel_surname: Kushnarev;
 	=>nrel_first_name: Roman;
 	=>nrel_nickname: RAMZES666;
-	=>nrel_birthday: 25_04_1999;
+	=>nrel_birthday: 25_04_1999
+		(*
+		<-sc_node_not_relation;;
+		=> nrel_main_idtf:
+			[25.04.1999](* <-lang_en; lang_ru;; *);;
+		<-date;;
+		=>nrel_date_day: [25];;
+		=>nrel_date_month: [4];;
+		=>nrel_date_year: [1999];;
+	*);
 
   <=nrel_with_whom: contract_ramzes666_and_courage_gaming_dota
 	(*
@@ -26,8 +35,26 @@ ramzes666
 		=>nrel_period: ...
 		(*
 			<-period_of_time;;
-			->rrel_start: 16_11_2014;;
-			->rrel_end: 25_12_2014;;
+			->rrel_start: 16_11_2014
+			(*
+				<-sc_node_not_relation;;
+				=> nrel_main_idtf:
+					[16.11.2014](* <-lang_en; lang_ru;; *);;
+				<- date;;
+				=> nrel_date_day: [16];;
+				=> nrel_date_month: [11];;
+				=> nrel_date_year: [2014];;
+			*);;
+			->rrel_end: 25_12_2014
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[25.12.2014](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [25];;
+					=> nrel_date_month: [12];;
+					=> nrel_date_year: [2014];;
+				*);;
 		*);;
 	*);
 
@@ -41,8 +68,26 @@ ramzes666
 		=>nrel_period: ...
 		(*
 			<-period_of_time;;
-			->rrel_start: 01_04_2015;;
-			->rrel_end: 11_10_2015;;
+			->rrel_start: 01_04_2015
+			(*
+				<-sc_node_not_relation;;
+				=> nrel_main_idtf:
+					[01.04.2015](* <-lang_en; lang_ru;; *);;
+				<- date;;
+				=> nrel_date_day: [1];;
+				=> nrel_date_month: [4];;
+				=> nrel_date_year: [2015];;
+			*);;
+			->rrel_end: 11_10_2015
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[11.10.2015](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [11];;
+					=> nrel_date_month: [10];;
+					=> nrel_date_year: [2015];;
+				*);;
 		*);;
 	*);
 
@@ -56,8 +101,26 @@ ramzes666
 		=>nrel_period: ...
 		(*
 			<-period_of_time;;
-			->rrel_start: 03_09_2015;;
-			->rrel_end: 06_12_2015;;
+			->rrel_start: 03_09_2015
+			(*
+				<-sc_node_not_relation;;
+				=> nrel_main_idtf:
+					[03.09.2015](* <-lang_en; lang_ru;; *);;
+				<- date;;
+				=> nrel_date_day: [3];;
+				=> nrel_date_month: [9];;
+				=> nrel_date_year: [2015];;
+			*);;
+			->rrel_end: 06_12_2015
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[06.12.2015](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [6];;
+					=> nrel_date_month: [12];;
+					=> nrel_date_year: [2015];;
+				*);;
 		*);;
 	*);
 
@@ -71,8 +134,26 @@ ramzes666
 		=>nrel_period: ...
 		(*
 			<-period_of_time;;
-			->rrel_start: 06_12_2015;;
-			->rrel_end: 05_03_2016;;
+			->rrel_start: 06_12_2015
+			(*
+				<-sc_node_not_relation;;
+				=> nrel_main_idtf:
+					[06.12.2015](* <-lang_en; lang_ru;; *);;
+				<- date;;
+				=> nrel_date_day: [6];;
+					=> nrel_date_month: [12];;
+					=> nrel_date_year: [2015];;
+			*);;
+			->rrel_end: 05_03_2016
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[05.03.2016](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [5];;
+					=> nrel_date_month: [3];;
+					=> nrel_date_year: [2016];;
+				*);;
 		*);;
 	*);
 
@@ -86,8 +167,26 @@ ramzes666
 		=>nrel_period: ...
 		(*
 			<-period_of_time;;
-			->rrel_start: 25_03_2016;;
-			->rrel_end: 04_08_2016;;
+			->rrel_start: 25_03_2016
+			(*
+				<-sc_node_not_relation;;
+				=> nrel_main_idtf:
+					[25.03.2016](* <-lang_en; lang_ru;; *);;
+				<- date;;
+				=> nrel_date_day: [25];;
+					=> nrel_date_month: [3];;
+					=> nrel_date_year: [2016];;
+			*);;
+			->rrel_end: 04_08_2016
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[04.08.2016](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [4];;
+					=> nrel_date_month: [8];;
+					=> nrel_date_year: [2016];;
+				*);;
 		*);;
 	*);
 
@@ -103,5 +202,19 @@ ramzes666
 		(*
 			<-period_of_time;;
 			->rrel_start: 04_08_2016;;
+		*);;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 04_08_2016
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[04.08.2016](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [4];;
+					=> nrel_date_month: [8];;
+					=> nrel_date_year: [2016];;
+				*);;
 		*);;
 	*);;
