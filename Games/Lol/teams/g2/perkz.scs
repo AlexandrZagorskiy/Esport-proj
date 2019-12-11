@@ -35,8 +35,26 @@ perkz
 		=>nrel_period: ...
 		(*
 			<-period_of_time;;
-			->rrel_start: 17_02_2015;;
-			->rrel_end: 02_06_2015;;
+			->rrel_start: 17_02_2015
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[17.02.2015](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [17];;
+					=> nrel_date_month: [2];;
+					=> nrel_date_year: [2015];;
+				*);;
+			->rrel_end: 02_06_2015
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[02.06.2015](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [2];;
+					=> nrel_date_month: [6];;
+					=> nrel_date_year: [2015];;
+				*);;
 		*);;
 	*);
 	
@@ -50,7 +68,16 @@ perkz
 		=>nrel_period: ...
 		(*
 			<-period_of_time;;
-			->rrel_start: 02_06_2015;;
+			->rrel_start: 02_06_2015
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[02.06.2015](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [2];;
+					=> nrel_date_month: [6];;
+					=> nrel_date_year: [2015];;
+				*);;
 		*);;
 	*);;
 
