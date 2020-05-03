@@ -10,6 +10,7 @@ LEC
 		(*
 		-> rrel_example:"file://html/LEC.html" (* <-lang_ru;; *);;
 		*);;
+		*);
 
 	=> nrel_main_idtf:
 		[League of Legends European Championship](* <-lang_en; lang_ru;; *);

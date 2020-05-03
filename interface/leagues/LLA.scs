@@ -10,6 +10,7 @@ LLA
 		(*
 		-> rrel_example:"file://html/LLA.html" (* <-lang_ru;; *);;
 		*);;
+		*);
 
 	=> nrel_main_idtf:
 		[League Latin America](* <-lang_en; lang_ru;; *);

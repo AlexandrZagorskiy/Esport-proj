@@ -10,6 +10,7 @@ LCK
 		(*
 		-> rrel_example:"file://html/LCK.html" (* <-lang_ru;; *);;
 		*);;
+		*);
 
 	=> nrel_main_idtf:
 		[League Champions Korea](* <-lang_en; lang_ru;; *);
@@ -25,7 +26,7 @@ LCK
 			sidiz;
 			logitech;
 	=> nrel_type: offline;
-	=> nrel_location: South Korea;
+	=> nrel_location: South_Korea;
 	=>nrel_prize_pool: [₩300,000,000];
 
 	=>nrel_participate: 

@@ -10,6 +10,7 @@ VCS
 		(*
 		-> rrel_example:"file://html/VCS.html" (* <-lang_ru;; *);;
 		*);;
+		*);
 
 	=> nrel_main_idtf:
 		[Vietnam Championship Series](* <-lang_en; lang_ru;; *);
