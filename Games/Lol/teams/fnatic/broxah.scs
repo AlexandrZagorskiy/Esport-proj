@@ -14,8 +14,16 @@ broxah
 	=>nrel_surname: Brock_Pedersen;
 	=>nrel_first_name: Mads;
 	=>nrel_nickname: Broxah;
-	=>nrel_birthday: [12.08.1997];
-	=>nrel_gamerole: jungler_lol;
+	=>nrel_birthday: 12_08_1997
+	(*
+		<-sc_node_not_relation;;
+		=> nrel_main_idtf:
+			[12.08.1997](* <-lang_en; lang_ru;; *);;
+		<-date;;
+		=>nrel_date_day: [12];;
+		=>nrel_date_month: [8];;
+		=>nrel_date_year: [1997];;
+	*);
 	
 	<=nrel_with_whom: contract_broxah_and_tricked_esports_lol
 	(*
@@ -27,8 +35,26 @@ broxah
 		=>nrel_period: ...
 		(*
 			<-period_of_time;;
-			->rrel_start: xx_01_2016;;
-			->rrel_end: xx_03_2016;;	
+			->rrel_start: xx_01_2016
+			(*
+				<-sc_node_not_relation;;
+				=> nrel_main_idtf:
+					[01.2016](* <-lang_en; lang_ru;; *);;
+				<- date;;
+				=> nrel_date_day: [0];;
+				=> nrel_date_month: [1];;
+				=> nrel_date_year: [2016];;
+			*);;
+			->rrel_end: xx_03_2016
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[.03.2016](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [0];;
+					=> nrel_date_month: [3];;
+					=> nrel_date_year: [2016];;
+				*);;
 		*);;
 	*);
 	
@@ -42,8 +68,26 @@ broxah
 		=>nrel_period: ...
 		(*
 			<-period_of_time;;
-			->rrel_start: xx_09_2016;;
-			->rrel_end: xx_10_2016;;	
+			->rrel_start: xx_09_2016
+			(*
+				<-sc_node_not_relation;;
+				=> nrel_main_idtf:
+					[09.2016](* <-lang_en; lang_ru;; *);;
+				<- date;;
+				=> nrel_date_day: [0];;
+				=> nrel_date_month: [9];;
+				=> nrel_date_year: [2016];;
+			*);;
+			->rrel_end: xx_10_2016
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[.10.2016](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [0];;
+					=> nrel_date_month: [10];;
+					=> nrel_date_year: [2016];;
+				*);;
 		*);;
 	*);
 	
@@ -57,8 +101,26 @@ broxah
 		=>nrel_period: ...
 		(*
 			<-period_of_time;;
-			->rrel_start: xx_10_2016;;
-			->rrel_end: xx_11_2016;;	
+			->rrel_start: xx_10_2016
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[.10.2016](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [0];;
+					=> nrel_date_month: [10];;
+					=> nrel_date_year: [2016];;
+				*);;
+			->rrel_end: xx_11_2016
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[.11.2016](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [0];;
+					=> nrel_date_month: [11];;
+					=> nrel_date_year: [2016];;
+				*);;
 		*);;
 	*);
 
@@ -73,6 +135,20 @@ broxah
 		(*
 			<-period_of_time;;
 			->rrel_start: xx_11_2016;;
+		*);;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: xx_11_2016
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[.11.2016](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [0];;
+					=> nrel_date_month: [11];;
+					=> nrel_date_year: [2016];;
+				*);;
 		*);;
 	*);;
 

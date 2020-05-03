@@ -14,8 +14,16 @@ hyllisang
 	=>nrel_surname: Galabov;
 	=>nrel_first_name: Zdravets;
 	=>nrel_nickname: Hylissang;
-	=>nrel_birthday: [30.04.1995];
-	=>nrel_gamerole: support_lol;
+	=>nrel_birthday: 30_04_1995
+	(*
+		<-sc_node_not_relation;;
+		=> nrel_main_idtf:
+			[30.04.1995](* <-lang_en; lang_ru;; *);;
+		<-date;;
+		=>nrel_date_day: [30];;
+		=>nrel_date_month: [4];;
+		=>nrel_date_year: [1995];;
+	*);
 
 	<=nrel_with_whom: contract_hyllisang_and_unicorns_of_love_lol
 	(*
@@ -27,8 +35,26 @@ hyllisang
 		=>nrel_period: ...
 		(*
 			<-period_of_time;;
-			->rrel_start: xx_01_2014;;
-			->rrel_end: 14_12_2017;;	
+			->rrel_start: xx_01_2014
+			(*
+				<-sc_node_not_relation;;
+				=> nrel_main_idtf:
+					[.01.2014](* <-lang_en; lang_ru;; *);;
+				<- date;;
+				=> nrel_date_day: [0];;
+				=> nrel_date_month: [1];;
+				=> nrel_date_year: [2014];;
+			*);;
+			->rrel_end: 14_12_2017
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[14.12.2017](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [14];;
+					=> nrel_date_month: [12];;
+					=> nrel_date_year: [2017];;
+				*);;
 		*);;
 	*);
 
@@ -43,6 +69,20 @@ hyllisang
 		(*
 			<-period_of_time;;
 			->rrel_start: 14_12_2017;;
+		*);;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 14_12_2017
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[14.12.2017](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [14];;
+					=> nrel_date_month: [12];;
+					=> nrel_date_year: [2017];;
+				*);;
 		*);;
 	*);;
 

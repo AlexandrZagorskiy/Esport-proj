@@ -1,0 +1,5 @@
+ui_menu_na_agent <-sc_node_not_relation;;
+
+ui_menu_na_agent => nrel_main_idtf:
+	[агенты] (* <- lang_ru;; *);
+	[agents] (* <- lang_en;; *);;

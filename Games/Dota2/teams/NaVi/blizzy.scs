@@ -16,13 +16,13 @@ blizzy
 	=>nrel_nickname: Blizzy;
 	=>nrel_birthday: 05_01_1995;
 
-  <=nrel_with_whom: contract_blizzy_and_no_lifer5_dota
+  <=nrel_with_whom: contract_blizzy_and_NoLifer5_dota
 	(*
 		=> nrel_main_idtf:
 			[Сontract between Blizzy and NoLifer5](* <-lang_en;; *);
 			[Контракт между Blizzy и NoLifer5](* <-lang_ru;; *);;
 		<-contract;;
-		=>nrel_with_what: no_lifer5_dota;;
+		=>nrel_with_what: NoLifer5_dota;;
 		=>nrel_period: ...
 		(*
 			<-period_of_time;;
@@ -31,13 +31,13 @@ blizzy
 		*);;
 	*);
 
-  <=nrel_with_whom: contract_blizzy_and_no_lifer5_reborn_dota
+  <=nrel_with_whom: contract_blizzy_and_NoLifer5_reborn_dota
 	(*
 		=> nrel_main_idtf:
 			[Сontract between Blizzy and NoLifer5.Reborn](* <-lang_en;; *);
 			[Контракт между Blizzy и NoLifer5.Reborn](* <-lang_ru;; *);;
 		<-contract;;
-		=>nrel_with_what: no_lifer5_reborn_dota;;
+		=>nrel_with_what: NoLifer5_reborn_dota;;
 		=>nrel_period: ...
 		(*
 			<-period_of_time;;
@@ -87,5 +87,6 @@ blizzy
 		(*
 			<-period_of_time;;
 			->rrel_start: 01_09_2018;;
+			->rrel_end: 05_09_2019;;
 		*);;
 	*);;

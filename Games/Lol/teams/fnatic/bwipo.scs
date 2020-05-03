@@ -14,22 +14,15 @@ bwipo
 	=>nrel_surname: Rau;
 	=>nrel_first_name: Gabriel;
 	=>nrel_nickname: Bwipo;
-	=>nrel_birthday: [24.12.1998];
-	=>nrel_gamerole: top_laner_lol;
-	
-	<=nrel_with_whom: contract_bwipo_and_mcon_esports_lol
+	=>nrel_birthday: 24_12_1998
 	(*
+		<-sc_node_not_relation;;
 		=> nrel_main_idtf:
-			[Сontract between Bwipo and mCon esports](* <-lang_en;; *);
-			[Контракт между Bwipo и mCon esports](* <-lang_ru;; *);;
-		<-contract;;
-		=>nrel_with_what: mcon_esports_lol;;
-		=>nrel_period: ...
-		(*
-			<-period_of_time;;
-			->rrel_start: xx_12_2015;;
-			->rrel_end: xx_12_2015;;	
-		*);;
+			[24.12.1998](* <-lang_en; lang_ru;; *);;
+		<-date;;
+		=>nrel_date_day: [24];;
+		=>nrel_date_month: [12];;
+		=>nrel_date_year: [1998];;
 	*);
 	
 	<=nrel_with_whom: contract_bwipo_and_enigma_esports_benelux_lol
@@ -42,8 +35,26 @@ bwipo
 		=>nrel_period: ...
 		(*
 			<-period_of_time;;
-			->rrel_start: 09_04_2016;;
-			->rrel_end: xx_04_2016;;	
+			->rrel_start: 09_04_2016
+			(*
+				<-sc_node_not_relation;;
+				=> nrel_main_idtf:
+					[09.04.2016](* <-lang_en; lang_ru;; *);;
+				<- date;;
+				=> nrel_date_day: [0];;
+				=> nrel_date_month: [1];;
+				=> nrel_date_year: [2013];;
+			*);;
+			->rrel_end: xx_04_2016
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[04.2016](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [0];;
+					=> nrel_date_month: [4];;
+					=> nrel_date_year: [2016];;
+				*);;
 		*);;
 	*);
 	
@@ -57,8 +68,26 @@ bwipo
 		=>nrel_period: ...
 		(*
 			<-period_of_time;;
-			->rrel_start: xx_10_2016;;
-			->rrel_end: xx_11_2016;;	
+			->rrel_start: xx_10_2016
+			(*
+				<-sc_node_not_relation;;
+				=> nrel_main_idtf:
+					[.10.2016](* <-lang_en; lang_ru;; *);;
+				<- date;;
+				=> nrel_date_day: [0];;
+				=> nrel_date_month: [1];;
+				=> nrel_date_year: [2016];;
+			*);;
+			->rrel_end: xx_11_2016
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[11.2016](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [0];;
+					=> nrel_date_month: [11];;
+					=> nrel_date_year: [2016];;
+				*);;
 		*);;
 	*);
 	
@@ -72,8 +101,26 @@ bwipo
 		=>nrel_period: ...
 		(*
 			<-period_of_time;;
-			->rrel_start: 15_07_2016;;
-			->rrel_end: xx_12_2016;;	
+			->rrel_start: 15_07_2016
+			(*
+				<-sc_node_not_relation;;
+				=> nrel_main_idtf:
+					[15.07.2016](* <-lang_en; lang_ru;; *);;
+				<- date;;
+				=> nrel_date_day: [15];;
+				=> nrel_date_month: [7];;
+				=> nrel_date_year: [2016];;
+			*);;
+			->rrel_end: xx_12_2016
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[12.2016](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [0];;
+					=> nrel_date_month: [12];;
+					=> nrel_date_year: [2016];;
+				*);;
 		*);;
 	*);
 	
@@ -87,8 +134,26 @@ bwipo
 		=>nrel_period: ...
 		(*
 			<-period_of_time;;
-			->rrel_start: 07_01_2017;;
-			->rrel_end: 07_02_2017;;	
+			->rrel_start: 07_01_2017
+			(*
+				<-sc_node_not_relation;;
+				=> nrel_main_idtf:
+					[07.01.2017](* <-lang_en; lang_ru;; *);;
+				<- date;;
+				=> nrel_date_day: [7];;
+				=> nrel_date_month: [1];;
+				=> nrel_date_year: [2017];;
+			*);;
+			->rrel_end: 07_02_2017
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[07.02.2017](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [7];;
+					=> nrel_date_month: [2];;
+					=> nrel_date_year: [2017];;
+				*);;
 		*);;
 	*);
 	
@@ -102,8 +167,26 @@ bwipo
 		=>nrel_period: ...
 		(*
 			<-period_of_time;;
-			->rrel_start: xx_06_2017;;
-			->rrel_end: 05_09_2017;;	
+			->rrel_start: xx_06_2017
+			(*
+				<-sc_node_not_relation;;
+				=> nrel_main_idtf:
+					[.06.2017](* <-lang_en; lang_ru;; *);;
+				<- date;;
+				=> nrel_date_day: [0];;
+				=> nrel_date_month: [6];;
+				=> nrel_date_year: [2017];;
+			*);;
+			->rrel_end: 05_09_2017
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[05.09.2017](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [5];;
+					=> nrel_date_month: [9];;
+					=> nrel_date_year: [2017];;
+				*);;
 		*);;
 	*);
 	
@@ -118,6 +201,20 @@ bwipo
 		(*
 			<-period_of_time;;
 			->rrel_start: 07_01_2018;;
+		*);;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 07_01_2018
+			(*
+				<-sc_node_not_relation;;
+				=> nrel_main_idtf:
+					[07.01.2018](* <-lang_en; lang_ru;; *);;
+				<- date;;
+				=> nrel_date_day: [7];;
+				=> nrel_date_month: [1];;
+				=> nrel_date_year: [2018];;
+			*);;
 		*);;
 	*);;
 
