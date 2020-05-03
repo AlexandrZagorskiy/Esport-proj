@@ -10,6 +10,7 @@ LCS
 		(*
 		-> rrel_example:"file://html/LCS.html" (* <-lang_ru;; *);;
 		*);;
+		*);		
 
 	=> nrel_main_idtf:
 		[League of Legends Championship Series](* <-lang_en; lang_ru;; *);
@@ -26,7 +27,7 @@ LCS
 			mastercard;
 			redbull;
 	=> nrel_type: offline;
-	=> nrel_location: United States;
+	=> nrel_location: United_States;
 	=>nrel_prize_pool: [$200,000];
 
 	=>nrel_participate: 

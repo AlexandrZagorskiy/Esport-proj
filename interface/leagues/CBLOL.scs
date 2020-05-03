@@ -10,6 +10,7 @@ CBLOL
 		(*
 		-> rrel_example:"file://html/CBLOL.html" (* <-lang_ru;; *);;
 		*);;
+		*);
 
 	=> nrel_main_idtf:
 		[Circuit Brazilian League of Legends](* <-lang_en; lang_ru;; *);
