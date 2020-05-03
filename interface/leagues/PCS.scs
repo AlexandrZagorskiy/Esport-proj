@@ -1,0 +1,40 @@
+PCS
+
+	<-sc_node_not_relation;
+	<- rrel_key_sc_element:
+		Definition_of_LCS
+		(*
+		<- definition;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:"file://html/PCS.html" (* <-lang_ru;; *);;
+		*);;
+
+	=> nrel_main_idtf:
+		[Pacific Championship Series](* <-lang_en; lang_ru;; *);
+	<-tournament;
+	<-tournament_lol;
+
+	=> nrel_organizer: 
+		Riot_Games;
+		FunPlus_esports;
+		Garena;
+	=> nrel_type: offline;
+	=> nrel_location: 
+		Taiwan;
+		Hong_Kong;
+		Southeast_Asia;
+	=>nrel_prize_pool: [$71,000];
+
+	=>nrel_participate: 
+			machi_esports_lol;
+			ahq_esports_club_lol;
+			talon_esports_lol;
+			berjaya_dragons_lol;
+			alpha_esports_lol;
+			nova_esports_lol;
+			j_team_lol;
+			hong_kong_attitude_lol;
+			liyab_esports_lol;
+			resurgence_lol;;

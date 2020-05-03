@@ -1,0 +1,32 @@
+LLA
+
+	<-sc_node_not_relation;
+	<- rrel_key_sc_element:
+		Definition_of_LLA
+		(*
+		<- definition;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:"file://html/LLA.html" (* <-lang_ru;; *);;
+		*);;
+
+	=> nrel_main_idtf:
+		[League Latin America](* <-lang_en; lang_ru;; *);
+	<-tournament;
+	<-tournament_lol;
+
+	=> nrel_organizer: Riot_Games;
+	=> nrel_type: offline;
+	=> nrel_location: Mexico;
+	=>nrel_prize_pool: [$1,059,300];
+
+	=>nrel_participate: 
+			infinity_esports_lol;
+			all_knights_lol;
+			rainbow7_lol;
+			isurus_lol;
+			xten_esports_lol;
+			pixel_esports_club_lol;
+			azules_esports_lol;
+			furious_gaming_lol;;
