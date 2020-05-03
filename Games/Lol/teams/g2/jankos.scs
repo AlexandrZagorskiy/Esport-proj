@@ -24,6 +24,19 @@ jankos
 		=>nrel_date_month: [7];;
 		=>nrel_date_year: [1995];;
 	*);
+
+	<- rrel_key_sc_element:
+		...
+		(*
+		<- illustration;;
+		=> nrel_main_idtf: [Рис. (фото игрока Caps)] (* <- lang_ru;; *);;
+		<- description_of_a_typical_instance;;
+		<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:
+			"file://jankos_photo.jpg";;
+		*);;
+	*);
 	
 	<=nrel_with_whom: contract_jankos_and_team_mistral_lol
 	(*

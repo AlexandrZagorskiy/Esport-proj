@@ -8,7 +8,8 @@ LCS
 		<= nrel_sc_text_translation:
 		...
 		(*
-		-> rrel_example:"file://html/LCS.html" (* <-lang_ru;; *);;
+		-> rrel_example:
+			"file://html/LCS.html" (* <-lang_ru;; *);;
 		*);;
 		*);		
 
@@ -29,6 +30,19 @@ LCS
 	=> nrel_type: offline;
 	=> nrel_location: United_States;
 	=>nrel_prize_pool: [$200,000];
+
+	<- rrel_key_sc_element:
+		...
+		(*
+		<- illustration;;
+		=> nrel_main_idtf: [Рис. (эмблема лиги)] (* <- lang_ru;; *);;
+		<- description_of_a_typical_instance;;
+		<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:
+			"file://images/lcs_ph.jpg";;
+		*);;
+	*);
 
 	=>nrel_participate: 
 			cloud_9_lol;
