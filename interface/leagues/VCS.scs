@@ -1,0 +1,33 @@
+VCS
+
+	<-sc_node_not_relation;
+	<- rrel_key_sc_element:
+		Definition_of_VCS
+		(*
+		<- definition;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:"file://html/VCS.html" (* <-lang_ru;; *);;
+		*);;
+
+	=> nrel_main_idtf:
+		[Vietnam Championship Series](* <-lang_en; lang_ru;; *);
+	<-tournament;
+	<-tournament_lol;
+
+	=> nrel_organizer: 
+		Riot_Games;
+		Vietnam_esports;
+	=> nrel_type: offline;
+	=> nrel_location: Vietnam;
+
+	=>nrel_participate: 
+			gam_esports_lol;
+			team_flash_lol;
+			team_secret_lol;
+			evos_esports_lol;
+			cerberus_esports_lol;
+			dashing_buffalo_lol;
+			ftv_esports_lol;
+			v_gaming_adonis_lol;;
