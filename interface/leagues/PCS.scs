@@ -2,7 +2,7 @@ PCS
 
 	<-sc_node_not_relation;
 	<- rrel_key_sc_element:
-		Definition_of_LCS
+		Definition_of_PCS
 		(*
 		<- definition;;
 		<= nrel_sc_text_translation:

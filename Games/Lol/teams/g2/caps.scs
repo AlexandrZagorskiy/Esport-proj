@@ -25,6 +25,19 @@ caps
 		=>nrel_date_year: [1999];;
 	*);
 
+	<- rrel_key_sc_element:
+		...
+		(*
+		<- illustration;;
+		=> nrel_main_idtf: [Рис. (фото игрока Caps)] (* <- lang_ru;; *);;
+		<- description_of_a_typical_instance;;
+		<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:
+			"file://caps_photo.jpg";;
+		*);;
+	*);
+
 	<=nrel_with_whom: contract_caps_and_enigma_esports_lol
 	(*
 		=> nrel_main_idtf:
