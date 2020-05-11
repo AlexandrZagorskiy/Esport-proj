@@ -9,7 +9,8 @@ LEC
 		...
 		(*
 		-> rrel_example:
-			"file://html/LEC.html" (* <-lang_ru;; *);;
+			"file://html/LEC.html" (* <-lang_ru;; *);
+			"file://html_tables/table_LEC.html" (* <-lang_ru;; *);;
 		*);;
 		*);
 
