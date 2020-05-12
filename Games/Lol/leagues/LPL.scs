@@ -31,19 +31,6 @@ LPL
 		*);;
 	*);
 
-	<- rrel_key_sc_element:
-		...
-		(*
-		<- illustration;;
-		=> nrel_main_idtf: [Рис. (эмблема лиги)] (* <- lang_ru;; *);;
-		<- description_of_a_typical_instance;;
-		<= nrel_sc_text_translation:...
-		(*
-			-> rrel_example:
-			"file://images/cblol_ph.png";;
-		*);;
-	*);
-
 	=> nrel_organizer: tj_sports;
 	=> nrel_type: offline;
 	=> nrel_location: China;
