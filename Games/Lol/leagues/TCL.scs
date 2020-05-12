@@ -8,7 +8,8 @@ TCL
 		<= nrel_sc_text_translation:
 		...
 		(*
-		-> rrel_example:"file://html/TCL.html" (* <-lang_ru;; *);;
+		-> rrel_example:"file://html/TCL.html" (* <-lang_ru;; *);
+		"file://html_tables/table_TCL.html" (* <-lang_ru;; *);;
 		*);;
 		*);
 
@@ -17,17 +18,30 @@ TCL
 	<-tournament;
 	<-tournament_lol;
 
+	<- rrel_key_sc_element:
+		...
+		(*
+		<- illustration;;
+		=> nrel_main_idtf: [Рис. (эмблема лиги)] (* <- lang_ru;; *);;
+		<- description_of_a_typical_instance;;
+		<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:
+			"file://images/tcl_ph.png";;
+		*);;
+	*);
+
 	=> nrel_organizer: Riot_Games;
 	=> nrel_sponsor: vodafone_freezone;
 	=> nrel_type: offline;
 	=> nrel_location: Turkey;
 
 	=>nrel_participate: 
-			1907_Fenerbahce_lol;
+			1907_fenerbahce_lol;
 			dark_passage_lol;
 			papara_supermassive_lol;
 			istanbul_wildcats_lol;
-			galaktikos_lol;
+			galakticos_lol;
 			team_aurora_lol;
 			besiktas_esports_lol;
 			royal_youth_lol;

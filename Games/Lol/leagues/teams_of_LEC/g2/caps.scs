@@ -34,7 +34,7 @@ caps
 		<= nrel_sc_text_translation:...
 		(*
 			-> rrel_example:
-			"file://caps_photo.jpg";;
+			"file://photoes/caps_photo.jpg";;
 		*);;
 	*);
 

@@ -1,0 +1,68 @@
+LPL
+
+	<-sc_node_not_relation;
+	<- rrel_key_sc_element:
+		Definition_of_LPL
+		(*
+		<- definition;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:"file://html/LPL.html" (* <-lang_ru;; *);
+		"file://html_tables/table_LPL.html" (* <-lang_ru;; *);;
+		*);;
+		*);
+
+	=> nrel_main_idtf:
+		[League of Legends Pro League](* <-lang_en; lang_ru;; *);
+	<-tournament;
+	<-tournament_lol;
+
+	<- rrel_key_sc_element:
+		...
+		(*
+		<- illustration;;
+		=> nrel_main_idtf: [Рис. (эмблема лиги)] (* <- lang_ru;; *);;
+		<- description_of_a_typical_instance;;
+		<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:
+			"file://images/lpl_ph.png";;
+		*);;
+	*);
+
+	<- rrel_key_sc_element:
+		...
+		(*
+		<- illustration;;
+		=> nrel_main_idtf: [Рис. (эмблема лиги)] (* <- lang_ru;; *);;
+		<- description_of_a_typical_instance;;
+		<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:
+			"file://images/cblol_ph.png";;
+		*);;
+	*);
+
+	=> nrel_organizer: tj_sports;
+	=> nrel_type: offline;
+	=> nrel_location: China;
+
+	=>nrel_participate: 
+			jd_gaming_lol;
+			top_esports_lol;
+			funplus_phoenix_lol;
+			invictus_gaming_lol;
+			team_we_lol;
+			edward_gaming_lol;
+			estar_lol;
+			rng_lol;
+			vici_gaming_lol;
+			suning_lol;
+			oh_my_god_lol;
+			rogue_warriors_lol;
+			dominus_esports_lol;
+			lgd_gaming_lol;
+			lng_esports_lol;
+			victory_five_lol;
+			bilibili_gaming_lol;;

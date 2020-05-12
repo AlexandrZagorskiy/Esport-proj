@@ -8,7 +8,8 @@ LJL
 		<= nrel_sc_text_translation:
 		...
 		(*
-		-> rrel_example:"file://html/LJL.html" (* <-lang_ru;; *);;
+		-> rrel_example:"file://html/LJL.html" (* <-lang_ru;; *);
+		"file://html_tables/table_LJL.html" (* <-lang_ru;; *);;
 		*);;
 		*);
 
@@ -16,6 +17,19 @@ LJL
 		[League of Legends Japan League](* <-lang_en; lang_ru;; *);
 	<-tournament;
 	<-tournament_lol;
+
+	<- rrel_key_sc_element:
+		...
+		(*
+		<- illustration;;
+		=> nrel_main_idtf: [Рис. (эмблема лиги)] (* <- lang_ru;; *);;
+		<- description_of_a_typical_instance;;
+		<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:
+			"file://images/ljl_ph.png";;
+		*);;
+	*);
 
 	=> nrel_organizer: 
 		Riot_Games;
@@ -40,4 +54,4 @@ LJL
 			axiz_lol;
 			crest_gaming_act_lol;
 			burning_core_lol;
-			fukuoka_softbank_hawks_gaming_lol;;
+			f_softbank_h_gaming_lol;;

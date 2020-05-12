@@ -8,7 +8,8 @@ LCK
 		<= nrel_sc_text_translation:
 		...
 		(*
-		-> rrel_example:"file://html/LCK.html" (* <-lang_ru;; *);;
+		-> rrel_example:"file://html/LCK.html" (* <-lang_ru;; *);
+		"file://html_tables/table_LCK.html" (* <-lang_ru;; *);;
 		*);;
 		*);
 
@@ -16,6 +17,19 @@ LCK
 		[League Champions Korea](* <-lang_en; lang_ru;; *);
 	<-tournament;
 	<-tournament_lol;
+
+	<- rrel_key_sc_element:
+		...
+		(*
+		<- illustration;;
+		=> nrel_main_idtf: [Рис. (эмблема лиги)] (* <- lang_ru;; *);;
+		<- description_of_a_typical_instance;;
+		<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:
+			"file://images/lck_ph.png";;
+		*);;
+	*);
 
 	=> nrel_organizer: 
 		Riot_Games;
@@ -30,13 +44,13 @@ LCK
 	=>nrel_prize_pool: [₩300,000,000];
 
 	=>nrel_participate: 
-			gen_g_lol;
+			geng_lol;
 			t1_lol;
-			dragonX_lol;
+			dragonx_lol;
 			kt_rolster_lol;
 			damwon_gaming_lol;
 			afreeca_freecs_lol;
 			apk_prince_lol;
 			hanwha_life_lol;
 			sandbox_gaming_lol;
-			griffin_lol;;
+			team_dynamics_lol;;

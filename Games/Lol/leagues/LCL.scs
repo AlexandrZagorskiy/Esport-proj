@@ -8,7 +8,8 @@ LCL
 		<= nrel_sc_text_translation:
 		...
 		(*
-		-> rrel_example:"file://html/LCL.html" (* <-lang_ru;; *);;
+		-> rrel_example:"file://html/LCL.html" (* <-lang_ru;; *);
+		"file://html_tables/table_LCL.html" (* <-lang_ru;; *);;
 		*);;
 		*);
 
@@ -16,6 +17,19 @@ LCL
 		[League of Legends Continental League](* <-lang_en; lang_ru;; *);
 	<-tournament;
 	<-tournament_lol;
+
+	<- rrel_key_sc_element:
+		...
+		(*
+		<- illustration;;
+		=> nrel_main_idtf: [Рис. (эмблема лиги)] (* <- lang_ru;; *);;
+		<- description_of_a_typical_instance;;
+		<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:
+			"file://images/lcl_ph.png";;
+		*);;
+	*);
 
 	=> nrel_organizer: Riot_Games;
 	=> nrel_type: online;

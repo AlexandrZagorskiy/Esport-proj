@@ -34,7 +34,7 @@ jankos
 		<= nrel_sc_text_translation:...
 		(*
 			-> rrel_example:
-			"file://jankos_photo.jpg";;
+			"file://photoes/jankos_photo.jpg";;
 		*);;
 	*);
 	
