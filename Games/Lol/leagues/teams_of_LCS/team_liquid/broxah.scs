@@ -24,6 +24,19 @@ broxah
 		=>nrel_date_month: [8];;
 		=>nrel_date_year: [1997];;
 	*);
+
+	<- rrel_key_sc_element:
+		...
+		(*
+		<- illustration;;
+		=> nrel_main_idtf: [Рис. (фото игрока Broxah)] (* <- lang_ru;; *);;
+		<- description_of_a_typical_instance;;
+		<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:
+			"file://photo/broxah.png";;
+		*);;
+	*);
 	
 	<=nrel_with_whom: contract_broxah_and_tricked_esports_lol
 	(*
@@ -134,12 +147,7 @@ broxah
 		=>nrel_period: ...
 		(*
 			<-period_of_time;;
-			->rrel_start: xx_11_2016;;
-		*);;
-		=>nrel_period: ...
-		(*
-			<-period_of_time;;
-			->rrel_start: xx_11_2016
+			->rrel_start: 30_11_2016
 				(*
 					<-sc_node_not_relation;;
 					=> nrel_main_idtf:
@@ -148,6 +156,39 @@ broxah
 					=> nrel_date_day: [0];;
 					=> nrel_date_month: [11];;
 					=> nrel_date_year: [2016];;
+				*);;
+			->rrel_end: 19_11_2019
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[19.11.2019](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [19];;
+					=> nrel_date_month: [11];;
+					=> nrel_date_year: [2019];;
+				*);;
+		*);;
+	*);
+
+	<=nrel_with_whom: contract_broxah_and_team_liquid_lol
+	(*
+		=> nrel_main_idtf:
+			[Сontract between Broxah and Team Liquid](* <-lang_en;; *);
+			[Контракт между Broxah и Team Liquid](* <-lang_ru;; *);;
+		<-contract;;
+		=>nrel_with_what: team_liquid_lol;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 19_11_2019
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[19.11.2019](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [19];;
+					=> nrel_date_month: [11];;
+					=> nrel_date_year: [2019];;
 				*);;
 		*);;
 	*);;
