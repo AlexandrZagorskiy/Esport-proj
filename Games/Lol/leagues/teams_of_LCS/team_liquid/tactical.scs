@@ -1,0 +1,12 @@
+tactical
+
+	<-sc_node_not_relation;
+
+	=> nrel_main_idtf:
+		[Edward "Tactical" Ra](* <-lang_en;; *);
+		[Эдвард "Tactical" Ра](* <-lang_ru;; *);
+	=> nrel_idtf:
+		[Tactical](* <-lang_en;; *);
+
+	<-player_lol;;
+

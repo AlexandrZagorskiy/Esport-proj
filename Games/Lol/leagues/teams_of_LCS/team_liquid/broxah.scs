@@ -25,6 +25,8 @@ broxah
 		=>nrel_date_year: [1997];;
 	*);
 
+	->rrel_example:"file://tables/contracts_broxah.html";
+
 	<- rrel_key_sc_element:
 		...
 		(*

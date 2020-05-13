@@ -38,6 +38,8 @@ nemesis
 		*);;
 	*);
 
+	->rrel_example:"file://tables/contracts_nemesis.html";
+
 	<=nrel_with_whom: contract_nemesis_and_vape_nays_lol
 	(*
 		=> nrel_main_idtf:

@@ -1,0 +1,13 @@
+corejj
+
+	<-sc_node_not_relation;
+
+	=> nrel_main_idtf:
+		[Jo "CoreJJ" Yong-in](* <-lang_en;; *);
+		[Джо "CoreJJ" Йонг-ин](* <-lang_ru;; *);
+	=> nrel_idtf:
+		[CoreJJ](* <-lang_en;; *);
+
+	<-player_lol;;
+
+

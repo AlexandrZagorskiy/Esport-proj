@@ -1,0 +1,14 @@
+jensen
+
+	<-sc_node_not_relation;
+
+	=> nrel_main_idtf:
+		[Nicolai "Jensen" Jensen](* <-lang_en;; *);
+		[Николай "Jensen" Дженсен](* <-lang_ru;; *);
+	=> nrel_idtf:
+		[Jensen](* <-lang_en;; *);
+
+	<-player_lol;;
+
+	
+
