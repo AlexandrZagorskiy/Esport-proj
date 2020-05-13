@@ -38,13 +38,15 @@ perkz
 		*);;
 	*);
 	
+	->rrel_example:"file://tables/contracts_perkz.html";
+
 	<=nrel_with_whom: contract_perkz_and_millenium_lol
 	(*
 		=> nrel_main_idtf:
 			[Сontract between Perkz and Millenium](* <-lang_en;; *);
 			[Контракт между Perkz и Millenium](* <-lang_ru;; *);;
 		<-contract;;
-		=>nrel_with_what: g2_esports_lol;;
+		=>nrel_with_what: millenium_lol;;
 		=>nrel_period: ...
 		(*
 			<-period_of_time;;

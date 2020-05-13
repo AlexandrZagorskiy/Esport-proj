@@ -17,6 +17,21 @@ hans_sama
 	=>nrel_birthday: [02.09.1999];
 	=>nrel_gamerole: bot_laner_lol;
 
+	<- rrel_key_sc_element:
+		...
+		(*
+		<- illustration;;
+		=> nrel_main_idtf: [Рис. (фото игрока Hans Sama)] (* <- lang_ru;; *);;
+		<- description_of_a_typical_instance;;
+		<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:
+			"file://photoes/hanssama.png";;
+		*);;
+	*);
+
+	->rrel_example:"file://tables/contracts_hanssama.html";
+
 	<=nrel_with_whom: contract_hans_sama_and_the_gentle_team_lol
 	(*
 		=> nrel_main_idtf:
