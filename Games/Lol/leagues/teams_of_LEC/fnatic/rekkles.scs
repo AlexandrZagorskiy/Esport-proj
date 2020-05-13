@@ -36,7 +36,7 @@ rekkles
 			-> rrel_example:
 			"file://photoes/rekkles.png";;
 		*);;
-	*);;
+	*);
 
 	<=nrel_with_whom: contract_rekkles_and_fnatic_lol
 	(*

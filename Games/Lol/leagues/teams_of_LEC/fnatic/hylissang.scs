@@ -34,9 +34,9 @@ hylissang
 		<= nrel_sc_text_translation:...
 		(*
 			-> rrel_example:
-			"file://photoes/hyllisang.png";;
+			"file://photoes/hylissang.png";;
 		*);;
-	*);;
+	*);
 
 	<=nrel_with_whom: contract_hyllisang_and_unicorns_of_love_lol
 	(*

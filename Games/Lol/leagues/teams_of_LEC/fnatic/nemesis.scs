@@ -36,7 +36,7 @@ nemesis
 			-> rrel_example:
 			"file://photoes/nemesis.png";;
 		*);;
-	*);;
+	*);
 
 	<=nrel_with_whom: contract_nemesis_and_vape_nays_lol
 	(*

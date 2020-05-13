@@ -8,8 +8,9 @@ VCS
 		<= nrel_sc_text_translation:
 		...
 		(*
-		-> rrel_example:"file://html/VCS.html" (* <-lang_ru;; *);
-		"file://html_tables/table_VCS.html" (* <-lang_ru;; *);;
+		-> rrel_example:
+			"file://html/VCS.html" (* <-lang_ru;; *);
+			"file://html_tables/table_VCS.html" (* <-lang_ru;; *);;
 		*);;
 		*);
 
@@ -42,7 +43,7 @@ VCS
 						team_flash_lol;
 						team_secret_lol;
 						evos_esports_lol;
-						cerberus_esports;
+						cerberus_esports_lol;
 						dashing_buffalo_lol;
 						ftv_esports_lol;
-						v_gaming_adonis_lol;
+						v_gaming_adonis_lol;;

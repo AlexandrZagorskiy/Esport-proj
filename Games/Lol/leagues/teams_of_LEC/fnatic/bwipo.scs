@@ -36,7 +36,7 @@ bwipo
 			-> rrel_example:
 			"file://photoes/bwipo.png";;
 		*);;
-	*);;
+	*);
 	
 	<=nrel_with_whom: contract_bwipo_and_enigma_esports_benelux_lol
 	(*
