@@ -45,14 +45,15 @@ LEC
 	=> nrel_location: Germany;
 	=>nrel_prize_pool: [€200,000];
 
-	=>nrel_participate: 
-			excel_esports_lol;
-			fc_schalke_04_lol;
-			fnatic_lol;
-			g2_esports_lol;
-			misfits_gaming_lol;
-			origen_lol;
-			rogue_lol;
-			sk_gaming_lol;
-			splyce_lol;
-			team_vitality;;
+	=>nrel_participate:
+						g2_esports_lol;
+						fnatic_lol;
+						excel_esports;
+						fc_schalke_04;
+						splyce_lol;
+						misfits_gaming;
+						origen_lol;
+						rogue_lol;
+						sk_gaming;
+						team_vitality;;
+

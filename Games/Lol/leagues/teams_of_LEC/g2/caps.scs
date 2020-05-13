@@ -38,6 +38,8 @@ caps
 		*);;
 	*);
 
+	->rrel_example:"file://tables/contracts_caps.html";
+
 	<=nrel_with_whom: contract_caps_and_enigma_esports_lol
 	(*
 		=> nrel_main_idtf:
@@ -142,7 +144,7 @@ caps
 			[Сontract between Caps and mouseesports](* <-lang_en;; *);
 			[Контракт между Caps и mouseesports](* <-lang_ru;; *);;
 		<-contract;;
-		=>nrel_with_what: mouseesports_lol;;
+		=>nrel_with_what: mouse_esports_lol;;
 		=>nrel_period: ...
 		(*
 			<-period_of_time;;

@@ -25,6 +25,19 @@ mikyx
 		=>nrel_date_year: [1998];;
 	*);
 
+	<- rrel_key_sc_element:
+		...
+		(*
+		<- illustration;;
+		=> nrel_main_idtf: [Рис. (фото игрока Mikyx)] (* <- lang_ru;; *);;
+		<- description_of_a_typical_instance;;
+		<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:
+			"file://photoes/mikyx.png";;
+		*);;
+	*);
+
 	<=nrel_with_whom: contract_mikyx_and_fnatic_lol
 	(*
 		=> nrel_main_idtf:

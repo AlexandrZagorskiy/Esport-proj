@@ -36,12 +36,12 @@ CBLOL
 	=> nrel_location: Brazil;
 	=>nrel_prize_pool: [R$160,000];
 
-	=>nrel_participate: 
-			flamengo_esports_lol;
-			furia_uppercut_lol;
-			intz_lol;
-			kabum_esports_lol;
-			pain_gaming_lol;
-			prodigy_esports_lol;
-			redemption_esports_lol;
-			vivo_keyd_lol;;
+	=>nrel_participate:
+						flamengo_esports_lol;
+						furia_uppercut_lol;
+						intz_lol;
+						kabum_esports_lol;
+						pain_gaming_lol;
+						prodigy_esports_lol;
+						redemption_esports_lol;
+						vivo_keyd_lol;;

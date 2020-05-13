@@ -1,0 +1,39 @@
+selfmade
+
+	<-sc_node_not_relation;
+
+	=> nrel_main_idtf:
+		[Oskar  "Selfmade" Boderek](* <-lang_en;; *);
+		[Оскар "Selfmade" Бодерек](* <-lang_ru;; *);
+	=> nrel_idtf:
+		[Selfmade](* <-lang_en; lang_ru;; *);
+
+	<-player_lol;
+
+	=>nrel_citizen_of: Poland;
+	=>nrel_surname: Boderek;
+	=>nrel_first_name: Oskar;
+	=>nrel_nickname: Selfmade;
+	=>nrel_birthday: 15_12_1999
+	(*
+		<-sc_node_not_relation;;
+		=> nrel_main_idtf:
+			[15.12.1999](* <-lang_en; lang_ru;; *);;
+		<-date;;
+		=>nrel_date_day: [15];;
+		=>nrel_date_month: [12];;
+		=>nrel_date_year: [1999];;
+	*);
+
+	<- rrel_key_sc_element:
+		...
+		(*
+		<- illustration;;
+		=> nrel_main_idtf: [Рис. (фото игрока Selfmade)] (* <- lang_ru;; *);;
+		<- description_of_a_typical_instance;;
+		<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:
+			"file://photoes/selfmade.png";;
+		*);;
+	*);;

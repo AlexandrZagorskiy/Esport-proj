@@ -25,6 +25,19 @@ nemesis
 		=>nrel_date_year: [1999];;
 	*);
 
+	<- rrel_key_sc_element:
+		...
+		(*
+		<- illustration;;
+		=> nrel_main_idtf: [Рис. (фото игрока Nemesis)] (* <- lang_ru;; *);;
+		<- description_of_a_typical_instance;;
+		<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:
+			"file://photoes/nemesis.png";;
+		*);;
+	*);;
+
 	<=nrel_with_whom: contract_nemesis_and_vape_nays_lol
 	(*
 		=> nrel_main_idtf:

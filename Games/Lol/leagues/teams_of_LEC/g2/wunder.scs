@@ -24,6 +24,19 @@ wunder
 		=>nrel_date_month: [11];;
 		=>nrel_date_year: [1998];;
 	*);
+
+	<- rrel_key_sc_element:
+		...
+		(*
+		<- illustration;;
+		=> nrel_main_idtf: [Рис. (фото игрока Wunder)] (* <- lang_ru;; *);;
+		<- description_of_a_typical_instance;;
+		<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:
+			"file://photoes/wunder.png";;
+		*);;
+	*);
 	
 	<=nrel_with_whom: contract_wunder_and_g4everzenyg_lol
 	(*

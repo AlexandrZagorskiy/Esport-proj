@@ -24,6 +24,19 @@ bwipo
 		=>nrel_date_month: [12];;
 		=>nrel_date_year: [1998];;
 	*);
+
+	<- rrel_key_sc_element:
+		...
+		(*
+		<- illustration;;
+		=> nrel_main_idtf: [Рис. (фото игрока Bwipo)] (* <- lang_ru;; *);;
+		<- description_of_a_typical_instance;;
+		<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:
+			"file://photoes/bwipo.png";;
+		*);;
+	*);;
 	
 	<=nrel_with_whom: contract_bwipo_and_enigma_esports_benelux_lol
 	(*

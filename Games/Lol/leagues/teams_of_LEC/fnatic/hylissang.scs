@@ -1,4 +1,4 @@
-hyllisang
+hylissang
 
 	<-sc_node_not_relation;
 
@@ -24,6 +24,19 @@ hyllisang
 		=>nrel_date_month: [4];;
 		=>nrel_date_year: [1995];;
 	*);
+
+	<- rrel_key_sc_element:
+		...
+		(*
+		<- illustration;;
+		=> nrel_main_idtf: [Рис. (фото игрока Hylissang)] (* <- lang_ru;; *);;
+		<- description_of_a_typical_instance;;
+		<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:
+			"file://photoes/hyllisang.png";;
+		*);;
+	*);;
 
 	<=nrel_with_whom: contract_hyllisang_and_unicorns_of_love_lol
 	(*

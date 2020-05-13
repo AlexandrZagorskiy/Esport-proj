@@ -37,12 +37,12 @@ VCS
 	=> nrel_type: offline;
 	=> nrel_location: Vietnam;
 
-	=>nrel_participate: 
-			gam_esports_lol;
-			team_flash_lol;
-			team_secret_lol;
-			evos_esports_lol;
-			cerberus_esports_lol;
-			dashing_buffalo_lol;
-			ftv_esports_lol;
-			v_gaming_adonis_lol;;
+	=>nrel_participate:
+						gam_esports_lol;
+						team_flash_lol;
+						team_secret_lol;
+						evos_esports_lol;
+						cerberus_esports;
+						dashing_buffalo_lol;
+						ftv_esports_lol;
+						v_gaming_adonis_lol;

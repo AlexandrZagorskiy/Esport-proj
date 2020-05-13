@@ -1,0 +1,52 @@
+fnatic_lol
+
+	<-sc_node_not_relation;
+
+	=> nrel_main_idtf:
+		[Fnatic](* <-lang_en; lang_ru;; *);
+
+	<- rrel_key_sc_element:
+        Definition_of_fnatic_lol
+        (*
+        <- definition;;
+        <= nrel_sc_text_translation:
+        ...
+        (*
+        -> rrel_example:
+            "file://tables/roster.html" (* <-lang_ru;; *);;
+        *);;
+        *);	
+
+    <- rrel_key_sc_element:
+        ...
+        (*
+        <- illustration;;
+        => nrel_main_idtf: [Рис. (эмблема команды Fnatic)] (* <- lang_ru;; *);;
+        <- description_of_a_typical_instance;;
+        <= nrel_sc_text_translation:...
+        (*
+            -> rrel_example:
+            "file://photoes/fnatic_logo.png";;
+        *);;
+    *);
+
+	=>nrel_location: United_Kingdom;
+	->rrel_head_coach:youngbuck
+        (*
+            <-trainer;;
+        *);
+
+    <=nrel_academy:...
+        (*
+            ->prosfair;;
+            ->xmatty;;
+            ->magifelix;;
+            ->dan;;
+            ->shikari;;
+        *);
+
+	=>nrel_sponsor: twitch;
+	                amd;
+                    monster;
+                    msi;
+                    gg_bet;;
