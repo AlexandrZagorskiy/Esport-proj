@@ -33,6 +33,7 @@ Then open localhost:8000 in your browser
 
 ### kb
 Place for knowledge base of your app. Put your **.scs** and **.gwf** files here.
+Use [parser](https://github.com/Finger228/LiquiParser) for automatic creation of KB notions
 
 ### problem-solver
 Place for problem solver of your app. Put your agents here.
