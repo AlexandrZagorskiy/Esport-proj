@@ -40,6 +40,15 @@ g2_esports_lol
         *);;
     *);
 
+    =>nrel_roster:...
+	(*
+		->rrel_midlaner_lol:caps;;
+		->rrel_toplaner_lol:wunder;;
+		->rrel_jungler_lol:jankos;;
+		->rrel_botlaner_lol:perkz;;
+		->rrel_support_lol:mikyx;;
+	*);
+
     <=nrel_academy:...
         (*
             ->thebausffs;;
