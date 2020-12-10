@@ -36,6 +36,15 @@ fnatic_lol
             <-trainer;;
         *);
 
+    =>nrel_roster:...
+	(*
+		->rrel_midlaner_lol:nemesis;;
+		->rrel_toplaner_lol:bwipo;;
+		->rrel_jungler_lol:selfmade;;
+		->rrel_botlaner_lol:rekkles;;
+		->rrel_support_lol:hylissang;;
+	*);
+
     <=nrel_academy:...
         (*
             ->prosfair;;

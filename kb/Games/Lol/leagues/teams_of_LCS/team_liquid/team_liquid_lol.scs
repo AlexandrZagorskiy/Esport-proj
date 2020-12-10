@@ -37,6 +37,15 @@ team_liquid_lol
             <-trainer;;
         *);
 
+	=>nrel_roster:...
+	(*
+		->rrel_midlaner_lol:jensen;;
+		->rrel_toplaner_lol:impact;;
+		->rrel_jungler_lol:broxah;;
+		->rrel_botlaner_lol:tactical;;
+		->rrel_support_lol:corejj;;
+	*);
+
 	=>nrel_sponsor: axiomatic;
 	                alienware;
 	                monster;

@@ -8,6 +8,16 @@ jensen
 	=> nrel_idtf:
 		[Jensen](* <-lang_en;; *);
 
+	=>nrel_birthday: 01_01_1995
+	(*
+		<-sc_node_not_relation;;
+		=> nrel_main_idtf:
+			[01.01.1995](* <-lang_en; lang_ru;; *);;
+		<-date;;
+		=>nrel_date_day: [1];;
+		=>nrel_date_month: [1];;
+		=>nrel_date_year: [1995];;
+	*);
 	<-player_lol;;
 
 	
